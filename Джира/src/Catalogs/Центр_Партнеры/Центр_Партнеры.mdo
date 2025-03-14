@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf2a0f70-039d-44a8-9759-97c928b694bd">
+  <producedTypes>
+    <objectType typeId="c2d5f4c3-672a-499c-9821-53d2293cb0bf" valueTypeId="fd487098-230b-4ca0-8046-6592ac05b462"/>
+    <refType typeId="62e399da-b875-47dd-bb45-03b36c92074f" valueTypeId="510708b3-faf6-49b6-84e4-fa1afb4665e8"/>
+    <selectionType typeId="fa888589-f506-436c-beb0-a20c2bc0e902" valueTypeId="8b442514-b90d-4319-92a6-e904a3fc3605"/>
+    <listType typeId="fd5730cc-ba82-43df-95fb-d8a2deb98a36" valueTypeId="7e251e9c-62f3-4d79-8d98-db2f78bcecac"/>
+    <managerType typeId="91cd65de-a305-4b85-a7ec-55d2032be342" valueTypeId="5e6042fe-2b9d-47ca-92f9-b5f15de35e68"/>
+  </producedTypes>
+  <name>Центр_Партнеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_Партнеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Центр_Партнеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

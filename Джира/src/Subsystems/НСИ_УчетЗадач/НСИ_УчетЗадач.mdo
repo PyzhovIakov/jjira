@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aec4a67-1a82-4abe-97c2-4c30e702930f">
+  <name>НСИ_УчетЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ (Учет задач)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Центр_Партнеры</content>
+  <content>Enum.Центр_Приоритет</content>
+</mdclass:Subsystem>

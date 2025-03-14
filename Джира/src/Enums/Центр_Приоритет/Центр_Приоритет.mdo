@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49837182-518c-4f0d-a3af-8b365d3912e9">
+  <producedTypes>
+    <refType typeId="4a6b55f0-244d-4c05-9ad2-218754f2b544" valueTypeId="f5f0e463-ab43-4770-a60c-55e4bd45a398"/>
+    <listType typeId="0d6bd5de-f6b0-49cf-95e7-73cfab3452e1" valueTypeId="b848fd88-6d62-450c-99bf-f19a0cd8ae98"/>
+    <managerType typeId="9fa4d626-6a9f-43bc-8d1e-d9f408fcadfe" valueTypeId="5c27bdf7-3ecf-464f-83fc-d8893e1c1506"/>
+  </producedTypes>
+  <name>Центр_Приоритет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр приоритет</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ae333952-20a1-4efc-973d-27e08778c121">
+    <name>Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a784b72-9011-4f5f-b35b-0ba21c2d516e">
+    <name>Первостепенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первостепенная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
