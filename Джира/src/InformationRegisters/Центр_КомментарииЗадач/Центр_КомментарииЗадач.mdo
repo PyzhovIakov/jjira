@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f160647-5dda-4707-a29c-ced22e4a1f41">
+  <producedTypes>
+    <selectionType typeId="d22892ac-7061-4b7a-ad0d-788cc0c6b9f2" valueTypeId="4cc652b5-d263-438b-b885-b3b9bc26ee34"/>
+    <listType typeId="8e3394c1-fd6d-4585-a878-43727e7d586c" valueTypeId="54a59ed2-b671-4b38-be58-9829b0192c21"/>
+    <managerType typeId="c16c6492-62f2-460c-b0fe-da978edbbd32" valueTypeId="d4ccca82-b05f-4d7a-97ac-ec8129d59bd3"/>
+    <recordSetType typeId="202a1b3c-d74b-4d22-a4dc-ca3cb1d45e7d" valueTypeId="31fff644-cded-44d7-9e03-ea89e50367de"/>
+    <recordKeyType typeId="0bc965ba-3700-472d-926f-4668e1e704b3" valueTypeId="3946ffc1-3916-4406-9a97-a366b4880a24"/>
+    <recordType typeId="1190fa28-0edb-4810-9cea-7ffee882cc90" valueTypeId="e5a6c4f1-7d1d-41fb-808e-8dcce25e4c11"/>
+    <recordManagerType typeId="c110b684-96e5-4e3b-a005-995d5f0fce48" valueTypeId="503ccd3f-50f4-499e-b729-bf0e5bb77123"/>
+  </producedTypes>
+  <name>Центр_КомментарииЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарии задач (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e30b71a7-978f-491e-b0a9-4c20575fc540">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9bc97b83-ad2f-4bbe-9fea-dc9df6eb3fd6">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

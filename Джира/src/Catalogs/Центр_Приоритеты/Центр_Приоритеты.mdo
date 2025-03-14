@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7c71697-c24d-47a6-aec7-503144340b1e">
+  <producedTypes>
+    <objectType typeId="0a278811-f62a-412b-becd-5c688648dcd4" valueTypeId="a33adf14-580d-407f-a1f2-2e21960d51c2"/>
+    <refType typeId="670742d2-8e18-4f79-b3b0-5a86c807c0f8" valueTypeId="3e1ba0dd-7607-4562-a3ca-3308203a3b9d"/>
+    <selectionType typeId="1059a335-8760-4402-8873-f170acc572ca" valueTypeId="4e316cd8-bbef-43d3-a033-f9b610c3b304"/>
+    <listType typeId="b79412bb-8bdf-4ee9-96d0-e953f61a565f" valueTypeId="d124e045-54e4-4d42-bdc9-be6ccf465566"/>
+    <managerType typeId="4c83880c-0082-4c1b-be3f-0cf9ae23d2aa" valueTypeId="6f525121-d825-4a6f-b8dd-999a41a8b8a3"/>
+  </producedTypes>
+  <name>Центр_Приоритеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_Приоритеты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_Приоритеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="10c31452-d2ff-4b3d-a2f5-7c758eeb7f4f">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
