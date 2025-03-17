@@ -62,24 +62,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e9e3c9b0-72f6-4365-a8b1-6ccfb21c732f">
-    <name>Цвет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Цвет</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f41cffc9-2d6a-4cd7-8249-5fe2d0aefae5">
     <name>ЦветHEX</name>
     <synonym>
