@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Центр_Партнеры</content>
   <content>Enum.Центр_Приоритет</content>
+  <content>Catalog.Центр_ГруппыДоступаКЗадачам</content>
 </mdclass:Subsystem>

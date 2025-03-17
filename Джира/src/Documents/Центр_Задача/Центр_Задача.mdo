@@ -114,21 +114,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c0a27635-b4e4-4163-b2bc-dc25f2359849">
-    <name>Подзадача</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подзадача</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.Центр_Задача</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="70c3ce81-f9c1-4b64-ab6f-fecc17573d68">
     <name>Приоритет</name>
     <synonym>
@@ -159,11 +144,44 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="99c1664d-d364-4cf8-ae9b-c8d31eb80cf7">
+    <name>ГлавнаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главная задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="126aca9b-c29d-4d80-b645-d89829732b67">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe562525-f455-450e-a6d3-a7c2b1ffd9e3">
+    <name>ФормаПодбораСвязанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора связанных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4e15df4b-4530-4731-9f75-5ccc0755863b">
+    <name>ФормаСпискаСвязанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка связанных</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -235,31 +253,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="a4d57b4e-43b5-4ea3-90c8-8fad6061ffd2">
-    <producedTypes>
-      <objectType typeId="4f7d2853-deba-485a-a4ff-baf580338bda" valueTypeId="719dcdcb-46a0-4a72-a400-b1f429d4b48e"/>
-      <rowType typeId="18a22660-1f85-426f-8ff9-8cba6f6fabb4" valueTypeId="3e1b10e0-d9a7-48ca-9850-d4b4fb3ef07d"/>
-    </producedTypes>
-    <name>СвязанныеЗадачи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Связанные задачи</value>
-    </synonym>
-    <attributes uuid="2c9517eb-f363-4285-baf7-0032e1927dd0">
-      <name>Задача</name>
-      <synonym>
-        <key>ru</key>
-        <value>Задача</value>
-      </synonym>
-      <type>
-        <types>DocumentRef.Центр_Задача</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <tabularSections uuid="b2c67c1e-b5bc-4bb4-b55c-ed29e9af94d2">
     <producedTypes>
       <objectType typeId="5451fed5-2f59-4703-8cb5-5e4c8de3a494" valueTypeId="1a0f84b3-641c-4222-95c6-3f985766bea5"/>
@@ -285,4 +278,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="188f2c5d-a36f-4c10-b35b-4a51dfdd34a7">
+    <name>СвязанныеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанные задачи</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.Центр_Задача</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
