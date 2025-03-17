@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Центр_Партнеры</content>
-  <content>Enum.Центр_Приоритет</content>
   <content>InformationRegister.Центр_КомментарииЗадач</content>
   <content>Catalog.Центр_СтатусыЗадач</content>
   <content>Catalog.Центр_Доски</content>
