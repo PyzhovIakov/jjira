@@ -16,4 +16,5 @@
   <content>Catalog.Центр_Сценарии</content>
   <content>Catalog.Центр_ВидыЗадач</content>
   <content>Enum.Центр_ЕдиницыИзмерений</content>
+  <content>Catalog.Центр_ГруппыДоступаКЗадачам</content>
 </mdclass:Subsystem>

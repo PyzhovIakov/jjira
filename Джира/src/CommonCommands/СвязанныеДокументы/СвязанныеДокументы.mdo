@@ -6,7 +6,9 @@
     <value>Связанные документы</value>
   </synonym>
   <group>FormNavigationPanelGoTo</group>
-  <commandParameterType/>
+  <commandParameterType>
+    <types>DocumentRef.Центр_Задача</types>
+  </commandParameterType>
   <representation>Auto</representation>
   <toolTip>
     <key>ru</key>
