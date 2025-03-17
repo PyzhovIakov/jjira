@@ -8,5 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Центр_Партнеры</content>
-  <content>Enum.Центр_Приоритет</content>
+  <content>InformationRegister.Центр_КомментарииЗадач</content>
+  <content>Catalog.Центр_СтатусыЗадач</content>
+  <content>Catalog.Центр_Доски</content>
+  <content>Catalog.Центр_Приоритеты</content>
+  <content>Catalog.Центр_Сценарии</content>
+  <content>Catalog.Центр_ВидыЗадач</content>
+  <content>Enum.Центр_ЕдиницыИзмерений</content>
+  <content>Catalog.Центр_ГруппыДоступаКЗадачам</content>
 </mdclass:Subsystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dba49e6e-bf2c-446b-9b27-860b296db81c">
+  <producedTypes>
+    <objectType typeId="27483ea4-580e-439d-a562-404e60b07100" valueTypeId="9c4532c0-857d-4d4d-9643-54e85145449d"/>
+    <refType typeId="28f58700-746b-4676-a3d2-aeaf0f24bb56" valueTypeId="096f1725-ec57-4a2e-a005-aafc761c0c11"/>
+    <selectionType typeId="7d291123-a46e-4fa4-8517-6b8a55be5461" valueTypeId="429b70ef-e9fa-4624-b6f4-406ffb755878"/>
+    <listType typeId="ac3fd85e-2abf-4975-ae1b-724bd79cdaf1" valueTypeId="f6b755b9-ed8a-43a6-9424-733348321afd"/>
+    <managerType typeId="d93652d7-0b31-4c18-a2d4-d84ae0b3e0f2" valueTypeId="b0b2eed1-2e5b-475a-a492-23b1c10fdc87"/>
+  </producedTypes>
+  <name>Центр_Доски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доски (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_Доски.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_Доски.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
