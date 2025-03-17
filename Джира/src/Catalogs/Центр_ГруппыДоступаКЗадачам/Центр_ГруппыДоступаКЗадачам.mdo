@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77eb126d-410a-4f24-a43f-725bfd940326">
+  <producedTypes>
+    <objectType typeId="565c9100-ded1-49d3-aca5-931016019957" valueTypeId="9b3b99ed-d97e-4b09-aa8a-09a2d69c678b"/>
+    <refType typeId="0deb8089-572c-4f6f-aec2-af6cb6022112" valueTypeId="428fb4fd-5a6a-4e30-aa36-e7e424063e8d"/>
+    <selectionType typeId="7c368a86-61be-4f6f-955f-1d83f5b77dfb" valueTypeId="3ef87d34-f57e-49e0-b736-af0b163a253a"/>
+    <listType typeId="88e6dea5-d0d7-4eb7-a801-4127068dcff7" valueTypeId="6b1f640b-afcf-41dc-af0d-473f34db43c3"/>
+    <managerType typeId="80a43812-04ed-4e5a-9843-32001965b9d0" valueTypeId="0b2fd865-89fe-4968-ad65-5ac416e10ec5"/>
+  </producedTypes>
+  <name>Центр_ГруппыДоступаКЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа к задачам (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_ГруппыДоступаКЗадачам.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_ГруппыДоступаКЗадачам.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа доступа к задачам</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Группы доступа к задачам</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="bd96ce85-85cb-4801-a214-03740d1a9df7">
+    <producedTypes>
+      <objectType typeId="25e8890b-70b1-41b7-8eaa-0a06576f67b6" valueTypeId="74c3f06f-7b5b-425d-a7e3-52acdad3774a"/>
+      <rowType typeId="a56afd6a-f212-4159-8dcf-b522f80309f4" valueTypeId="14387a59-0930-4799-af1d-4beca02cba7a"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <attributes uuid="5221ff0b-06c3-4f1c-afbf-5ffd3b654bec">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

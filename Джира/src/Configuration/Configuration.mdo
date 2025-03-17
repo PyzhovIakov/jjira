@@ -1816,6 +1816,7 @@
   <catalogs>Catalog.Центр_Приоритеты</catalogs>
   <catalogs>Catalog.Центр_Доски</catalogs>
   <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
+  <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -1896,7 +1897,6 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.Центр_Приоритет</enums>
   <enums>Enum.Центр_ЕдиницыИзмерений</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
@@ -2137,6 +2137,8 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.Центр_КомментарииЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

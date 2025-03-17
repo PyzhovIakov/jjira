@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ebb6fa0-20f6-4fe7-8a00-da338ecb03a8">
+  <producedTypes>
+    <selectionType typeId="9fb0c156-b7b9-427d-ac44-0878832a95be" valueTypeId="feb557b7-72a2-49b0-a3dd-c12657960232"/>
+    <listType typeId="66bb6e62-1278-478e-9254-d6664819e14f" valueTypeId="57fefd4d-36cf-415c-b591-e15e6b6d1a63"/>
+    <managerType typeId="40904d52-f372-49a7-913f-816dbfa00930" valueTypeId="6abc2cf1-fd0e-471d-863d-f1805655873a"/>
+    <recordSetType typeId="4042cf93-9a86-4b8b-a06b-a6798f66f7f9" valueTypeId="3251ca1a-3028-4a1c-991d-af9c22a3aec4"/>
+    <recordKeyType typeId="65d3abba-630f-4acc-9c2d-67e9f536bf98" valueTypeId="5ddf3b8b-dfa1-4091-b042-51377acf46c3"/>
+    <recordType typeId="088f3ead-ed13-4588-bc98-bad44c134729" valueTypeId="4bdfd36f-65fc-4cbe-b1ee-73c8e0b34533"/>
+    <recordManagerType typeId="748be214-6f6f-4d5f-a5ed-9ce94fc5c27e" valueTypeId="469d0802-c685-4560-9038-ff44ad7dec41"/>
+  </producedTypes>
+  <name>Центр_СвязанныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные задачи (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Связанная задача</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Связанные задачи</value>
+  </listPresentation>
+  <dimensions uuid="de48a0a3-1851-40fc-b16d-827e285e6a14">
+    <name>Задача1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача1</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4f57895c-ae16-43db-b7df-d76de6cefaa1">
+    <name>Задача2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача2</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

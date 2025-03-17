@@ -8,4 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Центр_Задача</content>
+  <content>InformationRegister.Центр_ИсполнителиЗадач</content>
+  <content>InformationRegister.Центр_СвязанныеЗадачи</content>
 </mdclass:Subsystem>
