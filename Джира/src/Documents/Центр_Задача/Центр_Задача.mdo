@@ -60,6 +60,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bff2aa59-33df-4a71-940d-04ba576f2f57">
+    <name>ВидЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_ВидыЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="4d38c97f-2d98-4f08-9a87-a1a1cfb3d43e">
     <name>Постановщик</name>
     <synonym>
@@ -121,7 +137,7 @@
       <value>Приоритет</value>
     </synonym>
     <type>
-      <types>EnumRef.Центр_Приоритет</types>
+      <types>CatalogRef.Центр_Приоритеты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -271,6 +287,31 @@
       </synonym>
       <type>
         <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="be59088c-ba00-4a2f-8d47-eeff85526c58">
+    <producedTypes>
+      <objectType typeId="700aa505-8e89-49fb-b813-b1f5c6014b5b" valueTypeId="650eb13b-902f-4630-96a3-fa40ff5d4091"/>
+      <rowType typeId="10f90ce3-fa86-4ccf-947c-53f713c9136c" valueTypeId="c494b01a-c2f0-484a-af63-5e7a8fbf307c"/>
+    </producedTypes>
+    <name>Доски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доски</value>
+    </synonym>
+    <attributes uuid="c004215a-daeb-4bbb-b18f-95b15a5eeafc">
+      <name>Доска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доска</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Центр_Доски</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

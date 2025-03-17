@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5af6d5c4-a4c3-445a-859e-d1aaef7ed4c3">
+  <producedTypes>
+    <objectType typeId="7920a956-22e7-4fae-9e36-7d4da6fb7339" valueTypeId="26468dbf-766f-4dfe-b59c-22b67dda29eb"/>
+    <refType typeId="3395f233-8083-4d20-97a9-79f31812ae84" valueTypeId="6215b072-ffcf-46b0-a2f5-1a91219536b6"/>
+    <selectionType typeId="6adf3314-d5d6-4b99-b832-fe5e64514b54" valueTypeId="5bb781c6-0c7b-4e5a-b25a-c39377a46dfa"/>
+    <listType typeId="0045e385-af92-4741-9adf-d10aac31d01c" valueTypeId="2dfebf58-8f90-4aeb-98ae-7db2e832c4dc"/>
+    <managerType typeId="8e127965-58c8-418e-b966-ae8503b22500" valueTypeId="8ccb5573-e56e-4f6f-9f2b-fdbd8b16f020"/>
+  </producedTypes>
+  <name>Центр_ВидыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды задач (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_ВидыЗадач.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_ВидыЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="389c1c49-68be-4a9a-a288-5c82702b516f">
+      <name>Внешняя</name>
+      <description>Внешняя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9fd09a25-556c-457c-a30e-4b08ed17d6fd">
+      <name>Внутренняя</name>
+      <description>Внутренняя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8e3aa0cf-a66c-4446-a864-1b7868f92051">
+      <name>Личная</name>
+      <description>Личная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
