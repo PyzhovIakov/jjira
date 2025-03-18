@@ -1817,6 +1817,7 @@
   <catalogs>Catalog.Центр_Доски</catalogs>
   <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
   <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
+  <catalogs>Catalog.Центр_Колонки</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -2141,6 +2142,7 @@
   <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СтатусыЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователейКанБан</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
