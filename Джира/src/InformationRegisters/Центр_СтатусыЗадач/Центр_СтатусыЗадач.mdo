@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46607b78-b28b-407d-9f88-bd2dfeead4e4">
+  <producedTypes>
+    <selectionType typeId="5f0d1882-6306-48a0-8e7f-b0731fe78ed1" valueTypeId="b8b21ecf-fe32-4044-b83e-d17f2d772442"/>
+    <listType typeId="35ff62a5-0f83-4add-82dc-9fe45d3ffa5f" valueTypeId="28bc107e-db29-4df9-a5fd-7d28af384379"/>
+    <managerType typeId="a17121ca-9e9b-4d4d-90ec-77a1223642ad" valueTypeId="eb1ffa81-b3e3-4a4a-b9f9-c67ce525a94c"/>
+    <recordSetType typeId="e2b03d7c-5275-4874-ac1d-3949d6f344fb" valueTypeId="ba94c4f4-e18b-4433-b45a-9efb753d3116"/>
+    <recordKeyType typeId="acbfc25a-0a9f-4e17-a6ee-2b118a452e84" valueTypeId="8a506be7-33df-4c84-892a-e6b4579c630c"/>
+    <recordType typeId="853df610-9877-47fe-88f9-97358f90a320" valueTypeId="1b08088b-84ba-4690-8d2e-da087ac43a2b"/>
+    <recordManagerType typeId="dfc2314b-5383-42de-b011-626ac5908483" valueTypeId="0f7377f1-dc1e-4447-8d6e-9b8f170c2e4c"/>
+  </producedTypes>
+  <name>Центр_СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установленные статусы задач (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="891f8f4e-78f3-459f-8516-a6635669c6ae">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_СтатусыЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="881aabe6-1a27-4923-b919-101e528a7ea9">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
