@@ -531,50 +531,6 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>Доски</name>
-            <id>224</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Доски</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>ДоскиРасширеннаяПодсказка</name>
-              <id>226</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДоскиКонтекстноеМеню</name>
-              <id>225</id>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-              <multipleValueDataPath xsi:type="form:DataPath">
-                <segments>Объект.Доски.Доска</segments>
-              </multipleValueDataPath>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
             <name>Кандидаты</name>
             <id>204</id>
             <visible>true</visible>

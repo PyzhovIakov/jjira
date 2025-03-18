@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Центр_Задача.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Центр_Задача.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="fe4ac385-a577-4252-9b11-6d20961f95f7">
@@ -92,6 +93,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="d99cbed3-1e95-4b49-b21f-881df610e19a">
     <name>Дедлайн</name>
@@ -202,6 +204,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="5d30da4d-247c-40e0-9afd-e90c9c1b84c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="642b2a0f-2926-4161-9cfd-5f8b5aeb6f1d">
     <producedTypes>
       <objectType typeId="86f01806-e514-4dfb-ad48-a67ea47eb1be" valueTypeId="ff8c3853-b28a-4407-a584-f6239526b48b"/>
@@ -288,31 +299,6 @@
       <type>
         <types>CatalogRef.Центр_ГруппыДоступаКЗадачам</types>
         <types>CatalogRef.Пользователи</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="be59088c-ba00-4a2f-8d47-eeff85526c58">
-    <producedTypes>
-      <objectType typeId="700aa505-8e89-49fb-b813-b1f5c6014b5b" valueTypeId="650eb13b-902f-4630-96a3-fa40ff5d4091"/>
-      <rowType typeId="10f90ce3-fa86-4ccf-947c-53f713c9136c" valueTypeId="c494b01a-c2f0-484a-af63-5e7a8fbf307c"/>
-    </producedTypes>
-    <name>Доски</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доски</value>
-    </synonym>
-    <attributes uuid="c004215a-daeb-4bbb-b18f-95b15a5eeafc">
-      <name>Доска</name>
-      <synonym>
-        <key>ru</key>
-        <value>Доска</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Центр_Доски</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
