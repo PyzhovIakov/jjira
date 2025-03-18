@@ -7,7 +7,7 @@
   <name>Центр_Канбан</name>
   <synonym>
     <key>ru</key>
-    <value>Центр канбан</value>
+    <value>КанБан (Джира)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.Центр_Канбан.Form.Главная</defaultForm>
