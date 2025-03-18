@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2709d3f4-4c4f-46ce-8e64-98f269ebbafc">
+  <producedTypes>
+    <objectType typeId="c75ccd65-6578-4f61-8213-462b58a72702" valueTypeId="a7e02617-bf14-4631-9345-a017dff569d7"/>
+    <managerType typeId="edee4765-908e-4700-8b5b-dfb7b234fd91" valueTypeId="0569a22b-fec1-4c28-9c63-18d6255369e0"/>
+  </producedTypes>
+  <name>Центр_Канбан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр канбан</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Центр_Канбан.Form.Главная</defaultForm>
+  <forms uuid="7b1005cf-9194-43a1-9df7-455e915fdba9">
+    <name>Главная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

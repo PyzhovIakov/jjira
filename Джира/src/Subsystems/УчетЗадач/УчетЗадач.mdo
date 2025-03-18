@@ -10,4 +10,5 @@
   <content>Document.Центр_Задача</content>
   <content>InformationRegister.Центр_ИсполнителиЗадач</content>
   <content>InformationRegister.Центр_СвязанныеЗадачи</content>
+  <content>DataProcessor.Центр_Канбан</content>
 </mdclass:Subsystem>

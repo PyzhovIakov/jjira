@@ -1189,7 +1189,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
-  <commonModules>CommonModule.ЭлементыФормы</commonModules>
+  <commonModules>CommonModule.Центр_ЭлементыФормы</commonModules>
   <commonModules>CommonModule.Центр_ВыборЦветаHTMLПовтИсп</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
@@ -1989,6 +1989,7 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
+  <dataProcessors>DataProcessor.Центр_Канбан</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеАдресныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</informationRegisters>
@@ -2139,6 +2140,7 @@
   <informationRegisters>InformationRegister.Центр_КомментарииЗадач</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_СтатусыЗадач</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
