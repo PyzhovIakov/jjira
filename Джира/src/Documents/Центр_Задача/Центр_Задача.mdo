@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Центр_Задача.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Центр_Задача.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="fe4ac385-a577-4252-9b11-6d20961f95f7">
@@ -92,6 +93,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="d99cbed3-1e95-4b49-b21f-881df610e19a">
     <name>Дедлайн</name>
@@ -198,6 +200,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка связанных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d30da4d-247c-40e0-9afd-e90c9c1b84c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
