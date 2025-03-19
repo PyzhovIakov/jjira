@@ -2142,7 +2142,8 @@
   <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СтатусыЗадач</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_НастройкиПользователейКанБан</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

@@ -46,31 +46,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="c9a2b444-ddbd-4954-977d-58c4aafa82d4">
-    <producedTypes>
-      <objectType typeId="0dd51cc7-661d-4edc-b120-0edcb543f9ce" valueTypeId="f444f769-4055-4119-a4f4-bde10ac9b72a"/>
-      <rowType typeId="33eebd4f-d0dc-4cbd-a5eb-6bd9958e361c" valueTypeId="06ea2550-8a02-49d5-856a-8df7d7d4f9fc"/>
-    </producedTypes>
-    <name>Доски</name>
+  <attributes uuid="f40cce95-d6bd-4836-8e77-90d787a4b9b7">
+    <name>ПоУмолчанию</name>
     <synonym>
       <key>ru</key>
-      <value>Доски</value>
+      <value>По умолчанию</value>
     </synonym>
-    <attributes uuid="039f7d7a-470d-44c1-bc96-080a9818184a">
-      <name>Доска</name>
-      <synonym>
-        <key>ru</key>
-        <value>Доска</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Центр_Доски</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="55688a27-3491-40cc-b3ab-c697b16348ca">
     <name>ФормаЭлемента</name>
     <synonym>

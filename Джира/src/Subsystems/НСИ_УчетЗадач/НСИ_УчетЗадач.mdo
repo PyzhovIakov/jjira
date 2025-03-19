@@ -18,5 +18,6 @@
   <content>Catalog.Центр_ГруппыДоступаКЗадачам</content>
   <content>InformationRegister.Центр_СтатусыЗадач</content>
   <content>Catalog.Центр_Колонки</content>
-  <content>InformationRegister.Центр_НастройкиПользователейКанБан</content>
+  <content>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</content>
+  <content>InformationRegister.Центр_НастройкиПользователяКанБан</content>
 </mdclass:Subsystem>
