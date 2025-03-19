@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5af6d5c4-a4c3-445a-859e-d1aaef7ed4c3">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95a1df48-81e4-42e9-b7d1-a58ba7c15a34">
   <producedTypes>
-    <objectType typeId="7920a956-22e7-4fae-9e36-7d4da6fb7339" valueTypeId="26468dbf-766f-4dfe-b59c-22b67dda29eb"/>
-    <refType typeId="3395f233-8083-4d20-97a9-79f31812ae84" valueTypeId="6215b072-ffcf-46b0-a2f5-1a91219536b6"/>
-    <selectionType typeId="6adf3314-d5d6-4b99-b832-fe5e64514b54" valueTypeId="5bb781c6-0c7b-4e5a-b25a-c39377a46dfa"/>
-    <listType typeId="0045e385-af92-4741-9adf-d10aac31d01c" valueTypeId="2dfebf58-8f90-4aeb-98ae-7db2e832c4dc"/>
-    <managerType typeId="8e127965-58c8-418e-b966-ae8503b22500" valueTypeId="8ccb5573-e56e-4f6f-9f2b-fdbd8b16f020"/>
+    <objectType typeId="8942e1b1-aade-4353-a0ec-ec22795c5714" valueTypeId="c20548bf-bfdb-4a4c-9a27-4c79908f4ab4"/>
+    <refType typeId="ef27a42c-8ea7-4283-8541-556661a48653" valueTypeId="17a3154d-50c8-4f0c-a5ec-0f1fb6f8623d"/>
+    <selectionType typeId="74491828-9181-4f34-a124-b3da5262e67c" valueTypeId="66ce1c34-5bac-42b9-b3bf-44b404ea3632"/>
+    <listType typeId="29415334-964b-4f84-bb1a-fb9cdfa59f42" valueTypeId="6eb29ebe-c294-4c8d-9e42-b160bf3ecd81"/>
+    <managerType typeId="e0c35935-f243-4acc-ad40-b914546a6426" valueTypeId="e9bd5ab3-fb40-4ea7-b198-b77ed12bfd11"/>
   </producedTypes>
-  <name>Центр_ВидыЗадач</name>
+  <name>Центр_Колонки</name>
   <synonym>
     <key>ru</key>
-    <value>Виды задач (Джира)</value>
+    <value>Колонки (Джира)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Центр_ВидыЗадач.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Центр_ВидыЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Центр_Колонки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_Колонки.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -22,21 +22,35 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>50</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Центр_ВидыЗадач.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="a448dca2-1e50-4018-8c87-9d00da4050e9">
-    <name>Партнер</name>
+  <defaultObjectForm>Catalog.Центр_Колонки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d8254a84-0b49-47a9-ac77-cf9cac4327f0">
+    <name>НастройкиКолонки</name>
     <synonym>
       <key>ru</key>
-      <value>Партнер</value>
+      <value>Настройки колонки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f40cce95-d6bd-4836-8e77-90d787a4b9b7">
+    <name>ПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -47,22 +61,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3e2416fe-29e4-4c37-93ac-51b1043833c5">
-    <name>Пользователь</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользователь</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="f1f8f95b-04ae-452d-a7f6-558c3b78ee5d">
+  <forms uuid="55688a27-3491-40cc-b3ab-c697b16348ca">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
