@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="893625e0-6d6c-4a18-8cdd-3fc47d510843">
+  <producedTypes>
+    <refType typeId="b4db8366-8a64-47f0-9242-b222d84f0861" valueTypeId="bab40717-4e42-4b58-895b-5f193506217e"/>
+    <listType typeId="06ae3979-8be9-4216-8746-4441136a6d3d" valueTypeId="f128f050-8df6-4419-bb3c-005677d5f30c"/>
+    <managerType typeId="68644367-a5ab-4f6f-bc68-d24fc48b8ea2" valueTypeId="f551ac50-979f-43b0-ba8b-18f8b1adc5d8"/>
+  </producedTypes>
+  <name>Центр_ЕдиницыИзмеренийВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерений (Джира)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc45b4bd-555c-4218-833e-c1e24be702cf">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f5048c1-4e66-4da9-8461-c8048098c245">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>Час</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

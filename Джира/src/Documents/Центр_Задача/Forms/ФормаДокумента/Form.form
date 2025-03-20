@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
     <id>109</id>
@@ -1159,241 +1159,96 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Группа3</name>
+      <name>Комментарии</name>
       <id>231</id>
-      <items xsi:type="form:Table">
-        <name>СписокКомментарии</name>
-        <id>299</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СписокКомментарии</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
-        <items xsi:type="form:FormField">
-          <name>СписокКомментарииАвтор</name>
-          <id>312</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокКомментарии.Автор</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>СписокКомментарииАвторРасширеннаяПодсказка</name>
-            <id>314</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СписокКомментарииАвторКонтекстноеМеню</name>
-            <id>313</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>1</width>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>СписокКомментарииКомментарий</name>
-          <id>318</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокКомментарии.Комментарий</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>СписокКомментарииКомментарийРасширеннаяПодсказка</name>
-            <id>320</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СписокКомментарииКомментарийКонтекстноеМеню</name>
-            <id>319</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <commandBarLocation>None</commandBarLocation>
-        <autoCommandBar>
-          <name>СписокКомментарииКоманднаяПанель</name>
-          <id>300</id>
-          <horizontalAlign>Left</horizontalAlign>
-          <autoFill>true</autoFill>
-        </autoCommandBar>
-        <searchStringAddition>
-          <name>СписокКомментарииСтрокаПоиска</name>
-          <id>303</id>
-          <extendedTooltip>
-            <name>СписокКомментарииСтрокаПоискаРасширеннаяПодсказка</name>
-            <id>305</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СписокКомментарииСтрокаПоискаКонтекстноеМеню</name>
-            <id>304</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <source>СписокКомментарии</source>
-          <extInfo xsi:type="form:SearchStringAdditionExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-          </extInfo>
-        </searchStringAddition>
-        <viewStatusAddition>
-          <name>СписокКомментарииСостояниеПросмотра</name>
-          <id>309</id>
-          <extendedTooltip>
-            <name>СписокКомментарииСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>311</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СписокКомментарииСостояниеПросмотраКонтекстноеМеню</name>
-            <id>310</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>ViewStatusAddition</type>
-          <source>СписокКомментарии</source>
-          <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-          </extInfo>
-        </viewStatusAddition>
-        <searchControlAddition>
-          <name>СписокКомментарииУправлениеПоиском</name>
-          <id>306</id>
-          <extendedTooltip>
-            <name>СписокКомментарииУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>308</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СписокКомментарииУправлениеПоискомКонтекстноеМеню</name>
-            <id>307</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>SearchControlAddition</type>
-          <source>СписокКомментарии</source>
-          <extInfo xsi:type="form:SearchControlAdditionExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-          </extInfo>
-        </searchControlAddition>
-        <extendedTooltip>
-          <name>СписокКомментарииРасширеннаяПодсказка</name>
-          <id>302</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>СписокКомментарииКонтекстноеМеню</name>
-          <id>301</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <representation>HierarchicalList</representation>
-        <changeRowSet>true</changeRowSet>
-        <changeRowOrder>true</changeRowOrder>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <autoMaxRowsCount>true</autoMaxRowsCount>
-        <selectionMode>MultiRow</selectionMode>
-        <headerHeight>1</headerHeight>
-        <footerHeight>1</footerHeight>
-        <horizontalScrollBar>AutoUse</horizontalScrollBar>
-        <verticalScrollBar>AutoUse</verticalScrollBar>
-        <horizontalLines>true</horizontalLines>
-        <verticalLines>true</verticalLines>
-        <searchOnInput>Auto</searchOnInput>
-        <initialListView>Auto</initialListView>
-        <horizontalStretch>true</horizontalStretch>
-        <verticalStretch>true</verticalStretch>
-        <enableStartDrag>true</enableStartDrag>
-        <fileDragMode>AsFileRef</fileDragMode>
-        <extInfo xsi:type="form:DynamicListTableExtInfo">
-          <autoRefreshPeriod>60</autoRefreshPeriod>
-          <period>
-            <startDate>0001-01-01T00:00:00</startDate>
-            <endDate>0001-01-01T00:00:00</endDate>
-          </period>
-          <topLevelParent xsi:type="core:UndefinedValue"/>
-          <showRoot>true</showRoot>
-          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
-        </extInfo>
-      </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаОтправитьСообщение</name>
         <id>333</id>
-        <items xsi:type="form:FormField">
-          <name>Комментарий</name>
-          <id>324</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПоляВводаКомментария</name>
+          <id>338</id>
+          <items xsi:type="form:FormGroup">
+            <name>КомандыФорматированияКомментария</name>
+            <id>345</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Команды форматирования комментария</value>
+            </title>
+            <extendedTooltip>
+              <name>КомандыФорматированияКомментарияРасширеннаяПодсказка</name>
+              <id>346</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>CommandBar</type>
+            <extInfo xsi:type="form:CommandBarExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+              <commandSource>Item.Комментарий</commandSource>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>Комментарий</name>
+            <id>342</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Комментарий</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <extendedTooltip>
+              <name>КомментарийРасширеннаяПодсказка</name>
+              <id>344</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>КомментарийКонтекстноеМеню</name>
+              <id>343</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>FormattedDocumentField</type>
+            <groupVerticalAlign>Bottom</groupVerticalAlign>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:FormattedDocFieldExtInfo">
+              <width>50</width>
+              <autoMaxWidth>true</autoMaxWidth>
+              <height>5</height>
+              <autoMaxHeight>true</autoMaxHeight>
+              <horizontalStretch>true</horizontalStretch>
+              <verticalStretch>true</verticalStretch>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Комментарий</segments>
-          </dataPath>
-          <titleLocation>None</titleLocation>
+          <title>
+            <key>ru</key>
+            <value>Группа поля ввода комментария</value>
+          </title>
           <extendedTooltip>
-            <name>КомментарийРасширеннаяПодсказка</name>
-            <id>326</id>
+            <name>ГруппаПоляВводаКомментарияРасширеннаяПодсказка</name>
+            <id>339</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1401,25 +1256,14 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>КомментарийКонтекстноеМеню</name>
-            <id>325</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>1</width>
-            <height>2</height>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <multiLine>true</multiLine>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <behavior>Auto</behavior>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:Button">
@@ -1445,6 +1289,7 @@
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <verticalStretch>true</verticalStretch>
           <placementArea>UserCmds</placementArea>
           <picture xsi:type="core:PictureRef">
             <picture>CommonPicture.ТипСоставнойОсновной</picture>
@@ -1489,8 +1334,9 @@
         <key>ru</key>
         <value>Комментарии</value>
       </title>
+      <verticalStretch>false</verticalStretch>
       <extendedTooltip>
-        <name>Группа3РасширеннаяПодсказка</name>
+        <name>КомментарииРасширеннаяПодсказка</name>
         <id>232</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1503,6 +1349,7 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1551,6 +1398,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
@@ -1589,65 +1437,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СписокКомментарии</name>
-    <title>
-      <key>ru</key>
-      <value>Список комментарии</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>DynamicList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ
-	Центр_КомментарииЗадач.Комментарий,
-	Центр_КомментарииЗадач.Автор
-ИЗ
-	РегистрСведений.Центр_КомментарииЗадач КАК Центр_КомментарииЗадач
-ГДЕ
-	Центр_КомментарииЗадач.Задача = &amp;ТекушаяЗадача</queryText>
-      <mainTable>InformationRegister.Центр_КомментарииЗадач</mainTable>
-      <dynamicDataRead>true</dynamicDataRead>
-      <autoFillAvailableFields>true</autoFillAvailableFields>
-      <customQuery>true</customQuery>
-      <autoSaveUserSettings>true</autoSaveUserSettings>
-      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Комментарий</dataPath>
-        <field>Комментарий</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Автор</dataPath>
-        <field>Автор</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Задача</dataPath>
-        <field>Задача</field>
-      </fields>
-      <parameters>
-        <name>ТекушаяЗадача</name>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Текушая задача</value>
-            </content>
-          </localValue>
-        </title>
-        <valueType>
-          <types>DocumentRef.Центр_Задача</types>
-        </valueType>
-        <useRestriction>true</useRestriction>
-      </parameters>
-    </extInfo>
-  </attributes>
-  <attributes>
     <name>Комментарий</name>
     <title>
       <key>ru</key>
@@ -1655,8 +1444,7 @@
     </title>
     <id>4</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>FormattedDocument</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1674,6 +1462,26 @@
     <id>5</id>
     <valueType>
       <types>CatalogRef.Пользователи</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоличествоКомментариев</name>
+    <title>
+      <key>ru</key>
+      <value>Количество комментариев</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
