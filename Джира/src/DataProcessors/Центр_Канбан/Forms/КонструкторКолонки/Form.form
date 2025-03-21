@@ -1304,11 +1304,14 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Реквизит1</name>
-    <id>8</id>
+    <name>БезНастроек</name>
+    <title>
+      <key>ru</key>
+      <value>Без настроек</value>
+    </title>
+    <id>9</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1389,6 +1392,12 @@
       <types>DataCompositionSettingsComposer</types>
     </valueType>
     <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>БезНастроек</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>
