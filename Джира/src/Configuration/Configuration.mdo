@@ -1819,6 +1819,7 @@
   <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
   <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
   <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Центр_Триггеры</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>

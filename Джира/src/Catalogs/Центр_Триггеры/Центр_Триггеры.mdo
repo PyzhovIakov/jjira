@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb30ee98-120d-4dd8-af7f-db5e3fc87ed2">
+  <producedTypes>
+    <objectType typeId="4e8fa45e-8ef1-4a16-bcf0-797419ad4e16" valueTypeId="db605126-4704-42d7-a37a-e3cba14c7535"/>
+    <refType typeId="84379a1d-0601-4227-a99b-3fa5e100bd5f" valueTypeId="be9a7fb4-df06-46c3-8d0e-89c010bb3091"/>
+    <selectionType typeId="bbb4e7e2-236d-4fbf-b9cc-0fd1089116dc" valueTypeId="11b760fa-23fb-4e3e-864c-d01b1d369dd5"/>
+    <listType typeId="8f5b0990-8b63-45d9-8c11-0d6a358473a2" valueTypeId="c527e38e-387f-47de-a5a0-bf7344db6c58"/>
+    <managerType typeId="3335036a-1300-456d-a5fb-21714643c94a" valueTypeId="124902e9-70d5-4608-b53b-d5205a05d3c0"/>
+  </producedTypes>
+  <name>Центр_Триггеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Триггеры (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_Триггеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_Триггеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Триггер</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Триггеры</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="62034312-44c3-4547-bf3b-3a64546b7aa6">
+      <name>СозданиеЗадачи</name>
+      <description>Создание задачи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="1986f443-7721-4736-a7bd-9f1d8cda9e36">
+    <producedTypes>
+      <objectType typeId="af6e7652-cadc-48d7-9059-da4b8542c497" valueTypeId="676236fb-b2a9-426d-84c4-7f75968c16fa"/>
+      <rowType typeId="37e600e1-b778-4b12-a5ac-3ebc0bd1b227" valueTypeId="c49410aa-5b81-4f3b-a7dc-e954f3b251fd"/>
+    </producedTypes>
+    <name>ПереходыСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переходы статусов</value>
+    </synonym>
+    <attributes uuid="3edb48fc-4bcb-4e0d-b27a-be9093afaeae">
+      <name>СтатусСрабатывания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус срабатывания</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Центр_СтатусыЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9872f19e-1a95-4460-958f-f490731a3faf">
+      <name>СтатусЗавершения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус завершения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Центр_СтатусыЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
