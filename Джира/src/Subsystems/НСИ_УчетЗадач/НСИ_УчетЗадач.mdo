@@ -19,4 +19,5 @@
   <content>InformationRegister.Центр_СтатусыЗадач</content>
   <content>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</content>
   <content>InformationRegister.Центр_НастройкиПользователяКанБан</content>
+  <content>InformationRegister.Центр_ВопросыПоЗадачам</content>
 </mdclass:Subsystem>

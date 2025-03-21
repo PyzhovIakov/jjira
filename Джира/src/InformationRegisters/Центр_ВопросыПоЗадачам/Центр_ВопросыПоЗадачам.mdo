@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cdcbc62-f3fb-4968-9763-bf3e450b8451">
+  <producedTypes>
+    <selectionType typeId="5791fe03-36a9-40c5-8342-27150fc63560" valueTypeId="ca55b476-5af2-46f6-a0d3-87d68b8f13c7"/>
+    <listType typeId="f99724a4-a23e-4deb-997b-c173abc396cc" valueTypeId="c8ea0eb8-23bb-4d61-80b2-c6ec42b570dd"/>
+    <managerType typeId="0e208b6b-cd85-4fbe-aca0-ac09903473fe" valueTypeId="38deb977-b0a0-4af2-8a12-afeb437ac43a"/>
+    <recordSetType typeId="4bc763af-9f47-48c5-8449-4106daeb3803" valueTypeId="63b4950a-fff7-463d-b821-27b89bb158e6"/>
+    <recordKeyType typeId="89d09c79-bcc9-43fc-8286-15f253607a30" valueTypeId="a61d6c83-96e5-481b-8b4c-b341ce4c1831"/>
+    <recordType typeId="1440377b-8243-4815-990a-c2ec6185ab53" valueTypeId="9a645b3a-3208-41ad-b36c-6ff29d64550e"/>
+    <recordManagerType typeId="3e803e43-1161-4888-8b05-cc38dab8ca3a" valueTypeId="e273d39e-ab7c-441c-8112-13bbb63484e5"/>
+  </producedTypes>
+  <name>Центр_ВопросыПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы по задачам (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Вопрос по задаче</value>
+  </recordPresentation>
+  <resources uuid="52eeab7d-ec71-40e5-a0c4-c643f42b78b7">
+    <name>ТекстВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст вопроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3d6e9504-5326-44e0-931e-a5ca76b5350b">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1de0de83-613c-48d4-899b-b639f5368a24">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ded364e7-d6d9-4a59-9733-7f0373568ea1">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fbcb0b4a-c328-4ea6-8ccb-89d61680f4c1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
