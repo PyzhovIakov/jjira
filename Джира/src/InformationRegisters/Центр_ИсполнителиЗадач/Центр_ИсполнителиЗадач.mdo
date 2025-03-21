@@ -33,6 +33,7 @@
       <value>Исполнитель</value>
     </synonym>
     <type>
+      <types>CatalogRef.Центр_ГруппыДоступаКЗадачам</types>
       <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
