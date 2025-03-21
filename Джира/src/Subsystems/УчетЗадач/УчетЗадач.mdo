@@ -11,4 +11,5 @@
   <content>InformationRegister.Центр_ИсполнителиЗадач</content>
   <content>InformationRegister.Центр_СвязанныеЗадачи</content>
   <content>DataProcessor.Центр_Канбан</content>
+  <content>CommonForm.ФормаСпискаВопросовПоЗадаче</content>
 </mdclass:Subsystem>

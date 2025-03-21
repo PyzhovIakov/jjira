@@ -7,7 +7,7 @@
   <name>Центр_Канбан</name>
   <synonym>
     <key>ru</key>
-    <value>Центр канбан</value>
+    <value>КанБан (Джира)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.Центр_Канбан.Form.Главная</defaultForm>
@@ -16,6 +16,15 @@
     <synonym>
       <key>ru</key>
       <value>Главная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73786626-03e8-41d0-bd0f-37104e6ba1fc">
+    <name>КонструкторКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор колонки</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

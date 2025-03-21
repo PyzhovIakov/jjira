@@ -1754,6 +1754,7 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.Центр_ФормаВыбораЦвета</commonForms>
+  <commonForms>CommonForm.ФормаСпискаВопросовПоЗадаче</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -1817,6 +1818,7 @@
   <catalogs>Catalog.Центр_Доски</catalogs>
   <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
   <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
+  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -1897,7 +1899,7 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.Центр_ЕдиницыИзмерений</enums>
+  <enums>Enum.Центр_ЕдиницыИзмеренийВремени</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
@@ -2141,6 +2143,9 @@
   <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
   <informationRegisters>InformationRegister.Центр_СтатусыЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ВопросыПоЗадачам</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

@@ -306,6 +306,31 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="be59088c-ba00-4a2f-8d47-eeff85526c58">
+    <producedTypes>
+      <objectType typeId="700aa505-8e89-49fb-b813-b1f5c6014b5b" valueTypeId="650eb13b-902f-4630-96a3-fa40ff5d4091"/>
+      <rowType typeId="10f90ce3-fa86-4ccf-947c-53f713c9136c" valueTypeId="c494b01a-c2f0-484a-af63-5e7a8fbf307c"/>
+    </producedTypes>
+    <name>Доски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доски</value>
+    </synonym>
+    <attributes uuid="c004215a-daeb-4bbb-b18f-95b15a5eeafc">
+      <name>Доска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доска</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Центр_Доски</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <commands uuid="188f2c5d-a36f-4c10-b35b-4a51dfdd34a7">
     <name>СвязанныеЗадачи</name>
     <synonym>

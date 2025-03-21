@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2806cff1-e2d8-44c2-b596-f38b45ef67bd">
+  <producedTypes>
+    <selectionType typeId="00951548-6eed-43f8-94ab-bb7be63ee7b1" valueTypeId="07fc03c6-1c72-4da3-8087-a9b46fadafbd"/>
+    <listType typeId="20e8bfd7-4f9a-4ac7-8655-dad75df07f87" valueTypeId="6f665ed0-f53b-433d-a95f-eba3de502b31"/>
+    <managerType typeId="692f9f06-356b-47b9-bc07-6a94514fe583" valueTypeId="b478525f-b5ef-4a28-a713-d127bc8aaa80"/>
+    <recordSetType typeId="930e974f-6c79-4970-8c2a-506efc353a80" valueTypeId="937faacf-f729-4eac-bcab-4100a4283ca3"/>
+    <recordKeyType typeId="a8633259-f523-464b-825b-511140e868ff" valueTypeId="499c1129-020f-43fa-a3c6-f16bcf6d0409"/>
+    <recordType typeId="438e7b60-10c0-4415-af1d-4effeb9cbd8d" valueTypeId="d52e2c88-c7ca-4822-b13b-a2456af15816"/>
+    <recordManagerType typeId="b7e3bdd4-b106-48c3-b86b-cd91e433eb7b" valueTypeId="129fb2bd-d9b6-46b8-b6ba-6ba5d29d0d94"/>
+  </producedTypes>
+  <name>Центр_НастройкиПользователяКанБан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователя КанБан (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8383b2b9-774c-4a87-a490-6f2668754e36">
+    <name>Доска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_Доски</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6ef50309-4477-424c-9616-157fbc2f317b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

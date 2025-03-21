@@ -25,8 +25,7 @@
       <value>Комментарий</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>ValueStorage</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

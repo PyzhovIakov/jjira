@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57d02768-0390-4637-a656-b40702ce840f">
+  <producedTypes>
+    <selectionType typeId="f53848f7-88ee-4300-a982-62eb859fd2e0" valueTypeId="c96ef92e-3fb9-462d-8a53-213091f02f28"/>
+    <listType typeId="93b87428-0ef7-4759-9181-27988fc51f43" valueTypeId="655b2800-1bcb-48d0-a7a8-d108631616d9"/>
+    <managerType typeId="458b202b-cfed-48aa-a773-27cbdb159ed9" valueTypeId="83eeb830-a234-4be6-b968-e96a90fde059"/>
+    <recordSetType typeId="2559fb69-a7ea-431a-a770-121fd4bd46de" valueTypeId="87089e7e-1566-4f3a-a47c-02083de6e95a"/>
+    <recordKeyType typeId="e188e228-e75f-49f2-8584-eba8cd4bf5e8" valueTypeId="29b90bd2-5015-4dea-80ba-de4541e3748f"/>
+    <recordType typeId="34a32adc-74fa-4ddb-bf3b-151d2243f4e7" valueTypeId="3df16585-d21a-4183-a05f-b4582726bbe8"/>
+    <recordManagerType typeId="3e22f33c-a020-4c00-9474-afbb9cfaec47" valueTypeId="16a93a81-ac60-4866-be11-56af2a281010"/>
+  </producedTypes>
+  <name>Центр_НастройкиПользователейКолонокКанБан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки  колонок  КанБан (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8ef4651e-50e1-46eb-835d-0f48554cc31d">
+    <name>НастройкиКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки колонки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f1b7c6b8-0dc7-4dee-8f87-31eb3c4f4758">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3cd41654-a551-4ec5-90fd-bbdfd89f75a3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd3cb4ab-a0f4-4d5f-99e2-deccdc3beff6">
+    <name>Доска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_Доски</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bf27a8f3-a147-4c59-b230-3ab4ce6f58ca">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
