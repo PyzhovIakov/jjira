@@ -5,7 +5,7 @@
     <listType typeId="06ae3979-8be9-4216-8746-4441136a6d3d" valueTypeId="f128f050-8df6-4419-bb3c-005677d5f30c"/>
     <managerType typeId="68644367-a5ab-4f6f-bc68-d24fc48b8ea2" valueTypeId="f551ac50-979f-43b0-ba8b-18f8b1adc5d8"/>
   </producedTypes>
-  <name>Центр_ЕдиницыИзмерений</name>
+  <name>Центр_ЕдиницыИзмеренийВремени</name>
   <synonym>
     <key>ru</key>
     <value>Единицы измерений (Джира)</value>
