@@ -20,4 +20,5 @@
   <content>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</content>
   <content>InformationRegister.Центр_НастройкиПользователяКанБан</content>
   <content>InformationRegister.Центр_ВопросыПоЗадачам</content>
+  <content>Catalog.Центр_Триггеры</content>
 </mdclass:Subsystem>
