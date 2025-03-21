@@ -302,7 +302,6 @@
 	Центр_Задача.ГлавнаяЗадача,
 	Центр_Задача.Наблюдатели.*,
 	Центр_Задача.ЧекЛист.*,
-	Центр_Задача.Кандидаты.*,
 	Центр_Задача.МоментВремени
 ИЗ
 	РегистрСведений.Центр_СвязанныеЗадачи КАК Центр_СвязанныеЗадачи
@@ -329,7 +328,6 @@
 	Центр_Задача.ГлавнаяЗадача,
 	Центр_Задача.Наблюдатели.*,
 	Центр_Задача.ЧекЛист.*,
-	Центр_Задача.Кандидаты.*,
 	Центр_Задача.МоментВремени
 ИЗ
 	РегистрСведений.Центр_СвязанныеЗадачи КАК Центр_СвязанныеЗадачи
@@ -436,20 +434,8 @@
         <field>ЧекЛист</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Кандидаты.Ссылка</dataPath>
-        <field>Кандидаты.Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Кандидаты.НомерСтроки</dataPath>
-        <field>Кандидаты.НомерСтроки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Кандидаты.Кандидат</dataPath>
-        <field>Кандидаты.Кандидат</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
-        <dataPath>Кандидаты</dataPath>
-        <field>Кандидаты</field>
+        <dataPath>ВидЗадачи</dataPath>
+        <field>ВидЗадачи</field>
       </fields>
       <parameters>
         <name>ОсновнаяЗадача</name>

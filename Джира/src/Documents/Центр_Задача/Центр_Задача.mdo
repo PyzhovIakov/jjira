@@ -177,6 +177,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a1335973-7b34-4983-8619-1c1d0a10d91e">
+    <name>ЭтоДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это день</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="126aca9b-c29d-4d80-b645-d89829732b67">
     <name>ФормаДокумента</name>
     <synonym>
@@ -256,9 +271,7 @@
       </synonym>
       <type>
         <types>String</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -273,57 +286,6 @@
       </synonym>
       <type>
         <types>Boolean</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="b2c67c1e-b5bc-4bb4-b55c-ed29e9af94d2">
-    <producedTypes>
-      <objectType typeId="5451fed5-2f59-4703-8cb5-5e4c8de3a494" valueTypeId="1a0f84b3-641c-4222-95c6-3f985766bea5"/>
-      <rowType typeId="3d1903be-5d97-4919-9932-39df762f299f" valueTypeId="b6adaeb2-13a4-48c0-9f9a-1d4b0890bac8"/>
-    </producedTypes>
-    <name>Кандидаты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Кандидаты</value>
-    </synonym>
-    <attributes uuid="f7e43d45-2692-409a-ba9e-52d6e7aa1fa3">
-      <name>Кандидат</name>
-      <synonym>
-        <key>ru</key>
-        <value>Кандидат</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Центр_ГруппыДоступаКЗадачам</types>
-        <types>CatalogRef.Пользователи</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="be59088c-ba00-4a2f-8d47-eeff85526c58">
-    <producedTypes>
-      <objectType typeId="700aa505-8e89-49fb-b813-b1f5c6014b5b" valueTypeId="650eb13b-902f-4630-96a3-fa40ff5d4091"/>
-      <rowType typeId="10f90ce3-fa86-4ccf-947c-53f713c9136c" valueTypeId="c494b01a-c2f0-484a-af63-5e7a8fbf307c"/>
-    </producedTypes>
-    <name>Доски</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доски</value>
-    </synonym>
-    <attributes uuid="c004215a-daeb-4bbb-b18f-95b15a5eeafc">
-      <name>Доска</name>
-      <synonym>
-        <key>ru</key>
-        <value>Доска</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Центр_Доски</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
