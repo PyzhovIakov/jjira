@@ -1,6 +1,7 @@
 //@skip-check module-structure-top-region
 #Область СозданиеЗадачи
 //@skip-check module-structure-method-in-regions
+
 Процедура ТриггерСозданиеЗадачи(ЗадачаОбъект) Экспорт
 	Запрос = Новый Запрос;
 	Запрос.Текст =
