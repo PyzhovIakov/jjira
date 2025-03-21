@@ -401,6 +401,55 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
+            <name>ЕдиницаИзмерения</name>
+            <id>367</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ЕдиницаИзмерения</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ЕдиницаИзмеренияПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ЕдиницаИзмеренияРасширеннаяПодсказка</name>
+              <id>369</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ЕдиницаИзмеренияКонтекстноеМеню</name>
+              <id>368</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <radioButtonsType>Tumbler</radioButtonsType>
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.Центр_ЕдиницыИзмеренийВремени.EnumValue.Час</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.Центр_ЕдиницыИзмеренийВремени.EnumValue.День</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
             <name>Постановщик</name>
             <id>10</id>
             <visible>true</visible>
@@ -1394,6 +1443,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЕдиницаИзмерения</name>
+    <title>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>EnumRef.Центр_ЕдиницыИзмеренийВремени</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ВыбратьСвязанныеЗадачи</name>
     <title>
@@ -1480,10 +1546,6 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

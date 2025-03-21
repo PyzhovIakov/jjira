@@ -1191,7 +1191,6 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.Центр_ЭлементыФормы</commonModules>
   <commonModules>CommonModule.Центр_ВыборЦветаHTMLПовтИсп</commonModules>
-  <commonModules>CommonModule.Центр_ОбработкаТриггеров</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
