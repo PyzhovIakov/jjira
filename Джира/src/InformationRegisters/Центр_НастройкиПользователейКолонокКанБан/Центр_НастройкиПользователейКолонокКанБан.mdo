@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка колонок пользователя</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки колонок пользователя</value>
+  </listPresentation>
   <resources uuid="8ef4651e-50e1-46eb-835d-0f48554cc31d">
     <name>НастройкиКолонки</name>
     <synonym>
