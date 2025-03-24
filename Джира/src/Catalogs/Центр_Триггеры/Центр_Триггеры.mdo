@@ -44,6 +44,13 @@
         <value>000000001</value>
       </code>
     </items>
+    <items id="9e0c6070-0899-4b92-9510-832d69782167">
+      <name>ВзятиеЗадачи</name>
+      <description>Взятие задачи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

@@ -28,50 +28,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="07a5affe-62e4-4f6b-924a-f415f78a5006">
-      <name>Новая</name>
-      <description>Новая</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-    <items id="c4cb0dc5-8a8f-4fd1-a513-f4a4ebf4dfc4">
-      <name>ИполнительНазначен</name>
-      <description>Иполнитель назначен</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-    </items>
-    <items id="829f51e6-aef1-47d5-a242-c171279ffbf9">
-      <name>ВРаботе</name>
-      <description>В работе</description>
-      <code xsi:type="core:StringValue">
-        <value>000000003</value>
-      </code>
-    </items>
-    <items id="36ef627e-bcde-457e-aac9-582ae67c8de5">
-      <name>ЗапросИнформации</name>
-      <description>Запрос информации</description>
-      <code xsi:type="core:StringValue">
-        <value>000000004</value>
-      </code>
-    </items>
-    <items id="68a9649b-59b9-4ee9-b0d4-574a56f7b200">
-      <name>Завершена</name>
-      <description>Завершена</description>
-      <code xsi:type="core:StringValue">
-        <value>000000005</value>
-      </code>
-    </items>
-    <items id="5345a37f-7ee3-43f0-918c-1e6b7b626bb2">
-      <name>Отменена</name>
-      <description>Отменена</description>
-      <code xsi:type="core:StringValue">
-        <value>000000006</value>
-      </code>
-    </items>
-  </predefined>
+  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Центр_СтатусыЗадач.Form.ФормаЭлемента</defaultObjectForm>
