@@ -18,6 +18,14 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Комментарий к задаче</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Комментарии задач</value>
+  </listPresentation>
   <resources uuid="e30b71a7-978f-491e-b0a9-4c20575fc540">
     <name>Комментарий</name>
     <synonym>
