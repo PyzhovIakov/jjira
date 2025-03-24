@@ -347,7 +347,6 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
-    <viewMode>All</viewMode>
   </items>
   <items xsi:type="form:Table">
     <name>Колонка</name>

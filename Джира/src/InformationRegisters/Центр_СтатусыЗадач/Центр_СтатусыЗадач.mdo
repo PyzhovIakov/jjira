@@ -18,6 +18,14 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статус задачи</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </listPresentation>
   <resources uuid="891f8f4e-78f3-459f-8516-a6635669c6ae">
     <name>Статус</name>
     <synonym>

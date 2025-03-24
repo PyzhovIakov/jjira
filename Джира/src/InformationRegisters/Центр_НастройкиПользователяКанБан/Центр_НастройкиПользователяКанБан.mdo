@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки КанБан пользователя</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки КанБан пользователя</value>
+  </listPresentation>
   <resources uuid="8383b2b9-774c-4a87-a490-6f2668754e36">
     <name>Доска</name>
     <synonym>
