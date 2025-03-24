@@ -760,86 +760,6 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
-    <items xsi:type="form:FormField">
-      <name>КолонкаНаблюдатели</name>
-      <id>99</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Колонка.Наблюдатели</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>КолонкаНаблюдателиРасширеннаяПодсказка</name>
-        <id>101</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>КолонкаНаблюдателиКонтекстноеМеню</name>
-        <id>100</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>КолонкаЧекЛист</name>
-      <id>102</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Колонка.ЧекЛист</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>КолонкаЧекЛистРасширеннаяПодсказка</name>
-        <id>104</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>КолонкаЧекЛистКонтекстноеМеню</name>
-        <id>103</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>КолонкаКоманднаяПанель</name>
@@ -1006,28 +926,34 @@
       <common>true</common>
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ 
-       Центр_Задача.Ссылка, 
-       Центр_Задача.ПометкаУдаления, 
-       Центр_Задача.Номер, 
-       Центр_Задача.Дата, 
-       Центр_Задача.Проведен, 
-       Центр_Задача.Наименование, 
-       Центр_Задача.ОписаниеЗадачи, 
-       Центр_Задача.ВидЗадачи, 
-       Центр_Задача.Постановщик, 
-       Центр_Задача.Дедлайн, 
-       Центр_Задача.Длительность, 
-       Центр_Задача.Приоритет, 
-       Центр_Задача.Автор, 
-       Центр_Задача.ГлавнаяЗадача, 
-       Центр_Задача.Наблюдатели.*, 
-       Центр_Задача.ЧекЛист.*, 
-       Центр_Задача.МоментВремени
- ИЗ 
-       Документ.Центр_Задача
- КАК 
-       Центр_Задача</queryText>
+      <queryText>ВЫБРАТЬ
+	Центр_Задача.Ссылка,
+	Центр_Задача.ВерсияДанных,
+	Центр_Задача.ПометкаУдаления,
+	Центр_Задача.Номер,
+	Центр_Задача.Дата,
+	Центр_Задача.Проведен,
+	Центр_Задача.Наименование,
+	Центр_Задача.ОписаниеЗадачи,
+	Центр_Задача.ВидЗадачи,
+	Центр_Задача.Постановщик,
+	Центр_Задача.Дедлайн,
+	Центр_Задача.Длительность,
+	Центр_Задача.Приоритет,
+	Центр_Задача.Автор,
+	Центр_Задача.ГлавнаяЗадача КАК ГлавнаяЗадача,
+	Центр_ИсполнителиЗадачСрезПоследних.Исполнитель,
+	Центр_СтатусыЗадачСрезПоследних.Статус,
+	Центр_Задача.Наблюдатели.(
+		Ссылка,
+		НомерСтроки,
+		Пользовалель)
+ИЗ
+	Документ.Центр_Задача КАК Центр_Задача
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ИсполнителиЗадач.СрезПоследних КАК Центр_ИсполнителиЗадачСрезПоследних
+		ПО Центр_Задача.Ссылка = Центр_ИсполнителиЗадачСрезПоследних.Задача
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_СтатусыЗадач.СрезПоследних КАК Центр_СтатусыЗадачСрезПоследних
+		ПО Центр_Задача.Ссылка = Центр_СтатусыЗадачСрезПоследних.Задача</queryText>
       <mainTable>Document.Центр_Задача</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -1049,10 +975,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Проведен</dataPath>
         <field>Проведен</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наименование</dataPath>
@@ -1107,37 +1029,48 @@
         <field>Наблюдатели</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.Ссылка</dataPath>
-        <field>ЧекЛист.Ссылка</field>
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.НомерСтроки</dataPath>
-        <field>ЧекЛист.НомерСтроки</field>
+        <dataPath>ВерсияДанных</dataPath>
+        <field>ВерсияДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.Текст</dataPath>
-        <field>ЧекЛист.Текст</field>
+        <dataPath>Исполнитель</dataPath>
+        <field>Исполнитель</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.Выполнен</dataPath>
-        <field>ЧекЛист.Выполнен</field>
+        <dataPath>Статус</dataPath>
+        <field>Статус</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Задача</dataPath>
+        <field>Задача</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоДень</dataPath>
+        <field>ЭтоДень</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
         <dataPath>ЧекЛист</dataPath>
         <field>ЧекЛист</field>
       </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
-        <dataPath>Кандидаты</dataPath>
-        <field>Кандидаты</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
-        <dataPath>Доски</dataPath>
-        <field>Доски</field>
-      </fields>
+      <parameters>
+        <name>Период</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Период</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Date</types>
+          <dateQualifiers/>
+        </valueType>
+      </parameters>
     </extInfo>
   </attributes>
   <attributes>

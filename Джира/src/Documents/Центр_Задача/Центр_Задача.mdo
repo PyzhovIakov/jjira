@@ -237,6 +237,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="d113aa1e-17e3-476d-b799-f4625a958d5c">
+    <name>ФормаПодтвержденияВзятияЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подтверждения взятия задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="642b2a0f-2926-4161-9cfd-5f8b5aeb6f1d">
     <producedTypes>
       <objectType typeId="86f01806-e514-4dfb-ad48-a67ea47eb1be" valueTypeId="ff8c3853-b28a-4407-a584-f6239526b48b"/>
