@@ -38,6 +38,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5859376d-fae9-4134-8a13-c1345fd92261">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="bd96ce85-85cb-4801-a214-03740d1a9df7">
     <producedTypes>
       <objectType typeId="25e8890b-70b1-41b7-8eaa-0a06576f67b6" valueTypeId="74c3f06f-7b5b-425d-a7e3-52acdad3774a"/>

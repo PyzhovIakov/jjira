@@ -40,6 +40,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Центр_ВидыЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Центр_ВидыЗадач.Form.ФормаСписка</defaultListForm>
   <attributes uuid="a448dca2-1e50-4018-8c87-9d00da4050e9">
     <name>Партнер</name>
     <synonym>
@@ -55,26 +56,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3e2416fe-29e4-4c37-93ac-51b1043833c5">
-    <name>Пользователь</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользователь</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="f1f8f95b-04ae-452d-a7f6-558c3b78ee5d">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4e97ab96-42b9-47ec-93ca-5f2f715f1648">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -1902,6 +1902,7 @@
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.Центр_ЕдиницыИзмеренийВремени</enums>
+  <enums>Enum.Центр_ПредставленияВидовЗадачПоПостановщику</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
