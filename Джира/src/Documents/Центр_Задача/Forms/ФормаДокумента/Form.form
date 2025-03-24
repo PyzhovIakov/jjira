@@ -256,6 +256,7 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ВидЗадачи</segments>
             </dataPath>
+            <defaultItem>true</defaultItem>
             <handlers>
               <event>OnChange</event>
               <name>ВидЗадачиПриИзменении</name>
@@ -284,7 +285,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
@@ -546,6 +546,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Исполнитель</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ИсполнительПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ИсполнительРасширеннаяПодсказка</name>
               <id>337</id>
@@ -1339,7 +1343,6 @@
     <items xsi:type="form:Button">
       <name>ФормаЗабратьЗадачу</name>
       <id>370</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -1587,6 +1590,10 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
