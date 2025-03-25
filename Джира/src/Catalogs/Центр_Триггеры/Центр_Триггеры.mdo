@@ -51,6 +51,13 @@
         <value>000000002</value>
       </code>
     </items>
+    <items id="6deb499b-d7cc-4f4e-991d-2573fa3ebc9b">
+      <name>ОзнакомлениеИсполнителя</name>
+      <description>Ознакомление исполнителя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
