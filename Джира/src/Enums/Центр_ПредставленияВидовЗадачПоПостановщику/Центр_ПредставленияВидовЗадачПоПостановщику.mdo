@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="209e8d35-eeea-4558-9cdf-e01d7b3cd53d">
+  <producedTypes>
+    <refType typeId="b750ba86-de92-48c5-9062-a055c5a97830" valueTypeId="bed5a9dd-2b6e-4be1-b386-a6100276a2a0"/>
+    <listType typeId="b8f803e2-11f8-421a-976d-66c34c56c9b6" valueTypeId="e55db575-ac69-4cb3-b829-3e26642c0cfa"/>
+    <managerType typeId="c3106ed4-7325-4e3d-a9b7-0cc5a1cef65d" valueTypeId="fc942531-f434-432e-b676-0a62ec73629a"/>
+  </producedTypes>
+  <name>Центр_ПредставленияВидовЗадачПоПостановщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представления видов задач по постановщику (Джира)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a3933a4-c73d-4a5f-b25c-608e14347cfb">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfe22e5b-9d97-40be-a32a-4f8a9e49d70b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
