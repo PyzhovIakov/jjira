@@ -1756,6 +1756,7 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.Центр_ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаСпискаВопросовПоЗадаче</commonForms>
+  <commonForms>CommonForm.ФормаОтветаНаВопросПоЗадаче</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -1903,6 +1904,7 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.Центр_ЕдиницыИзмеренийВремени</enums>
   <enums>Enum.Центр_ПредставленияВидовЗадачПоПостановщику</enums>
+  <enums>Enum.Центр_ВидыВопросов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
