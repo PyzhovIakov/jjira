@@ -58,6 +58,13 @@
         <value>000000003</value>
       </code>
     </items>
+    <items id="0b493b56-760d-4d28-a1cd-e2b8bdc5b47d">
+      <name>ЗакрытиеЗадачи</name>
+      <description>Закрытие задачи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
