@@ -534,6 +534,34 @@
                 </backColor>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
+              <items xsi:type="form:Button">
+                <name>ОтветитьНаВопрос</name>
+                <id>382</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вопрос вам</value>
+                </title>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ОтветитьНаВопросРасширеннаяПодсказка</name>
+                  <id>383</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ОтветитьНаВопрос</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1722,6 +1750,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗабратьЗадачу</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтветитьНаВопрос</name>
+    <title>
+      <key>ru</key>
+      <value>Ответить на вопрос</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтветитьНаВопрос</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

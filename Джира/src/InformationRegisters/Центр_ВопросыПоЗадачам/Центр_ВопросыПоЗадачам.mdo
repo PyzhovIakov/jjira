@@ -112,4 +112,23 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="81d0e153-c1ec-4792-abc1-ec5042ec24fc">
+    <name>ВидВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид вопроса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Центр_ВидыВопросов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>
