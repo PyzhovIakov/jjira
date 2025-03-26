@@ -65,6 +65,20 @@
         <value>000000006</value>
       </code>
     </items>
+    <items id="6ba2c20d-1d75-41e2-9f91-818272a93158">
+      <name>ВопросПоЗадаче</name>
+      <description>Вопрос по задаче</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="af950890-c32e-45b8-abb8-73b2889e4132">
+      <name>ОтветНаВопросПоЗадаче</name>
+      <description>Ответ на вопрос по задаче</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
