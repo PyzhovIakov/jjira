@@ -21,4 +21,7 @@
   <content>InformationRegister.Центр_НастройкиПользователяКанБан</content>
   <content>InformationRegister.Центр_ВопросыПоЗадачам</content>
   <content>Catalog.Центр_Триггеры</content>
+  <content>Document.Центр_ТрудозатратыПоЗадаче</content>
+  <content>AccumulationRegister.Центр_ЧасыТрудозатрат</content>
+  <content>InformationRegister.Центр_ОценкаЧасов</content>
 </mdclass:Subsystem>

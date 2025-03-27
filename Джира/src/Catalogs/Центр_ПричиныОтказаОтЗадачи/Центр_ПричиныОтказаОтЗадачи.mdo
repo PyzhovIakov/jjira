@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d9a73a-8ccf-4b9c-bae1-e30ab992bfd5">
+  <producedTypes>
+    <objectType typeId="68692530-1c47-4e52-9030-642d7d35624b" valueTypeId="487dc18f-e31b-40cc-831b-943c6da424df"/>
+    <refType typeId="c3368749-235c-4ea9-b7dd-658425486531" valueTypeId="509e182a-8be8-441d-97f0-25a923b67806"/>
+    <selectionType typeId="efc38718-e4b7-4781-9fc5-36595c71668a" valueTypeId="f946bc6a-1f22-4e48-8400-bf2f5bbfe207"/>
+    <listType typeId="aaf31201-e101-412e-9a1a-f4f146249cce" valueTypeId="a4f22d40-aff2-4c5b-af60-db87b5037ec2"/>
+    <managerType typeId="9f45c22a-af9b-4a26-91a9-c9c98cc5c4ad" valueTypeId="98dd7d8d-c084-4f69-9c73-d85ae5ea76f6"/>
+  </producedTypes>
+  <name>Центр_ПричиныОтказаОтЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр причины отказа от задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_ПричиныОтказаОтЗадачи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_ПричиныОтказаОтЗадачи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

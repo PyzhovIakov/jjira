@@ -1822,6 +1822,7 @@
   <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
   <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Центр_Триггеры</catalogs>
+  <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -1829,6 +1830,7 @@
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.Центр_Задача</documents>
+  <documents>Document.Центр_ТрудозатратыПоЗадаче</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВидыСвойств</enums>
@@ -2151,6 +2153,8 @@
   <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
   <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ВопросыПоЗадачам</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ОценкаЧасов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

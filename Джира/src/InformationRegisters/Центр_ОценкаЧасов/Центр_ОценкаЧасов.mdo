@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eef3458-edfe-40ee-8f97-1a85dcc7b11d">
+  <producedTypes>
+    <selectionType typeId="4dc328ca-9a08-4113-820f-c2ad328dd947" valueTypeId="fecee399-1d74-4b3f-a059-087ebf92bb28"/>
+    <listType typeId="204c626c-953e-4f52-a866-8d2c7ac03505" valueTypeId="71d27bad-8632-419c-a74b-f79451b01a17"/>
+    <managerType typeId="d5138bd9-be5f-407b-957d-1f8a7405930b" valueTypeId="b5cd3d1d-1639-487a-8ae0-2566661f3591"/>
+    <recordSetType typeId="55ed6233-c083-47a7-9c7f-68e4ee75aa44" valueTypeId="001cfdb3-142e-4358-9c03-4b62ab50ecd8"/>
+    <recordKeyType typeId="9e97d2a6-6ad9-4b49-a8c6-d21f1689dd9a" valueTypeId="6744e82b-d9c0-47d3-98bd-7cd8fca348a9"/>
+    <recordType typeId="947382fe-07fd-459d-aaf5-c1ebc824bf55" valueTypeId="3f954347-d1ee-4981-a592-5d4fe3409339"/>
+    <recordManagerType typeId="f4e3dfbe-e0ca-4cba-9643-85b48ebd705c" valueTypeId="8ee554ef-3b01-4e23-82b0-87949c731b95"/>
+  </producedTypes>
+  <name>Центр_ОценкаЧасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр оценка часов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b5f2881e-49de-4903-813f-46d7057969c6">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="738e0923-37cc-4d1b-b094-1d129c9be745">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c7e296f-9fdf-4862-bfb1-5a8dca2e4fbe">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8577cba6-8f94-4a1f-95ae-8978a234d6af">
+    <name>КомментарийОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий отказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eaf119d7-aec2-4a2f-a852-d009cdb884db">
+    <name>КомментарийОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий оценки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1453777d-c1fd-4413-8dc7-9d37722bf3a1">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

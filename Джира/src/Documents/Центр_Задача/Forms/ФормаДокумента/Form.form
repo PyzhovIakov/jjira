@@ -598,14 +598,14 @@
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <items xsi:type="form:Button">
-                <name>ФормаЗабратьЗадачу</name>
+                <name>НазначитьИсполнителя</name>
                 <id>370</id>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ФормаЗабратьЗадачуРасширеннаяПодсказка</name>
+                  <name>НазначитьИсполнителяРасширеннаяПодсказка</name>
                   <id>371</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -614,7 +614,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Command.ЗабратьЗадачу</commandName>
+                <commandName>Form.Command.НазначитьИсполнителя</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -651,6 +651,79 @@
                 <backColor xsi:type="core:ColorRef">
                   <color>Style.AccentColor</color>
                 </backColor>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ОтклонитьЗадачу</name>
+                <id>401</id>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ОтклонитьЗадачуРасширеннаяПодсказка</name>
+                  <id>402</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ОтклонитьЗадачу</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СогласоватьОценку</name>
+                <id>403</id>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СогласоватьОценкуРасширеннаяПодсказка</name>
+                  <id>404</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.СогласоватьОценку</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ВвестиТрудозатраты</name>
+                <id>405</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ВвестиТрудозатратыРасширеннаяПодсказка</name>
+                  <id>406</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ВвестиТрудозатраты</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <visible>true</visible>
@@ -873,20 +946,95 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
-            <items xsi:type="form:FormField">
-              <name>УчетВремени</name>
-              <id>386</id>
+            <items xsi:type="form:FormGroup">
+              <name>УчетКонтрольВремени</name>
+              <id>410</id>
+              <items xsi:type="form:FormField">
+                <name>КонтрольВремени</name>
+                <id>407</id>
+                <title>
+                  <key>ru</key>
+                  <value>Контроль в.</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.КонтрольВремени</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>КонтрольВремениРасширеннаяПодсказка</name>
+                  <id>409</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КонтрольВремениКонтекстноеМеню</name>
+                  <id>408</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>CheckBoxField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>УчетВремени</name>
+                <id>386</id>
+                <title>
+                  <key>ru</key>
+                  <value>Учет в.</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.УчетВремени</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>УчетВремениРасширеннаяПодсказка</name>
+                  <id>388</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>УчетВремениКонтекстноеМеню</name>
+                  <id>387</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>CheckBoxField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.УчетВремени</segments>
-              </dataPath>
+              <title>
+                <key>ru</key>
+                <value>Учет контроль времени</value>
+              </title>
               <extendedTooltip>
-                <name>УчетВремениРасширеннаяПодсказка</name>
-                <id>388</id>
+                <name>УчетКонтрольВремениРасширеннаяПодсказка</name>
+                <id>411</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -894,17 +1042,15 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <contextMenu>
-                <name>УчетВремениКонтекстноеМеню</name>
-                <id>387</id>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>CheckBoxField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>Vertical</group>
+                <behavior>Auto</behavior>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1707,14 +1853,14 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЕдиницаИзмерения</name>
+    <name>СогласованиеИсполнителя</name>
     <title>
       <key>ru</key>
-      <value>Единица измерения</value>
+      <value>Согласование исполнителя</value>
     </title>
-    <id>9</id>
+    <id>10</id>
     <valueType>
-      <types>EnumRef.Центр_ЕдиницыИзмеренийВремени</types>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1779,10 +1925,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗабратьЗадачу</name>
+    <name>НазначитьИсполнителя</name>
     <title>
       <key>ru</key>
-      <value>Взять задачу</value>
+      <value>Назначить исполнителя</value>
     </title>
     <id>5</id>
     <use>
@@ -1790,7 +1936,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗабратьЗадачу</name>
+        <name>НазначитьИсполнителя</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -1846,6 +1992,52 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ОтклонитьЗадачу</name>
+    <title>
+      <key>ru</key>
+      <value>Отклонить задачу</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СогласоватьОценку</name>
+    <title>
+      <key>ru</key>
+      <value>Согласовать оценку</value>
+    </title>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СогласоватьОценку</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВвестиТрудозатраты</name>
+    <title>
+      <key>ru</key>
+      <value>Ввести трудозатраты</value>
+    </title>
+    <id>11</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВвестиТрудозатраты</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
@@ -1873,10 +2065,6 @@
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
       <event>AfterWriteAtServer</event>
