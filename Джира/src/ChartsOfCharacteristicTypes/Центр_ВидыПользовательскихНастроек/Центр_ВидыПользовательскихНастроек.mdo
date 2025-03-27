@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74ab9133-5e43-4de1-9065-d6f5126852cc">
+  <producedTypes>
+    <objectType typeId="d405046b-87e4-44be-9d7f-4658e42720cb" valueTypeId="fc1cd435-1a26-4389-ac4c-fc83ee31b215"/>
+    <refType typeId="f6fd0ada-414b-463f-b8ed-506866c0a6ea" valueTypeId="d21fe426-cb3d-4e04-aae2-a9f24b339776"/>
+    <selectionType typeId="929188a5-3ec5-4dbc-b6b1-8ad2b8463165" valueTypeId="2d4457a1-1121-4b4e-b859-6665a7ccc2b1"/>
+    <listType typeId="d7afadfc-151b-48b3-9459-31598e20ecd0" valueTypeId="ec2b0e33-ca55-43e0-8ab8-f321479c1a0b"/>
+    <managerType typeId="3a185d4d-96b5-4b45-9ea5-7bd60ac56ebe" valueTypeId="cb84f8c1-f2fc-469f-bb34-0cee8f9ec775"/>
+    <containerType typeId="b7596fc5-0588-41c8-933b-805bc2e54260" valueTypeId="788349b3-be58-436f-aca6-1c5e63c79809"/>
+  </producedTypes>
+  <name>Центр_ВидыПользовательскихНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды пользовательских настроек (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.Центр_ВидыПользовательскихНастроек.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Центр_ВидыПользовательскихНастроек.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды пользовательских настроек (Джира)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды пользовательских настроек (Джира)</value>
+  </listPresentation>
+  <type>
+    <types>CatalogRef.Центр_ГруппыДоступаКЗадачам</types>
+    <types>CatalogRef.Центр_ВидыЗадач</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Центр_Партнеры</types>
+    <types>CatalogRef.Центр_Приоритеты</types>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="799f4415-a6a6-4b0b-8292-93d70cef3154">
+      <name>НачальноеЗаполнениеЗадачи</name>
+      <description>Начальное заполнение задачи</description>
+      <isFolder>true</isFolder>
+      <code>000000005</code>
+      <content id="5a6c62ec-f336-4399-9832-b72dff5870e9">
+        <name>ВидЗадачи</name>
+        <description>Вид задачи</description>
+        <code>000000001</code>
+        <type>
+          <types>CatalogRef.Центр_ВидыЗадач</types>
+        </type>
+      </content>
+      <content id="6b1a50a3-024d-4c09-9d8b-26b07dafdad6">
+        <name>Исполнитель</name>
+        <description>Исполнитель</description>
+        <code>000000004</code>
+        <type>
+          <types>CatalogRef.Центр_ГруппыДоступаКЗадачам</types>
+          <types>CatalogRef.Пользователи</types>
+        </type>
+      </content>
+      <content id="af22c269-e59a-435a-b47f-afcc0c7139ca">
+        <name>Постановщик</name>
+        <description>Постановщик</description>
+        <code>000000002</code>
+        <type>
+          <types>CatalogRef.Центр_Партнеры</types>
+          <types>CatalogRef.Пользователи</types>
+        </type>
+      </content>
+      <content id="21d70468-23a5-4e90-8a76-3965307ec3bf">
+        <name>Приоритет</name>
+        <description>Приоритет</description>
+        <code>000000003</code>
+        <type>
+          <types>CatalogRef.Центр_Приоритеты</types>
+        </type>
+      </content>
+      <content id="212a69b2-f518-484a-908a-bed7db95cc72">
+        <name>КонтрольВремени</name>
+        <description>Контроль времени</description>
+        <code>000000011</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="5195de46-cc0c-4a55-9582-47ab8eaadc56">
+        <name>УчетВремени</name>
+        <description>Учет времени</description>
+        <code>000000012</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="9c297193-eddb-4ca2-aacf-d405568131a5">
+      <name>СпособыОповещения</name>
+      <description>Способы оповещения</description>
+      <isFolder>true</isFolder>
+      <code>000000006</code>
+      <content id="b76eb155-0994-4772-9383-fc2087654778">
+        <name>Битрикс</name>
+        <description>Битрикс</description>
+        <code>000000007</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b30a3de4-7e43-4fbb-86c9-1bb5878ca56f">
+        <name>Телеграм</name>
+        <description>Телеграм</description>
+        <code>000000008</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="4f0b43a5-db43-4a07-bfca-f4cdd9f8d6d0">
+        <name>База</name>
+        <description>База</description>
+        <code>000000009</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="49cb76dd-8bd5-4e88-9aed-8cfae750b57f">
+        <name>ЭлектроннаяПочта</name>
+        <description>Электронная почта</description>
+        <code>000000010</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

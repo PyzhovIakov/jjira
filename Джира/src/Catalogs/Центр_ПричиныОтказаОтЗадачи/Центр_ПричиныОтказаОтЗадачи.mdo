@@ -10,7 +10,7 @@
   <name>Центр_ПричиныОтказаОтЗадачи</name>
   <synonym>
     <key>ru</key>
-    <value>Центр причины отказа от задачи</value>
+    <value>Причины отказа от задачи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Центр_ПричиныОтказаОтЗадачи.StandardAttribute.Code</inputByString>
@@ -19,6 +19,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причины отказа от задачи</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Причины отказа от задачи</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

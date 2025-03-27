@@ -316,6 +316,32 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="005cf5c9-1a5d-4bd4-9519-b4647d8e5a07">
+    <producedTypes>
+      <objectType typeId="85b2040f-f047-42ac-b007-3149dfae0e91" valueTypeId="0bbca16c-c6e4-42d5-9899-2609c1335b85"/>
+      <rowType typeId="2fd25ab4-1ef9-40d2-8687-84b1467ef160" valueTypeId="e237b9d9-4054-4ae8-97a7-f2310b338bf6"/>
+    </producedTypes>
+    <name>Метки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метки</value>
+    </synonym>
+    <attributes uuid="241f9b2a-5787-4f2f-817f-16a15fe827c4">
+      <name>Метка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Центр_МеткиЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <commands uuid="188f2c5d-a36f-4c10-b35b-4a51dfdd34a7">
     <name>СвязанныеЗадачи</name>
     <synonym>

@@ -112,7 +112,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="07a35cb6-5c12-4242-895f-097a6fd80972">
+  <forms uuid="3e2a78fa-c82f-464d-9b3f-d5809a2c1160">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

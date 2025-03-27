@@ -12,12 +12,16 @@
   <name>Центр_ОценкаЧасов</name>
   <synonym>
     <key>ru</key>
-    <value>Центр оценка часов</value>
+    <value>Оценка часов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Оценка часов</value>
+  </recordPresentation>
   <resources uuid="b5f2881e-49de-4903-813f-46d7057969c6">
     <name>Часы</name>
     <synonym>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25bed748-03b5-483b-8d24-58bda882ff35">
+  <producedTypes>
+    <selectionType typeId="3caf1a14-1190-47fd-a6b3-33a9f68e3377" valueTypeId="d012de1a-ce28-4828-af67-76b05a08f203"/>
+    <listType typeId="ba12b309-b47f-4326-bf9b-dd40a270400d" valueTypeId="d19ae660-fa51-4c7d-ab19-6854f3e74e55"/>
+    <managerType typeId="30acd5c1-9fef-42bf-86d2-6fa5aa18cd57" valueTypeId="dccbae97-8651-4350-8ede-936f8872db98"/>
+    <recordSetType typeId="360dcec9-c09c-48ab-bd01-79c4e3bfe155" valueTypeId="b8ee87fa-b6ea-4e13-a3b1-f797b6594138"/>
+    <recordKeyType typeId="f2e6e94b-4fa4-48d6-9983-1cc6b82add43" valueTypeId="639a571f-1322-4e14-96e1-3c7097b3f76c"/>
+    <recordType typeId="b447c106-7522-41e2-b597-b6878bdd0630" valueTypeId="86f8a0ad-fecd-46ee-b46f-5513ec662ad8"/>
+    <recordManagerType typeId="99bd2c32-1ca1-40b7-a189-9038b9283395" valueTypeId="a2fd2c31-26c6-4081-a686-ad29aabc5fe9"/>
+  </producedTypes>
+  <name>Центр_ПользовательскиеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользовательские настройки (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Пользовательские настройки (Джира)</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пользовательские настройки (Джира)</value>
+  </listPresentation>
+  <resources uuid="c8fe2cce-8e63-4b9d-9f1e-3e19a8be76b0">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.Центр_ВидыПользовательскихНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b800bb2c-6edf-4ea1-b58c-40dffa50b850">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="916f6213-d0eb-4984-becd-94d65f6476cc">
+    <name>ВидНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид настройки</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.Центр_ВидыПользовательскихНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

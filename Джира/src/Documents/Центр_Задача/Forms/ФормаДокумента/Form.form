@@ -1092,10 +1092,6 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Исполнитель</segments>
             </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ИсполнительПриИзменении</name>
-            </handlers>
             <extendedTooltip>
               <name>ИсполнительРасширеннаяПодсказка</name>
               <id>337</id>
@@ -1268,6 +1264,54 @@
               <united>true</united>
               <throughAlign>Auto</throughAlign>
               <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>Метки</name>
+            <id>412</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Метки</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>МеткиПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>МеткиРасширеннаяПодсказка</name>
+              <id>414</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>МеткиКонтекстноеМеню</name>
+              <id>413</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <multipleValueDataPath xsi:type="form:DataPath">
+                <segments>Объект.Метки.Метка</segments>
+              </multipleValueDataPath>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2069,6 +2113,10 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

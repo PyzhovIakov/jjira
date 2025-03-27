@@ -848,8 +848,8 @@
   <commonTemplates>CommonTemplate.МакетШтемпеляЭЦПOfficeOpen</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonTemplates>CommonTemplate.ПустойМакетDOCX</commonTemplates>
-  <commonTemplates>CommonTemplate.Центр_СтраницаВыбораЦветаHTML</commonTemplates>
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
+  <commonTemplates>CommonTemplate.Центр_СтраницаВыбораЦветаHTML</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.GoogleПереводчик</commonModules>
   <commonModules>CommonModule.АвтономнаяРабота</commonModules>
@@ -2121,16 +2121,6 @@
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
   <catalogs>Catalog.СценарииОбменовДанными</catalogs>
-  <catalogs>Catalog.Центр_Партнеры</catalogs>
-  <catalogs>Catalog.Центр_ВидыЗадач</catalogs>
-  <catalogs>Catalog.Центр_Сценарии</catalogs>
-  <catalogs>Catalog.Центр_Приоритеты</catalogs>
-  <catalogs>Catalog.Центр_Доски</catalogs>
-  <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
-  <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
-  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Центр_Триггеры</catalogs>
-  <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиDSS</catalogs>
@@ -2145,6 +2135,17 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
+  <catalogs>Catalog.Центр_Партнеры</catalogs>
+  <catalogs>Catalog.Центр_ВидыЗадач</catalogs>
+  <catalogs>Catalog.Центр_Сценарии</catalogs>
+  <catalogs>Catalog.Центр_Приоритеты</catalogs>
+  <catalogs>Catalog.Центр_Доски</catalogs>
+  <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
+  <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
+  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Центр_Триггеры</catalogs>
+  <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
+  <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2357,7 +2358,6 @@
   <dataProcessors>DataProcessor.СдвигГраницыИтогов</dataProcessors>
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.Центр_Канбан</dataProcessors>
-  <dataProcessors>DataProcessor.СкрытиеКонфиденциальнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.СопоставлениеОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.ТекущиеДела</dataProcessors>
   <dataProcessors>DataProcessor.ТранспортСообщенийОбменаEMAIL</dataProcessors>
@@ -2369,6 +2369,8 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
+  <dataProcessors>DataProcessor.СкрытиеКонфиденциальнойИнформации</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.АрхивСообщенийОбменов</informationRegisters>
@@ -2523,7 +2525,6 @@
   <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
   <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ВопросыПоЗадачам</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_ОценкаЧасов</informationRegisters>
   <informationRegisters>InformationRegister.СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.СообщенияОбменаДаннымиОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.СоответствияОбъектовИнформационныхБаз</informationRegisters>
@@ -2560,11 +2561,14 @@
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ПользовательскиеНастройки</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ОценкаЧасов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Центр_ВидыПользовательскихНастроек</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
   <tasks>Task.ЗадачаИсполнителя</tasks>
 </mdclass:Configuration>
