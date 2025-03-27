@@ -25,4 +25,7 @@
   <content>Catalog.Пользователи</content>
   <content>InformationRegister.Центр_ПользовательскиеНастройки</content>
   <content>Catalog.Центр_МеткиЗадач</content>
+  <content>Document.Центр_ТрудозатратыПоЗадаче</content>
+  <content>AccumulationRegister.Центр_ЧасыТрудозатрат</content>
+  <content>InformationRegister.Центр_ОценкаЧасов</content>
 </mdclass:Subsystem>
