@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4efaced7-dc80-4094-82d6-93aa10e5aca7">
+  <producedTypes>
+    <objectType typeId="c1b31f32-5c84-4ace-927b-e2a64500d9e4" valueTypeId="43d19db6-f9ed-4840-8451-78e820bff828"/>
+    <refType typeId="6e099990-729d-44b4-9db5-3c5b90d4782a" valueTypeId="03d2ff7f-ec76-4c39-907b-74ec1c91421c"/>
+    <selectionType typeId="5b4d4d55-a8ca-45b9-82fb-593cb7ef49a3" valueTypeId="3cc9d2c0-f757-4094-9528-6b57d32895ff"/>
+    <listType typeId="e0045361-f7cd-4c3b-b85b-6def4a4114ed" valueTypeId="1eb2683d-807f-4af8-8b7f-1765081f0008"/>
+    <managerType typeId="78427484-0793-4d74-9046-31980bf7ceb3" valueTypeId="3f73946a-1813-472f-bb6f-286ca1a89a04"/>
+  </producedTypes>
+  <name>Центр_ТрудозатратыПоЗадаче</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудозатраты по задаче</value>
+  </synonym>
+  <comment>Трудозатраты по задаче</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Центр_ТрудозатратыПоЗадаче.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Центр_Задача</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Трудозатраты по задаче</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Трудозатраты по задаче</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Центр_ТрудозатратыПоЗадаче.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Центр_ЧасыТрудозатрат</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f6a5d736-2c15-4e00-8525-3816f355390e">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be2147fa-cb57-48b2-828b-f22e65fdcfa0">
+    <name>ОписаниеДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание действий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63d20778-7196-4f35-bd55-98453ce6c9d4">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="41d2732f-2aa1-4295-b36d-c3719798d31c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

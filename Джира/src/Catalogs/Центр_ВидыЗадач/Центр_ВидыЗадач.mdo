@@ -56,6 +56,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0d0d51d1-2819-4662-aa45-7fc59406f450">
+    <name>КонтрольВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f1f8f95b-04ae-452d-a7f6-558c3b78ee5d">
     <name>ФормаЭлемента</name>
     <synonym>

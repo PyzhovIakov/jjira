@@ -122,25 +122,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d0281d85-9af8-43d2-aef1-86180c186b10">
-    <name>Длительность</name>
-    <synonym>
-      <key>ru</key>
-      <value>Длительность</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-        <scale>1</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="70c3ce81-f9c1-4b64-ab6f-fecc17573d68">
     <name>Приоритет</name>
     <synonym>
@@ -186,11 +167,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a1335973-7b34-4983-8619-1c1d0a10d91e">
-    <name>ЭтоДень</name>
+  <attributes uuid="344af108-6d8a-4256-889c-07e284fae23a">
+    <name>УчетВремени</name>
     <synonym>
       <key>ru</key>
-      <value>Это день</value>
+      <value>Учет времени</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -201,11 +182,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="344af108-6d8a-4256-889c-07e284fae23a">
-    <name>УчетВремени</name>
+  <attributes uuid="8255fb71-7b30-4c67-87da-1ad58b89f31a">
+    <name>КонтрольВремени</name>
     <synonym>
       <key>ru</key>
-      <value>Учет времени</value>
+      <value>Контроль времени</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -252,11 +233,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d113aa1e-17e3-476d-b799-f4625a958d5c">
-    <name>ФормаПодтвержденияВзятияЗадачи</name>
+  <forms uuid="376b13a0-831d-4cd8-8a16-efd2b11dbb97">
+    <name>ФормаСозданияСогласованияЗадачи</name>
     <synonym>
       <key>ru</key>
-      <value>Форма подтверждения взятия задачи</value>
+      <value>Форма создания согласования задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30554137-3ea6-4697-9a0c-445e0df044ff">
+    <name>ФормаОтветаСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ответа согласования</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -322,6 +312,32 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="005cf5c9-1a5d-4bd4-9519-b4647d8e5a07">
+    <producedTypes>
+      <objectType typeId="85b2040f-f047-42ac-b007-3149dfae0e91" valueTypeId="0bbca16c-c6e4-42d5-9899-2609c1335b85"/>
+      <rowType typeId="2fd25ab4-1ef9-40d2-8687-84b1467ef160" valueTypeId="e237b9d9-4054-4ae8-97a7-f2310b338bf6"/>
+    </producedTypes>
+    <name>Метки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метки</value>
+    </synonym>
+    <attributes uuid="241f9b2a-5787-4f2f-817f-16a15fe827c4">
+      <name>Метка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Центр_МеткиЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
