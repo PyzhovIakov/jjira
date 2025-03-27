@@ -1822,6 +1822,7 @@
   <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
   <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Центр_Триггеры</catalogs>
+  <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -1997,6 +1998,7 @@
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.Центр_Канбан</dataProcessors>
+  <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеАдресныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</informationRegisters>
@@ -2151,9 +2153,11 @@
   <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
   <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ВопросыПоЗадачам</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ПользовательскиеНастройки</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Центр_ВидыПользовательскихНастроек</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
   <tasks>Task.ЗадачаИсполнителя</tasks>
 </mdclass:Configuration>

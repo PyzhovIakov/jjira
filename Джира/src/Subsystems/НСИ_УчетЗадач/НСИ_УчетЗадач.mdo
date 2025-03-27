@@ -21,4 +21,8 @@
   <content>InformationRegister.Центр_НастройкиПользователяКанБан</content>
   <content>InformationRegister.Центр_ВопросыПоЗадачам</content>
   <content>Catalog.Центр_Триггеры</content>
+  <content>ChartOfCharacteristicTypes.Центр_ВидыПользовательскихНастроек</content>
+  <content>Catalog.Пользователи</content>
+  <content>InformationRegister.Центр_ПользовательскиеНастройки</content>
+  <content>Catalog.Центр_МеткиЗадач</content>
 </mdclass:Subsystem>
