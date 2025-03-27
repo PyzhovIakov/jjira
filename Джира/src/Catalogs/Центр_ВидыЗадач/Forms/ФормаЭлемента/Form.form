@@ -116,6 +116,7 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>Tumbler</radioButtonsType>
       <choiceList>
         <value xsi:type="core:ReferenceValue">
           <value>Enum.Центр_ПредставленияВидовЗадачПоПостановщику.EnumValue.Партнер</value>

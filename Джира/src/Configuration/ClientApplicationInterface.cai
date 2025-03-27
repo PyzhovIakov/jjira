@@ -4,5 +4,5 @@
   <left xsi:type="cai:CaiPanel" id="1cb27ab4-c53a-4175-a183-8649161dc627" name="SectionPanel" displayType="PictureAndText"/>
   <unset id="13322b22-3960-4d68-93a6-fe2dd7f28ca3" name="FavoritePanel"/>
   <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
-  <unset id="a601bfeb-9c4e-46bf-8001-e2acfff2bd1b" name="FunctionsPanel"/>
+  <unset id="b2735bd3-d822-4430-ba59-c9e869693b24" name="FunctionsPanel"/>
 </cai:ClientApplicationInterface>
