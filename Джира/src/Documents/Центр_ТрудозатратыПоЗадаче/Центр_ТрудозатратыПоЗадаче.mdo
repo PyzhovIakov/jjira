@@ -10,8 +10,9 @@
   <name>Центр_ТрудозатратыПоЗадаче</name>
   <synonym>
     <key>ru</key>
-    <value>Центр трудозатраты по задаче</value>
+    <value>Трудозатраты по задаче</value>
   </synonym>
+  <comment>Трудозатраты по задаче</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Центр_ТрудозатратыПоЗадаче.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -19,6 +20,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Трудозатраты по задаче</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Трудозатраты по задаче</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

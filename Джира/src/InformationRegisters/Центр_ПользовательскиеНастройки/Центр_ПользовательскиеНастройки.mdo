@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Пользовательские настройки (Джира)</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пользовательские настройки (Джира)</value>
+  </listPresentation>
   <resources uuid="c8fe2cce-8e63-4b9d-9f1e-3e19a8be76b0">
     <name>Значение</name>
     <synonym>

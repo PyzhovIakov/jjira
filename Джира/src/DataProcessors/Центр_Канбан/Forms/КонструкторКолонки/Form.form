@@ -927,12 +927,11 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	Центр_Задача.Ссылка,
-	Центр_Задача.ВерсияДанных,
-	Центр_Задача.ПометкаУдаления,
-	Центр_Задача.Номер,
+	Центр_ИсполнителиЗадачСрезПоследних.Исполнитель,
+	Центр_СтатусыЗадачСрезПоследних.Статус,
 	Центр_Задача.Дата,
-	Центр_Задача.Проведен,
+	Центр_Задача.Номер,
+	Центр_Задача.Ссылка,
 	Центр_Задача.Наименование,
 	Центр_Задача.ОписаниеЗадачи,
 	Центр_Задача.ВидЗадачи,
@@ -940,13 +939,19 @@
 	Центр_Задача.Дедлайн,
 	Центр_Задача.Приоритет,
 	Центр_Задача.Автор,
-	Центр_Задача.ГлавнаяЗадача КАК ГлавнаяЗадача,
-	Центр_ИсполнителиЗадачСрезПоследних.Исполнитель,
-	Центр_СтатусыЗадачСрезПоследних.Статус,
+	Центр_Задача.ГлавнаяЗадача,
+	Центр_Задача.УчетВремени,
+	Центр_Задача.КонтрольВремени,
 	Центр_Задача.Наблюдатели.(
 		Ссылка,
 		НомерСтроки,
-		Пользовалель)
+		Пользовалель),
+	Центр_Задача.Метки.(
+		Ссылка,
+		НомерСтроки,
+		Метка),
+	Центр_Задача.МоментВремени,
+	Центр_Задача.Представление
 ИЗ
 	Документ.Центр_Задача КАК Центр_Задача
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ИсполнителиЗадач.СрезПоследних КАК Центр_ИсполнителиЗадачСрезПоследних
@@ -960,20 +965,12 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номер</dataPath>
         <field>Номер</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Дата</dataPath>
         <field>Дата</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наименование</dataPath>
@@ -1028,10 +1025,6 @@
         <field>Ссылка</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВерсияДанных</dataPath>
-        <field>ВерсияДанных</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Исполнитель</dataPath>
         <field>Исполнитель</field>
       </fields>
@@ -1047,9 +1040,41 @@
         <dataPath>УчетВремени</dataPath>
         <field>УчетВремени</field>
       </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КонтрольВремени</dataPath>
+        <field>КонтрольВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Метки</dataPath>
+        <field>Метки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Метки.Ссылка</dataPath>
+        <field>Метки.Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Метки.НомерСтроки</dataPath>
+        <field>Метки.НомерСтроки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Метки.Метка</dataPath>
+        <field>Метки.Метка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЧекЛист</dataPath>
         <field>ЧекЛист</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
       </fields>
       <parameters>
         <name>Период</name>

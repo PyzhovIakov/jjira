@@ -20,6 +20,14 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды пользовательских настроек (Джира)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды пользовательских настроек (Джира)</value>
+  </listPresentation>
   <type>
     <types>CatalogRef.Центр_ГруппыДоступаКЗадачам</types>
     <types>CatalogRef.Центр_ВидыЗадач</types>

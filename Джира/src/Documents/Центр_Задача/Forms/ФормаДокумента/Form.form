@@ -1092,10 +1092,6 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Исполнитель</segments>
             </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ИсполнительПриИзменении</name>
-            </handlers>
             <extendedTooltip>
               <name>ИсполнительРасширеннаяПодсказка</name>
               <id>337</id>
@@ -2117,6 +2113,10 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

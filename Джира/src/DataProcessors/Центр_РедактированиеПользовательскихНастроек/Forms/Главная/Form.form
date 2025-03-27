@@ -402,10 +402,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:ObjectFormExtInfo">
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
 </form:Form>
