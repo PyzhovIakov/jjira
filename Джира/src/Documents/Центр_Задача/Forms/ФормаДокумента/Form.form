@@ -1240,9 +1240,6 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <hyperlink>true</hyperlink>
-                <border xsi:type="core:BorderDef">
-                  <width>1</width>
-                </border>
               </extInfo>
             </items>
             <items xsi:type="form:Button">
@@ -1744,9 +1741,6 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
-        <border xsi:type="core:BorderDef">
-          <width>1</width>
-        </border>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -2096,16 +2090,16 @@
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

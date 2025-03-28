@@ -6,30 +6,40 @@
     <value>Стандартные подсистемы</value>
   </synonym>
   <subsystems>АдресныйКлассификатор</subsystems>
-  <subsystems>ВариантыОтчетов</subsystems>
-  <subsystems>Взаимодействия</subsystems>
-  <subsystems>Банки</subsystems>
-  <subsystems>ВнешниеКомпоненты</subsystems>
-  <subsystems>ВерсионированиеОбъектов</subsystems>
+  <subsystems>Анкетирование</subsystems>
   <subsystems>БазоваяФункциональность</subsystems>
-  <subsystems>ДатыЗапретаИзменения</subsystems>
-  <subsystems>ГрафикиРаботы</subsystems>
-  <subsystems>ГенерацияШтрихкода</subsystems>
-  <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
+  <subsystems>Банки</subsystems>
   <subsystems>БизнесПроцессыИЗадачи</subsystems>
+  <subsystems>Валюты</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>ВерсионированиеОбъектов</subsystems>
+  <subsystems>Взаимодействия</subsystems>
+  <subsystems>ВнешниеКомпоненты</subsystems>
+  <subsystems>ГенерацияШтрихкода</subsystems>
+  <subsystems>ГрафикиРаботы</subsystems>
+  <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
+  <subsystems>ДатыЗапретаИзменения</subsystems>
   <subsystems>ДополнительныеОтчетыИОбработки</subsystems>
   <subsystems>ЗавершениеРаботыПользователей</subsystems>
   <subsystems>ЗагрузкаДанныхИзФайла</subsystems>
+  <subsystems>ЗаметкиПользователя</subsystems>
   <subsystems>ЗапретРедактированияРеквизитовОбъектов</subsystems>
+  <subsystems>ЗащитаПерсональныхДанных</subsystems>
+  <subsystems>ИнтерфейсOData</subsystems>
+  <subsystems>ИнформацияПриЗапуске</subsystems>
   <subsystems>КалендарныеГрафики</subsystems>
   <subsystems>КонструкторФормул</subsystems>
   <subsystems>КонтактнаяИнформация</subsystems>
   <subsystems>КонтрольВеденияУчета</subsystems>
   <subsystems>КонтрольРаботыПользователей</subsystems>
+  <subsystems>МашиночитаемыеДоверенности</subsystems>
+  <subsystems>Мультиязычность</subsystems>
+  <subsystems>НапоминанияПользователя</subsystems>
   <subsystems>НастройкаПорядкаЭлементов</subsystems>
   <subsystems>НастройкиПрограммы</subsystems>
   <subsystems>ОбменДанными</subsystems>
   <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>ОбновлениеКонфигурации</subsystems>
   <subsystems>Обсуждения</subsystems>
   <subsystems>Организации</subsystems>
   <subsystems>ОтправкаSMS</subsystems>
@@ -58,4 +68,8 @@
   <subsystems>УправлениеДоступом</subsystems>
   <subsystems>УправлениеИтогамиИАгрегатами</subsystems>
   <subsystems>УчетОригиналовПервичныхДокументов</subsystems>
+  <subsystems>ЦентрМониторинга</subsystems>
+  <subsystems>ШаблоныСообщений</subsystems>
+  <subsystems>ЭлектроннаяПодпись</subsystems>
+  <subsystems>ЭлектроннаяПодписьСервисаDSS</subsystems>
 </mdclass:Subsystem>

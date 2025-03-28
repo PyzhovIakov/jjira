@@ -9,10 +9,12 @@
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</content>
   <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <content>DataProcessor.УстановкаОбновлений</content>
   <content>DataProcessor.НастройкаРезервногоКопированияИБ</content>
   <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
   <content>DataProcessor.СдвигГраницыИтогов</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов.Command.АвтоматическоеИзвлечениеТекстов</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
   <content>DataProcessor.ЗагрузкаКлассификатораБанков</content>
 </mdclass:FunctionalOption>

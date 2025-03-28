@@ -778,6 +778,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <functionalOptions>FunctionalOption.ИспользоватьЭлектронныеПодписи</functionalOptions>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Подписать</segments>
     </settingsSavedData>

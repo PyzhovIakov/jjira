@@ -19,6 +19,7 @@
     <types>InformationRegisterRecordSet.УдалитьЗамерыВремени3</types>
     <types>InformationRegisterRecordSet.ОбщиеПоставляемыеМакетыПечати</types>
     <types>InformationRegisterRecordSet.БезопасноеХранилищеДанных</types>
+    <types>InformationRegisterRecordSet.КлассификаторыМЧД</types>
     <types>InformationRegisterRecordSet.НеразделенныеПользователи</types>
     <types>InformationRegisterRecordSet.РежимыПодключенияВнешнихМодулей</types>
     <types>InformationRegisterRecordSet.СлужебныеАдресныеСведения</types>
@@ -26,9 +27,11 @@
     <types>InformationRegisterRecordSet.ЗависимостиПравДоступа</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыПрограммы</types>
     <types>InformationRegisterRecordSet.ДомаЗданияСтроения</types>
+    <types>InformationRegisterRecordSet.ПакетыИнформацииПриЗапуске</types>
     <types>InformationRegisterRecordSet.ОбработчикиОбновленияОбщихДанных</types>
     <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаОбластейДанных</types>
     <types>InformationRegisterRecordSet.МуниципальнаяИерархия</types>
+    <types>InformationRegisterRecordSet.ОбластиПерсональныхДанных</types>
     <types>InformationRegisterRecordSet.ДополнительныеАдресныеСведения</types>
     <types>InformationRegisterRecordSet.ЗагруженныеВерсииАдресныхСведений</types>
     <types>InformationRegisterRecordSet.ИсторияАдресныхОбъектов</types>
