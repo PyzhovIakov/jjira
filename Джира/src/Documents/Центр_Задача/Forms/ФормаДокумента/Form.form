@@ -982,6 +982,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.КонтрольВремени</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>КонтрольВремениПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>КонтрольВремениРасширеннаяПодсказка</name>
                 <id>409</id>
