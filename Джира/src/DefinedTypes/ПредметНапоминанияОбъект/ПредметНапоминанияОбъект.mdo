@@ -9,7 +9,6 @@
     <value>Предмет напоминания объект</value>
   </synonym>
   <type>
-    <types>DocumentObject.Центр_Задача</types>
     <types>CatalogObject.Заметки</types>
     <types>CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>

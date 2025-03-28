@@ -2530,6 +2530,12 @@
       <segments>НаборКонстант.ИспользоватьДополнительныеРеквизитыИСведения</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьЗаметки</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьНапоминанияПользователя</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьПочтовыйКлиент</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -2540,6 +2546,9 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьСинхронизациюДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьЭлектронныеПодписи</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.КаталогСообщенийОбменаДаннымиДляLinux</segments>

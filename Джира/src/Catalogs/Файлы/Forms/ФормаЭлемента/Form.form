@@ -4068,8 +4068,7 @@
       </title>
       <id>14</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>EnumRef.ТипыПодписиКриптографии</types>
       </valueType>
       <view>
         <common>true</common>

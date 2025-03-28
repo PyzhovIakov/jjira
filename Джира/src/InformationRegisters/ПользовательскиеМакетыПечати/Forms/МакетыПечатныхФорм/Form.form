@@ -666,11 +666,17 @@
       <type>PictureField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.ПереводТекста</picture>
+      </headerPicture>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <extInfo xsi:type="form:ImageFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.ПереводТекста</picture>
+        </valuesPicture>
         <border xsi:type="core:BorderDef">
           <style>Single</style>
           <width>1</width>

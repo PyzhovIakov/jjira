@@ -17,8 +17,8 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Delete</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ДеревоНастроекНастройка</name>

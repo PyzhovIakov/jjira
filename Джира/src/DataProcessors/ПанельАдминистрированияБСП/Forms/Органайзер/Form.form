@@ -888,6 +888,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьЗаметки</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <handlers>
@@ -964,6 +967,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьНапоминанияПользователя</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <handlers>
@@ -1070,6 +1076,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИспользоватьАнкетирование</segments>
+        </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
@@ -1150,6 +1159,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьШаблоныСообщений</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <handlers>
@@ -1234,7 +1246,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>Catalog.ШаблоныСообщений.StandardCommand.OpenList</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2511,6 +2523,9 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ЗаголовокСистемы</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьАнкетирование</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьВнешнихПользователей</segments>

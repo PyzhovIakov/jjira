@@ -8,10 +8,12 @@
   <comment>// АПК:1371 проверка применима для всех объектов метаданных, в т.ч. удаляемых</comment>
   <source>
     <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
+    <types>ConstantValueManager.СоздаватьЭлектронныеПодписиНаСервере</types>
     <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервиса</types>
     <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
     <types>CatalogObject.ХранилищеДвоичныхДанных</types>
     <types>CatalogObject.ГруппыИсполнителейЗадач</types>
+    <types>ConstantValueManager.ПользовательСтандартногоИнтерфейсаOData</types>
     <types>ConstantValueManager.СписокЗапрещенныхРасширений</types>
     <types>CatalogObject.ВерсииФайлов</types>
     <types>ConstantValueManager.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</types>
@@ -19,6 +21,7 @@
     <types>ConstantValueManager.ХранитьИсториюРассылкиОтчетов</types>
     <types>ConstantValueManager.ИспользоватьГруппыВнешнихПользователей</types>
     <types>ConstantValueManager.ПровайдерSMS</types>
+    <types>ConstantValueManager.ТипПодписиКриптографииПоУмолчанию</types>
     <types>ConstantValueManager.КаталогСообщенийОбменаДаннымиДляLinux</types>
     <types>ConstantValueManager.СоздаватьПодкаталогиСИменамиВладельцев</types>
     <types>ConstantValueManager.ИзменятьЗаданияЗаднимЧислом</types>
@@ -31,11 +34,13 @@
     <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</types>
     <types>ConstantValueManager.НастройкиПодчиненногоУзлаРИБ</types>
     <types>CatalogObject.РассылкиОтчетов</types>
+    <types>ConstantValueManager.ДополнительныйЯзык2</types>
     <types>ConstantValueManager.ИспользоватьДатыЗапретаИзменения</types>
     <types>CatalogObject.ПоставляемыеДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.СостояниеОтправкиСерверныхОповещений</types>
     <types>ConstantValueManager.ИзвлекатьТекстыФайловНаСервере</types>
     <types>CatalogObject.ПрофилиГруппДоступа</types>
+    <types>ConstantValueManager.ДобавлятьМеткиВремениАвтоматически</types>
     <types>ConstantValueManager.ПрофильБезопасностиИнформационнойБазы</types>
     <types>ConstantValueManager.СинхронизироватьФайлы</types>
     <types>ConstantValueManager.ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском</types>
@@ -48,13 +53,16 @@
     <types>ConstantValueManager.СтандартныеПодсистемыВАвтономномРежиме</types>
     <types>ConstantValueManager.СведенияОБлокируемыхОбъектах</types>
     <types>ConstantValueManager.ДанныеДляОтложенногоОбновления</types>
+    <types>ConstantValueManager.ПроверятьЭлектронныеПодписиНаСервере</types>
     <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписейУниверсально</types>
     <types>ConstantValueManager.ПутьКТомуБезУчетаРегиональныхНастроек</types>
     <types>ConstantValueManager.РазрешитьВыполнениеДООРегламентнымиЗаданиямиВМоделиСервиса</types>
+    <types>ConstantValueManager.ДанныеДляИзмененияМультиязычныхРеквизитов</types>
     <types>ConstantValueManager.КаталогВременныхФайловДляWindows</types>
     <types>ConstantValueManager.НастройкиРегистрацииСобытийДоступаКДанным</types>
     <types>ConstantValueManager.ИспользоватьПрофилиБезопасностиДляДОО</types>
     <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
+    <types>ConstantValueManager.ИспользоватьШифрование</types>
     <types>ConstantValueManager.СообщениеОбменаДаннымиИзГлавногоУзла</types>
     <types>ConstantValueManager.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</types>
     <types>ConstantValueManager.ПоследнееОбновлениеДоступа</types>
@@ -64,6 +72,7 @@
     <types>ConstantValueManager.СписокРасширенийФайловOpenDocumentОбластиДанных</types>
     <types>ConstantValueManager.ПараметрыРезервногоКопирования</types>
     <types>ConstantValueManager.РегистрироватьПоказателиСерверныхОповещений</types>
+    <types>ConstantValueManager.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</types>
     <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
     <types>ConstantValueManager.ПараметрыАдминистрированияИБ</types>
     <types>ConstantValueManager.ИспользоватьАвтономнуюРаботуВМоделиСервиса</types>
@@ -75,6 +84,7 @@
     <types>ConstantValueManager.ПараметрыХраненияФайловВИБ</types>
     <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
     <types>ChartOfCharacteristicTypesObject.РазделыДатЗапретаИзменения</types>
+    <types>ConstantValueManager.АдресСервисаМЧДРР</types>
     <types>ConstantValueManager.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</types>
     <types>ConstantValueManager.ВерсияКлассификатораБанков</types>
     <types>ConstantValueManager.СведенияОбОбновленииИБ</types>
@@ -89,35 +99,46 @@
     <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
     <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
     <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСЛокальнойПрограммой</types>
+    <types>CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
     <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
     <types>ConstantValueManager.ВерсияДатЗапретаИзменения</types>
     <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныйЯзык1</types>
     <types>CatalogObject.ВнешниеПользователи</types>
+    <types>ConstantValueManager.СтатусОбновленияКонфигурации</types>
     <types>CatalogObject.ГруппыДоступа</types>
     <types>ConstantValueManager.ПрефиксПоследнегоАвтономногоРабочегоМеста</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныйЯзык2</types>
     <types>ConstantValueManager.СписокРасширенийТекстовыхФайлов</types>
     <types>CatalogObject.ВерсииРасширений</types>
     <types>ConstantValueManager.ИдентификаторИнформационнойБазы</types>
     <types>CatalogObject.Файлы</types>
+    <types>ConstantValueManager.УсовершенствоватьПодписиСДаты</types>
     <types>ConstantValueManager.СписокЗапрещенныхРасширенийОбластиДанных</types>
     <types>ConstantValueManager.ЗапрещатьЗагрузкуФайловПоРасширению</types>
+    <types>ConstantValueManager.РазрешенныеНеаккредитованныеУЦ</types>
     <types>CatalogObject.ОбщиеВнешниеКомпоненты</types>
     <types>CatalogObject.КлючиДоступа</types>
     <types>ConstantValueManager.ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>ConstantValueManager.ДополнительныйЯзык1</types>
     <types>ConstantValueManager.ПорядокОбрабатываемыхДанных</types>
     <types>CatalogObject.ГруппыПользователей</types>
     <types>ConstantValueManager.КаталогВременныхФайловДляLinux</types>
+    <types>CatalogObject.ПрограммыЭлектроннойПодписиИШифрования</types>
     <types>ConstantValueManager.ИспользоватьДатыЗапретаЗагрузки</types>
     <types>ConstantValueManager.ЗагрузитьРасширенияИзменяющиеСтруктуруДанных</types>
     <types>ConstantValueManager.ПрефиксУзлаРаспределеннойИнформационнойБазы</types>
     <types>ConstantValueManager.РегистрироватьИзмененияПравДоступа</types>
     <types>ConstantValueManager.ЗагрузитьСообщениеОбменаДанными</types>
     <types>ConstantValueManager.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</types>
+    <types>ConstantValueManager.УсовершенствоватьПодписиАвтоматически</types>
     <types>ConstantValueManager.ЗарегистрированыИзмененияДанных</types>
     <types>ConstantValueManager.НастройкаПроксиСервера</types>
     <types>ConstantValueManager.ИспользоватьУдалениеПомеченныхОбъектов</types>
+    <types>ConstantValueManager.ИспользоватьСервисDSS</types>
     <types>ConstantValueManager.УчетнаяЗаписьДляВосстановленияПароля</types>
+    <types>ConstantValueManager.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</types>
     <types>CatalogObject.Пользователи</types>
   </source>
   <event>BeforeWrite</event>

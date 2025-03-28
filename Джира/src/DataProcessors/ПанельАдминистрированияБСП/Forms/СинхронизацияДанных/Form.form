@@ -1054,7 +1054,7 @@
         </extInfo>
       </extendedTooltip>
       <type>Hyperlink</type>
-      <commandName>0</commandName>
+      <commandName>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.Command.НастройкиСтандартногоИнтерфейсаOData</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1173,6 +1173,12 @@
       <segments>НаборКонстант.ИспользоватьДополнительныеРеквизитыИСведения</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьЗаметки</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьНапоминанияПользователя</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьОценкуПроизводительностиСинхронизацииДанных</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -1186,6 +1192,9 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьСинхронизациюДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьЭлектронныеПодписи</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.КаталогСообщенийОбменаДаннымиДляLinux</segments>
