@@ -5655,8 +5655,7 @@
     <name>Язык</name>
     <id>1</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.ЯзыкиПечатныхФорм</types>
     </valueType>
     <view>
       <common>true</common>

@@ -814,7 +814,7 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.МоиЗаметкиПоПредмету</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
@@ -844,19 +844,19 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.СоздатьЗаметкуПоПредмету</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.ОтправитьПисьмо</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.ОтправитьSMS</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0</command>
+        <command>CommonCommand.Напомнить</command>
         <userVisible/>
       </cmiFragmentRecord>
     </commandBar>

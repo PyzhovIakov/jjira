@@ -15,80 +15,80 @@
     <picture>CommonPicture.РазделАдминистрирование</picture>
   </picture>
   <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
-  <content>DataProcessor.АктивныеПользователи</content>
   <content>DataProcessor.БлокировкаРаботыПользователей</content>
+  <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
+  <content>DataProcessor.АктивныеПользователи</content>
+  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>Report.УниверсальныйОтчет</content>
+  <content>DataProcessor.СдвигГраницыИтогов</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData</content>
+  <content>InformationRegister.ПравилаДляОбменаДанными</content>
   <content>DataProcessor.ЖурналРегистрации</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>CommonCommand.АвтономнаяРаботаВМоделиСервиса</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
   <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
   <content>DataProcessor.НастройкиПользователей</content>
   <content>Catalog.Пользователи</content>
-  <content>Catalog.ГруппыДоступа</content>
+  <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
   <content>Catalog.ГруппыПользователей</content>
+  <content>DataProcessor.ПереносФайлов</content>
+  <content>CommonForm.НастройкаКомандПечати</content>
+  <content>Catalog.КлючевыеОперации</content>
   <content>Catalog.ВнешниеПользователи</content>
+  <content>CommonCommand.НастройкиСинхронизацииДанныхВМоделиСервиса</content>
   <content>Catalog.ГруппыВнешнихПользователей</content>
+  <content>CommonCommand.НастройкиСинхронизацииДанных</content>
   <content>Catalog.ТомаХраненияФайлов</content>
-  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>CommonForm.Расширения</content>
   <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>Report.ДатыЗапретаЗагрузки</content>
   <content>InformationRegister.ПользовательскиеМакетыПечати</content>
   <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
-  <content>Catalog.ПрофилиГруппДоступа</content>
   <content>Catalog.ДополнительныеОтчетыИОбработки</content>
   <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>Report.ОбъемНенужныхФайлов</content>
+  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
   <content>InformationRegister.ИсполнителиЗадач</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
-  <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
-  <content>CommonCommand.НастройкиСинхронизацииДанных</content>
   <content>Catalog.СценарииОбменовДанными</content>
+  <content>Catalog.РассылкиОтчетов</content>
+  <content>CommonForm.ПараметрыПроксиСервера</content>
   <content>Catalog.ВариантыОтчетов</content>
-  <content>InformationRegister.ДатыЗапретаИзменения</content>
   <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <content>InformationRegister.ДатыЗапретаИзменения</content>
   <content>DataProcessor.НастройкаРезервногоКопированияИБ</content>
   <content>CommonPicture.РазделАдминистрирование48</content>
-  <content>Catalog.РассылкиОтчетов</content>
-  <content>CommonCommand.АвтономнаяРаботаВМоделиСервиса</content>
   <content>CommonCommand.АвтономнаяРабота</content>
-  <content>CommonCommand.НастройкиСинхронизацииДанныхВМоделиСервиса</content>
   <content>DataProcessor.ПанельАдминистрированияБСП</content>
-  <content>CommonForm.ПараметрыПроксиСервера</content>
+  <content>Report.РезультатыПроверкиУчета</content>
   <content>InformationRegister.НомераОтсканированныхФайлов</content>
   <content>DataProcessor.ОценкаПроизводительности</content>
   <content>CommonForm.НастройкаОтправкиSMS</content>
-  <content>Catalog.КлассификаторБанков</content>
+  <content>InformationRegister.АдресныеОбъекты</content>
   <content>CommonCommand.ДобавитьПользователейСервиса</content>
   <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
-  <content>Report.ДатыЗапретаЗагрузки</content>
   <content>Report.ДатыЗапретаИзменения</content>
-  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
+  <content>CommonForm.НастройкиВходаПользователей</content>
   <content>DataProcessor.РезультатыОбновленияПрограммы</content>
-  <content>Catalog.КлючевыеОперации</content>
-  <content>DataProcessor.УниверсальныйОбменДаннымиXML</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
   <content>CommonCommand.ПанельОтчетовАдминистрирование</content>
   <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
-  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
-  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
-  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
-  <content>DataProcessor.СдвигГраницыИтогов</content>
-  <content>DataProcessor.ПереносФайлов</content>
-  <content>Report.ОбъемНенужныхФайлов</content>
   <content>DataProcessor.ПоискИУдалениеДублей</content>
-  <content>InformationRegister.ПравилаДляОбменаДанными</content>
   <content>Report.ПрогрессОтложенногоОбновления</content>
-  <content>Report.УниверсальныйОтчет</content>
   <content>CommonForm.НастройкаДоступаКСервисуMorpher</content>
-  <content>CommonForm.НастройкаКомандПечати</content>
   <content>CommonCommand.ПредупрежденияПриСинхронизацииДанных</content>
-  <content>CommonForm.Расширения</content>
   <content>InformationRegister.НастройкиОчисткиФайлов</content>
   <content>CommonCommand.ВремяВПриложении</content>
-  <content>CommonForm.НастройкиВходаПользователей</content>
-  <content>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData</content>
   <content>Catalog.ПрофилиКлючевыхОпераций</content>
   <content>Report.ОценкаПроизводительности</content>
   <content>DataProcessor.ПодключениеОбсуждений</content>
   <content>Catalog.ПравилаПроверкиУчета</content>
   <content>Report.ИспользуемыеВнешниеРесурсы</content>
-  <content>Report.РезультатыПроверкиУчета</content>
-  <content>InformationRegister.АдресныеОбъекты</content>
   <content>Catalog.ВнешниеКомпоненты</content>
   <content>Catalog.СостоянияОригиналовПервичныхДокументов</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
