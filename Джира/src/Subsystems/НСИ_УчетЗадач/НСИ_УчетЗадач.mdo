@@ -30,4 +30,7 @@
   <content>InformationRegister.Центр_ОценкаЧасов</content>
   <content>DataProcessor.Центр_ТестУведомлений</content>
   <content>InformationRegister.НапоминанияПользователя</content>
+  <content>Catalog.Центр_КонтрольНадЭтапамиЗадач</content>
+  <content>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</content>
+  <content>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</content>
 </mdclass:Subsystem>
