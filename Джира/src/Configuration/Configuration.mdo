@@ -1381,6 +1381,7 @@
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
   <commonModules>CommonModule.Центр_УведомленияПользователей</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
+  <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1587,6 +1588,7 @@
   <scheduledJobs>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЭкспортОценкиПроизводительности</scheduledJobs>
+  <scheduledJobs>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</functionalOptions>
   <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
@@ -2148,6 +2150,7 @@
   <catalogs>Catalog.Центр_Триггеры</catalogs>
   <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
   <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
+  <catalogs>Catalog.Центр_КонтрольНадЭтапамиЗадач</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2565,6 +2568,7 @@
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ПользовательскиеНастройки</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ОценкаЧасов</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

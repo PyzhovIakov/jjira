@@ -28,4 +28,7 @@
   <content>Document.Центр_ТрудозатратыПоЗадаче</content>
   <content>AccumulationRegister.Центр_ЧасыТрудозатрат</content>
   <content>InformationRegister.Центр_ОценкаЧасов</content>
+  <content>Catalog.Центр_КонтрольНадЭтапамиЗадач</content>
+  <content>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</content>
+  <content>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</content>
 </mdclass:Subsystem>

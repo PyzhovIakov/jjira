@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cf85b3f-7ecb-4a65-848b-08a43cb225ca">
+  <producedTypes>
+    <selectionType typeId="65438776-3819-4927-a82d-549adadee832" valueTypeId="215646b9-a230-4295-bd40-4d2ee3fc85bf"/>
+    <listType typeId="3ac8b6b1-5b65-436d-9e0c-62984b4c6d4a" valueTypeId="c4b72ce4-2a03-47f8-beea-aeee0125d955"/>
+    <managerType typeId="97be74bc-8f60-4647-a4d6-ecba61ea1011" valueTypeId="016cebfe-9081-4dda-a0af-20a9402ddbc5"/>
+    <recordSetType typeId="2ccf287a-16f1-4c7a-9d6d-6794f74c0526" valueTypeId="62b8bac0-7bea-4968-a568-535d4604456b"/>
+    <recordKeyType typeId="7e78b0ac-6d02-4759-9ae0-e876dbd2b909" valueTypeId="cdf1d169-6e7a-4e8a-b214-33cb676b26d2"/>
+    <recordType typeId="5b83db7c-35e2-4139-a7d6-d2572c86d7fd" valueTypeId="780ac0a8-ff7e-4281-8e8e-3095fcc7d61c"/>
+    <recordManagerType typeId="2b8a582a-2b99-4a51-b55b-d77a10f8c089" valueTypeId="e0de46f9-8f17-46bd-9e6a-5d72fbdc304a"/>
+  </producedTypes>
+  <name>Центр_ПросроченныеДействияПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просроченные действия по задачам</value>
+  </synonym>
+  <comment>Просроченные действия по задачам</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Просроченные действия по задачам</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Просроченные действия по задачам</value>
+  </listPresentation>
+  <dimensions uuid="b5261ebb-bc84-4a64-a84c-098d8864a685">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ae0fd13-a7cd-4308-a86d-1e74ba608f39">
+    <name>Этап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_КонтрольНадЭтапамиЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
