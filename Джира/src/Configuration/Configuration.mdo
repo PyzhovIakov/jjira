@@ -2376,6 +2376,7 @@
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.Центр_ТестУведомлений</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.АрхивСообщенийОбменов</informationRegisters>
@@ -2523,13 +2524,6 @@
   <informationRegisters>InformationRegister.СлужебныеАдресныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.СнимкиОтчетов</informationRegisters>
   <informationRegisters>InformationRegister.СогласияНаОбработкуПерсональныхДанных</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_КомментарииЗадач</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_СтатусыЗадач</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_ВопросыПоЗадачам</informationRegisters>
   <informationRegisters>InformationRegister.СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.СообщенияОбменаДаннымиОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.СоответствияОбъектовИнформационныхБаз</informationRegisters>
@@ -2558,6 +2552,16 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ВопросыПоЗадачам</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ИсполнителиЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_КомментарииЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователейКолонокКанБан</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_НастройкиПользователяКанБан</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ОценкаЧасов</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ПользовательскиеНастройки</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_СвязанныеЗадачи</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_СтатусыЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписиМЧД</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьДвоичныеДанныеФайлов</informationRegisters>
@@ -2566,9 +2570,6 @@
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_ПользовательскиеНастройки</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_ОценкаЧасов</informationRegisters>
-  <informationRegisters>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
