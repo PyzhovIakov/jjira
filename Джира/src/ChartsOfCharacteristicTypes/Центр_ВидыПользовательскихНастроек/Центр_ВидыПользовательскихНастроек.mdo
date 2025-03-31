@@ -50,6 +50,7 @@
       <description>Начальное заполнение задачи</description>
       <isFolder>true</isFolder>
       <code>000000005</code>
+      <type/>
       <content id="5a6c62ec-f336-4399-9832-b72dff5870e9">
         <name>ВидЗадачи</name>
         <description>Вид задачи</description>
@@ -106,6 +107,7 @@
       <description>Способы оповещения</description>
       <isFolder>true</isFolder>
       <code>000000006</code>
+      <type/>
       <content id="b76eb155-0994-4772-9383-fc2087654778">
         <name>Битрикс</name>
         <description>Битрикс</description>

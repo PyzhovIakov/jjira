@@ -23,6 +23,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОбновлениеСтатусовМЧД</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ПолучениеИОтправкаЭлектронныхПисем</metadata>
     <use>DontUse</use>
   </content>
@@ -47,6 +51,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ЗамерыКомментарииСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ОчисткаНенужныхФайлов</metadata>
     <use>DontUse</use>
   </content>
@@ -60,6 +68,10 @@
   </content>
   <content>
     <metadata>Constant.ИспользоватьДополнительныеОтчетыИОбработки</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.СтатистикаКонфигурации</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -159,6 +171,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.АккредитованныеУдостоверяющиеЦентры</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</metadata>
     <use>DontUse</use>
   </content>
@@ -195,6 +211,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОбластиПерсональныхДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.УдалениеНеиспользуемыхВнешнихКомпонент</metadata>
     <use>DontUse</use>
   </content>
@@ -223,6 +243,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.КлассификаторОшибокКриптографии</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</metadata>
     <use>DontUse</use>
   </content>
@@ -248,6 +272,10 @@
   </content>
   <content>
     <metadata>Constant.ОсновнойЯзык</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ИспользоватьДополнительныйЯзык1</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -315,11 +343,23 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ПакетыИнформацииПриЗапуске</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ЗамерыОбластиСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ПриоритетОбновленияВОбластяхДанных</metadata>
     <use>DontUse</use>
   </content>
   <content>
     <metadata>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ИспользоватьДополнительныйЯзык2</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -332,6 +372,10 @@
   </content>
   <content>
     <metadata>ScheduledJob.ОбновлениеАгрегатов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.КлассификаторыМЧД</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -363,6 +407,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ДатаПоследнегоОбновленияКлассификатораОшибок</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ИспользоватьОптимизированнуюЗаписьСозданияАвтономногоРабочегоМеста</metadata>
     <use>DontUse</use>
   </content>
@@ -372,6 +420,10 @@
   </content>
   <content>
     <metadata>InformationRegister.НеразделенныеПользователи</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.СпискиОтзываСертификатов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -387,6 +439,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ПродлениеДостоверностиПодписей</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ИзвлечениеТекста</metadata>
     <use>DontUse</use>
   </content>
@@ -395,7 +451,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ИспользоватьПолнотекстовыйПоиск</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ДополнительныйЯзык2</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -503,6 +567,14 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ДанныеДляИзмененияМультиязычныхРеквизитов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ОбластиСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.НастройкаПодчиненногоУзлаРИБЗавершена</metadata>
     <use>DontUse</use>
   </content>
@@ -539,6 +611,14 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОбновлениеКлассификаторовМЧД</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.СборИОтправкаСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.КаталогВременныхФайловДляWindows</metadata>
     <use>DontUse</use>
   </content>
@@ -551,7 +631,23 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ЗагрузкаКурсовВалют</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.РасчетСроковХраненияПерсональныхДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.БуферОперацийСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ОтправленныеСерверныеОповещения</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ПараметрыЦентраМониторинга</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -631,6 +727,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОбновлениеСостоянияЗаявленияНаВыпускСертификата</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ОчисткаИсторииРассылкиОтчетов</metadata>
     <use>DontUse</use>
   </content>
@@ -651,6 +751,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ДополнительныйЯзык1</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ПроверкаВеденияУчета</metadata>
     <use>DontUse</use>
   </content>
@@ -663,11 +767,31 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ДампыПлатформы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ЗамерыОперацииСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ИсточникДанныхАдресногоКлассификатора</metadata>
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ЗамерыСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.КомментарииСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ПараметрыХраненияФайловВИБ</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ОперацииСтатистики</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -679,7 +803,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.КомментарииОперацииСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ПакетыДляОтправки</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -688,6 +820,10 @@
   </content>
   <content>
     <metadata>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.СборИОтправкаОтчетовОбОшибках</metadata>
     <use>DontUse</use>
   </content>
   <content>

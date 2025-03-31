@@ -7,6 +7,7 @@
   </synonym>
   <location>Constant.ИспользоватьНапоминанияПользователя</location>
   <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.НапоминанияПользователя</content>
   <content>InformationRegister.НапоминанияПользователя</content>
   <content>Enum.СпособыУстановкиВремениНапоминания</content>
 </mdclass:FunctionalOption>

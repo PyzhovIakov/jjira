@@ -1641,6 +1641,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьЭлектронныеПодписи</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
             <event>OnChange</event>
@@ -1680,6 +1683,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьШифрование</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
             <event>OnChange</event>
@@ -1769,7 +1775,7 @@
           </extInfo>
         </extendedTooltip>
         <type>Hyperlink</type>
-        <commandName>0</commandName>
+        <commandName>CommonForm.НастройкиЭлектроннойПодписиИШифрования.StandardCommand.Open</commandName>
         <representation>Auto</representation>
         <width>43</width>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1825,7 +1831,7 @@
         </extInfo>
       </extendedTooltip>
       <type>Hyperlink</type>
-      <commandName>0</commandName>
+      <commandName>CommonForm.РазрешенныеНеаккредитованныеУЦ.StandardCommand.Open</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1952,21 +1958,27 @@
                   <key>ru</key>
                   <value>Базовая подпись (CAdES-BES)</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыПодписиКриптографии.EnumValue.БазоваяCAdESBES</value>
+                </value>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
                   <value>Подпись с меткой доверенного времени (CAdES-T)</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыПодписиКриптографии.EnumValue.СМеткойДоверенногоВремениCAdEST</value>
+                </value>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
                   <value>Архивная подпись (CAdES-A)</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипыПодписиКриптографии.EnumValue.АрхивнаяCAdESAv3</value>
+                </value>
               </choiceList>
             </extInfo>
           </items>
@@ -2933,6 +2945,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИспользоватьСервисDSS</segments>
+        </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
@@ -2991,7 +3006,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>DataProcessor.УправлениеПодключениемDSS.Command.СерверыDSS</commandName>
           <representation>Auto</representation>
           <width>43</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3024,7 +3039,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>DataProcessor.УправлениеПодключениемDSS.Command.УчетныеЗаписиDSS</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3895,8 +3910,7 @@
     </title>
     <id>4</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>EnumRef.ТипыПодписиКриптографии</types>
     </valueType>
     <view>
       <common>true</common>

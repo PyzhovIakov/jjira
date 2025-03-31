@@ -8,6 +8,7 @@
   <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>CommonCommand.ДобавитьПользователейСервиса</content>
+  <content>CommonCommand.ЗагрузитьКурсыВалют</content>
   <content>InformationRegister.БлокировкиСеансовОбластейДанных</content>
   <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
   <content>InformationRegister.ОчередьИзвлеченияТекста</content>

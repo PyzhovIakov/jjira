@@ -3591,19 +3591,15 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаЦентр_ПользовательскиеНастройки</name>
+      <name>ФормаНастройки</name>
       <id>448</id>
-      <title>
-        <key>ru</key>
-        <value>Настройки</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЦентр_ПользовательскиеНастройкиРасширеннаяПодсказка</name>
+        <name>ФормаНастройкиРасширеннаяПодсказка</name>
         <id>449</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3612,7 +3608,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.Центр_ПользовательскиеНастройки</commandName>
+      <commandName>Form.Command.Настройки</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -5056,10 +5052,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Центр_ПользовательскиеНастройки</name>
+    <name>Настройки</name>
     <title>
       <key>ru</key>
-      <value>Центр пользовательские настройки</value>
+      <value>Настройки</value>
     </title>
     <id>13</id>
     <use>
@@ -5067,7 +5063,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Центр_ПользовательскиеНастройки</name>
+        <name>Настройки</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

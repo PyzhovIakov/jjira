@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6b0a8a1-68ee-40c4-91fb-1f0dada53170">
+  <name>Центр_ПроверкаВыполненияЭтаповКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка выполнения этапов контроля</value>
+  </synonym>
+  <comment>Проверка выполнения этапов контроля</comment>
+  <methodName>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля.Центр_ПроверкаВыполненияЭтаповКонтроля</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
