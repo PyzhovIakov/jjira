@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="231516e8-f582-40ea-974c-047dfb2972ac">
+  <producedTypes>
+    <listType typeId="c87d5a26-61bc-4104-97df-cd69435f97a2" valueTypeId="72f3b878-7ec9-4683-9aed-1a216931447e"/>
+    <managerType typeId="9f032c9c-c315-4dcd-8a41-1775b4f5ea9e" valueTypeId="5f9b2e0f-a92f-406f-9b66-a408949cff05"/>
+  </producedTypes>
+  <name>Центр_ВышестоящаяЗадача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр вышестоящая задача</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.Центр_Задача</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.Центр_Задача.Attribute.ГлавнаяЗадача</content>
+</mdclass:FilterCriterion>
