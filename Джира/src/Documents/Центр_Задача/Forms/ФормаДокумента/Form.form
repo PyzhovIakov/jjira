@@ -96,7 +96,7 @@
               <id>419</id>
               <title>
                 <key>ru</key>
-                <value>Главная задача</value>
+                <value>Вышестоящая</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -129,7 +129,7 @@
               <id>426</id>
               <title>
                 <key>ru</key>
-                <value>Подчиненная задача</value>
+                <value>Подчиненная</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2123,9 +2123,7 @@
       <id>19</id>
       <valueType>
         <types>String</types>
-        <stringQualifiers>
-          <length>150</length>
-        </stringQualifiers>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
