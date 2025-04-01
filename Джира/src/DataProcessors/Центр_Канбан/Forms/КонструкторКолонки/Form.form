@@ -949,13 +949,17 @@
 		НомерСтроки,
 		Метка),
 	Центр_Задача.МоментВремени,
-	Центр_Задача.Представление
+	Центр_Задача.Представление,
+	Центр_ПросроченныеДействияПоЗадачам.Этап КАК ПросроченоеДействие,
+	Центр_ПросроченныеДействияПоЗадачам.Пользователь КАК ПользовательПросроченныхДействий
 ИЗ
 	Документ.Центр_Задача КАК Центр_Задача
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ИсполнителиЗадач.СрезПоследних КАК Центр_ИсполнителиЗадачСрезПоследних
 		ПО Центр_Задача.Ссылка = Центр_ИсполнителиЗадачСрезПоследних.Задача
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_СтатусыЗадач.СрезПоследних КАК Центр_СтатусыЗадачСрезПоследних
-		ПО Центр_Задача.Ссылка = Центр_СтатусыЗадачСрезПоследних.Задача</queryText>
+		ПО Центр_Задача.Ссылка = Центр_СтатусыЗадачСрезПоследних.Задача
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ПросроченныеДействияПоЗадачам КАК Центр_ПросроченныеДействияПоЗадачам
+		ПО Центр_ПросроченныеДействияПоЗадачам.Задача = Центр_Задача.Ссылка</queryText>
       <mainTable>Document.Центр_Задача</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -1062,17 +1066,29 @@
         <dataPath>МоментВремени</dataPath>
         <field>МоментВремени</field>
       </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
-        <dataPath>ЧекЛист</dataPath>
-        <field>ЧекЛист</field>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПросроченоеДействие</dataPath>
+        <field>ПросроченоеДействие</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Просроченое действие</value>
+            </content>
+          </localValue>
+        </title>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
+        <dataPath>ПользовательПросроченныхДействий</dataPath>
+        <field>ПользовательПросроченныхДействий</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Пользователь просроченных действий</value>
+            </content>
+          </localValue>
+        </title>
       </fields>
       <parameters>
         <name>Период</name>
