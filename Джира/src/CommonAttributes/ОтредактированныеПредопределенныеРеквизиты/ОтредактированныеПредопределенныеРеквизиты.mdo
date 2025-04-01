@@ -18,6 +18,10 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>Catalog.ШаблоныСообщений</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>Catalog.РолиИсполнителей</metadata>
     <use>Use</use>
   </content>

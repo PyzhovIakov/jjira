@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee2f8c1a-d14b-493e-9dd3-f1d4b20fa27e">
+  <producedTypes>
+    <selectionType typeId="6b0dac01-bde2-4d92-816b-1d4e8681b4a9" valueTypeId="68b704c6-623b-4cc7-9861-dcdb7c45f047"/>
+    <listType typeId="61968138-11e6-42b8-bfad-048bc040a0df" valueTypeId="3580a419-939b-4429-ae7e-87f5d575ca38"/>
+    <managerType typeId="49929e18-6289-4542-887a-82818b08af86" valueTypeId="f3ff7d03-15b6-42be-9f37-d5654f995e13"/>
+    <recordSetType typeId="f856a45c-85de-45ad-84cf-1536dbd8ef27" valueTypeId="4959d581-0d70-4565-97df-2cc3da22b891"/>
+    <recordKeyType typeId="6a5f7675-2b18-4641-afd8-606fb160e955" valueTypeId="985d8d35-b26d-4f85-8fbd-3aac06f6dded"/>
+    <recordType typeId="56b54b66-1ea3-41db-9d4e-d09abf803108" valueTypeId="f0d2e245-6ee2-41a7-83b5-6d0a26d83152"/>
+  </producedTypes>
+  <name>Центр_ЧасыТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр часы трудозатрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2362e4ea-89e6-4d79-8e41-7e10ec977110">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="8ffb2369-ebb2-4264-8e8b-e07b8aed7abf">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

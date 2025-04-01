@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="991cf26b-dd9b-4a07-9074-a96dee84d40e">
+  <producedTypes>
+    <objectType typeId="09f96d2e-5ffc-4731-9d31-e9c5b1d1626f" valueTypeId="1c1a05c8-83ff-4fd8-9eb6-c118bf5a27c8"/>
+    <refType typeId="d3515581-bb0f-4f1d-90bd-d8118bf74b3c" valueTypeId="09d6b033-d4e5-409c-93af-9208ff01a6f7"/>
+    <selectionType typeId="e9dac666-8601-4ee7-b5e9-0329ac1b4f37" valueTypeId="0264d187-9194-4f9c-9ce3-fa4f76ed02b5"/>
+    <listType typeId="ef4a5110-6735-4761-a71b-bb846bfa85f8" valueTypeId="9f60d95a-7f65-4036-8f0d-2d2840a7c49b"/>
+    <managerType typeId="220711b7-3f4e-4a27-a302-e8831388d969" valueTypeId="72c925a6-4645-401b-9864-ecb4f68603a4"/>
+  </producedTypes>
+  <name>Центр_КонтрольНадЭтапамиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль над этапами задач</value>
+  </synonym>
+  <comment>Контроль над этапами задач</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_КонтрольНадЭтапамиЗадач.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_КонтрольНадЭтапамиЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контроль над этапами задач</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контроль над этапами задач</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Центр_КонтрольНадЭтапамиЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d33fcbeb-e038-408b-b886-2810bcedd4a2">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9ecc1db-de8d-43b9-aba9-38d75040495b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07cb3ba1-e086-4450-b593-b73e34756870">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8d3135b6-8178-4854-818c-bc3ff271954a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

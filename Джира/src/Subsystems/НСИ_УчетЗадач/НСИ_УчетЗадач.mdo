@@ -21,4 +21,16 @@
   <content>InformationRegister.Центр_НастройкиПользователяКанБан</content>
   <content>InformationRegister.Центр_ВопросыПоЗадачам</content>
   <content>Catalog.Центр_Триггеры</content>
+  <content>ChartOfCharacteristicTypes.Центр_ВидыПользовательскихНастроек</content>
+  <content>Catalog.Пользователи</content>
+  <content>InformationRegister.Центр_ПользовательскиеНастройки</content>
+  <content>Catalog.Центр_МеткиЗадач</content>
+  <content>Document.Центр_ТрудозатратыПоЗадаче</content>
+  <content>AccumulationRegister.Центр_ЧасыТрудозатрат</content>
+  <content>InformationRegister.Центр_ОценкаЧасов</content>
+  <content>DataProcessor.Центр_ТестУведомлений</content>
+  <content>InformationRegister.НапоминанияПользователя</content>
+  <content>Catalog.Центр_КонтрольНадЭтапамиЗадач</content>
+  <content>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</content>
+  <content>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</content>
 </mdclass:Subsystem>

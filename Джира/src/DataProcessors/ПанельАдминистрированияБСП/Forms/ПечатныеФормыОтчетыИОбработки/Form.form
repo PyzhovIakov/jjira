@@ -180,7 +180,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>Catalog.ЯзыкиПечатныхФорм.StandardCommand.OpenList</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -270,6 +270,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НаборКонстант.ИспользоватьСервисПереводаТекста</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
               <event>OnChange</event>
@@ -1534,6 +1537,9 @@
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ЗаголовокСистемы</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.СервисПереводаТекста</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
   </attributes>

@@ -10,7 +10,9 @@
     <value>Связанные документы</value>
   </synonym>
   <type>
-    <types>DocumentRef.Центр_Задача</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
   </type>
-  <content>Document.Центр_Задача.Attribute.ГлавнаяЗадача</content>
 </mdclass:FilterCriterion>

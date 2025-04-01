@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dba49e6e-bf2c-446b-9b27-860b296db81c">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dba49e6e-bf2c-446b-9b27-860b296db81c">
   <producedTypes>
     <objectType typeId="27483ea4-580e-439d-a562-404e60b07100" valueTypeId="9c4532c0-857d-4d4d-9643-54e85145449d"/>
     <refType typeId="28f58700-746b-4676-a3d2-aeaf0f24bb56" valueTypeId="096f1725-ec57-4a2e-a005-aafc761c0c11"/>
@@ -19,6 +19,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Доска</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Доски</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -30,4 +38,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="658320dd-f97c-49fd-9abb-c7c5044a0666">
+    <name>ДоскаПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доска по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

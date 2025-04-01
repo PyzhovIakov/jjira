@@ -1955,7 +1955,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>DataProcessor.УстановкаОбновлений.StandardCommand.Open</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2023,7 +2023,7 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0</commandName>
+          <commandName>CommonForm.УстановленныеИсправления.StandardCommand.Open</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>

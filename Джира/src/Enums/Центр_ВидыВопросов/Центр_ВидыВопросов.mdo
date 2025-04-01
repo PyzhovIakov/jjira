@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2935c5f2-a05b-45a6-9266-1aaf46305fbc">
+  <producedTypes>
+    <refType typeId="cfc82b4f-7e46-40a1-b0b5-1ba161fa35d6" valueTypeId="14807efe-b0a7-4dd2-aab3-97c670a6f446"/>
+    <listType typeId="2f6a2b0d-5265-43b5-92e5-68acf91258d3" valueTypeId="3e7395f0-8d75-428b-8d41-d2ee69193673"/>
+    <managerType typeId="5b6b24a5-570c-42ee-9cb7-9fd6c74b9582" valueTypeId="d1ae99c1-dd79-4d88-b0d5-b0ee3a01971b"/>
+  </producedTypes>
+  <name>Центр_ВидыВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды вопросов (Джира)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b510e06-6ed8-42f6-897c-855e7e449091">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54d27f34-d45e-4e4e-b700-bdcf78c5bc66">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

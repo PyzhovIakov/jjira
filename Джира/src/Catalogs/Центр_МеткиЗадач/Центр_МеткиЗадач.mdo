@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2326cdd0-01a3-48a3-a730-14315ffdae8d">
+  <producedTypes>
+    <objectType typeId="1e5dde13-f0eb-45cb-9838-a6f13b834804" valueTypeId="556348a0-3be9-4186-84e4-5bdba02d28d2"/>
+    <refType typeId="9719ccd7-17d3-439f-b486-f19fa4a5d67e" valueTypeId="86ac3c5c-b022-414c-831f-466e82dc1ac3"/>
+    <selectionType typeId="038e65be-184e-4225-9c71-35e2b800c0ec" valueTypeId="f31ad534-9eef-4601-975e-1d5cffbd3ab2"/>
+    <listType typeId="a5c461ec-b6ac-4aa1-a273-54246d918a77" valueTypeId="d76950fb-5f76-4084-8eca-2ad7cbf61485"/>
+    <managerType typeId="cd3c122d-331d-496c-ab8e-b34e5b1c8d81" valueTypeId="68d1027e-84fb-49cd-baf9-ceba54b8a345"/>
+  </producedTypes>
+  <name>Центр_МеткиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метки задач (Джира)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_МеткиЗадач.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_МеткиЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Метка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Метки</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Центр_МеткиЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Центр_МеткиЗадач.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ad6adcf2-c5df-4b7b-878e-07c8b60e46d5">
+    <name>ЦветHEX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет HEX</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <mask>\#NNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04c5dea5-97d9-4cc7-a4b8-0799da517bcf">
+    <name>ЦветRGB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет RGB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a504d987-8419-456d-a343-5646fa6f9e30">
+    <name>ЦветТекстаRGB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста RGB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4a101e8b-ad2c-4197-9640-bb596314f0b8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="362510c5-6aa0-492d-a8d0-98d85533c4d8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -16,7 +16,16 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Центр_НастройкиПользователейКолонокКанБан.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка колонок пользователя</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки колонок пользователя</value>
+  </listPresentation>
   <resources uuid="8ef4651e-50e1-46eb-835d-0f48554cc31d">
     <name>НастройкиКолонки</name>
     <synonym>
@@ -103,4 +112,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="3e2a78fa-c82f-464d-9b3f-d5809a2c1160">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
