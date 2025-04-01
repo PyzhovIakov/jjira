@@ -34,6 +34,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Центр_Задача.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.Центр_Задача.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.Центр_Задача.Form.ФормаВыбораЗадачи</defaultChoiceForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="fe4ac385-a577-4252-9b11-6d20961f95f7">
@@ -256,6 +257,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа упрощенная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96eb817f-d38e-40c6-9962-0c8cc4c8ed4f">
+    <name>ФормаВыбораЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора задачи</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -851,6 +851,7 @@
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
   <commonTemplates>CommonTemplate.Центр_СтраницаВыбораЦветаHTML</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
+  <filterCriteria>FilterCriterion.Центр_ВышестоящаяЗадача</filterCriteria>
   <commonModules>CommonModule.GoogleПереводчик</commonModules>
   <commonModules>CommonModule.АвтономнаяРабота</commonModules>
   <commonModules>CommonModule.АвтономнаяРаботаСлужебный</commonModules>
