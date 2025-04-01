@@ -73,25 +73,59 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="07cb3ba1-e086-4450-b593-b73e34756870">
-    <name>Время</name>
+  <tabularSections uuid="15a3dd9c-d00d-4adc-a41b-efc2d7296875">
+    <producedTypes>
+      <objectType typeId="034d680d-6a05-40dd-9277-d951407d01a7" valueTypeId="c5e404dc-c724-46a0-b2cb-dd75c930e9c7"/>
+      <rowType typeId="ca403ce8-3bf1-4295-b496-e961761862f5" valueTypeId="c5b4a48b-12e0-43e4-a932-d00b5bf178dd"/>
+    </producedTypes>
+    <name>Параметры</name>
     <synonym>
       <key>ru</key>
-      <value>Время</value>
+      <value>Параметры</value>
     </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
+    <attributes uuid="aba619c6-2562-4a35-a2e0-d6f2f9bd04a6">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8ce86726-3ba1-4c94-8cbf-7f886bc6de0f">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="8d3135b6-8178-4854-818c-bc3ff271954a">
     <name>ФормаЭлемента</name>
     <synonym>
