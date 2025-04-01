@@ -288,21 +288,8 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	Центр_Задача.Ссылка,
-	Центр_Задача.ПометкаУдаления,
 	Центр_Задача.Номер,
-	Центр_Задача.Дата,
-	Центр_Задача.Проведен,
-	Центр_Задача.Наименование,
-	Центр_Задача.ОписаниеЗадачи,
-	Центр_Задача.Постановщик,
-	Центр_Задача.Дедлайн,
-	Центр_Задача.Длительность,
-	Центр_Задача.Приоритет,
-	Центр_Задача.Автор,
-	Центр_Задача.ГлавнаяЗадача,
-	Центр_Задача.Наблюдатели.*,
-	Центр_Задача.ЧекЛист.*,
-	Центр_Задача.МоментВремени
+	Центр_Задача.Дата
 ИЗ
 	РегистрСведений.Центр_СвязанныеЗадачи КАК Центр_СвязанныеЗадачи
 		ЛЕВОЕ СОЕДИНЕНИЕ Документ.Центр_Задача КАК Центр_Задача
@@ -314,21 +301,8 @@
 
 ВЫБРАТЬ
 	Центр_Задача.Ссылка,
-	Центр_Задача.ПометкаУдаления,
 	Центр_Задача.Номер,
-	Центр_Задача.Дата,
-	Центр_Задача.Проведен,
-	Центр_Задача.Наименование,
-	Центр_Задача.ОписаниеЗадачи,
-	Центр_Задача.Постановщик,
-	Центр_Задача.Дедлайн,
-	Центр_Задача.Длительность,
-	Центр_Задача.Приоритет,
-	Центр_Задача.Автор,
-	Центр_Задача.ГлавнаяЗадача,
-	Центр_Задача.Наблюдатели.*,
-	Центр_Задача.ЧекЛист.*,
-	Центр_Задача.МоментВремени
+	Центр_Задача.Дата
 ИЗ
 	РегистрСведений.Центр_СвязанныеЗадачи КАК Центр_СвязанныеЗадачи
 		ЛЕВОЕ СОЕДИНЕНИЕ Документ.Центр_Задача КАК Центр_Задача
@@ -346,24 +320,12 @@
         <field>Ссылка</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номер</dataPath>
         <field>Номер</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Дата</dataPath>
         <field>Дата</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наименование</dataPath>
@@ -374,16 +336,16 @@
         <field>ОписаниеЗадачи</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидЗадачи</dataPath>
+        <field>ВидЗадачи</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Постановщик</dataPath>
         <field>Постановщик</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Дедлайн</dataPath>
         <field>Дедлайн</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Длительность</dataPath>
-        <field>Длительность</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Приоритет</dataPath>
@@ -398,44 +360,32 @@
         <field>ГлавнаяЗадача</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наблюдатели.Ссылка</dataPath>
-        <field>Наблюдатели.Ссылка</field>
+        <dataPath>УчетВремени</dataPath>
+        <field>УчетВремени</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наблюдатели.НомерСтроки</dataPath>
-        <field>Наблюдатели.НомерСтроки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наблюдатели.Пользовалель</dataPath>
-        <field>Наблюдатели.Пользовалель</field>
+        <dataPath>КонтрольВремени</dataPath>
+        <field>КонтрольВремени</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
         <dataPath>Наблюдатели</dataPath>
         <field>Наблюдатели</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.Ссылка</dataPath>
-        <field>ЧекЛист.Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.НомерСтроки</dataPath>
-        <field>ЧекЛист.НомерСтроки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.Текст</dataPath>
-        <field>ЧекЛист.Текст</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЧекЛист.Выполнен</dataPath>
-        <field>ЧекЛист.Выполнен</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
         <dataPath>ЧекЛист</dataPath>
         <field>ЧекЛист</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВидЗадачи</dataPath>
-        <field>ВидЗадачи</field>
+        <dataPath>Метки</dataPath>
+        <field>Метки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
       </fields>
       <parameters>
         <name>ОсновнаяЗадача</name>
