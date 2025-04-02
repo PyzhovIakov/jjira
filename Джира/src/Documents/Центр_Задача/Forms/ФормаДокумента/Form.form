@@ -1312,7 +1312,7 @@
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
               <multipleValueDataPath xsi:type="form:DataPath">
-                <segments>Объект.Наблюдатели.Пользовалель</segments>
+                <segments>Объект.Наблюдатели.Пользователь</segments>
               </multipleValueDataPath>
             </extInfo>
           </items>
