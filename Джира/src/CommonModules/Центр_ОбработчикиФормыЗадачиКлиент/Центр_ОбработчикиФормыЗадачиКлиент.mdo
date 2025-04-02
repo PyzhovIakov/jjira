@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80bb3e55-f0a5-4469-a840-2a598b34b5bd">
+  <name>Центр_ОбработчикиФормыЗадачиКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр обработчики формы задачи клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
