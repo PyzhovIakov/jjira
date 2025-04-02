@@ -1383,6 +1383,7 @@
   <commonModules>CommonModule.Центр_УведомленияПользователей</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
+  <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -2265,6 +2266,7 @@
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.Центр_ПодпискаДляТригера</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>

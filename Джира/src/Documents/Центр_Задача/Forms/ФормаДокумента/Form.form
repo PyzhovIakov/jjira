@@ -1312,7 +1312,7 @@
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
               <multipleValueDataPath xsi:type="form:DataPath">
-                <segments>Объект.Наблюдатели.Пользовалель</segments>
+                <segments>Объект.Наблюдатели.Пользователь</segments>
               </multipleValueDataPath>
             </extInfo>
           </items>
@@ -1358,6 +1358,34 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <hyperlink>true</hyperlink>
                 </extInfo>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СброситьГлавнуюЗадачу</name>
+                <id>431</id>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СброситьГлавнуюЗадачуРасширеннаяПодсказка</name>
+                  <id>432</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualButton</type>
+                <commandName>Form.Command.СброситьГлавнуюЗадачу</commandName>
+                <representation>Picture</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.AppearanceCrossIcon</picture>
+                </picture>
+                <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <items xsi:type="form:Button">
                 <name>ВыбратьГлавнуюЗадачу</name>
@@ -2399,6 +2427,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СоздатьПодчиненнуюЗадачу</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СброситьГлавнуюЗадачу</name>
+    <title>
+      <key>ru</key>
+      <value>Сбросить главную задачу</value>
+    </title>
+    <id>14</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СброситьГлавнуюЗадачу</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
