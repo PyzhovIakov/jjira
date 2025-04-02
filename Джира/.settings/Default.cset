@@ -7,10 +7,10 @@
     "rollback-transaction": {
       "enabled": true
     },
-    "commit-transaction": {
+    "code-after-async-call": {
       "enabled": true
     },
-    "code-after-async-call": {
+    "commit-transaction": {
       "enabled": true
     },
     "doc-comment-description-ends-on-dot": {
