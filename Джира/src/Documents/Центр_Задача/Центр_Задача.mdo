@@ -297,10 +297,10 @@
       <value>Наблюдатели</value>
     </synonym>
     <attributes uuid="15b3b7d7-c996-41dd-b3e3-f1b3e540791f">
-      <name>Пользовалель</name>
+      <name>Пользователь</name>
       <synonym>
         <key>ru</key>
-        <value>Пользовалель</value>
+        <value>Пользователь</value>
       </synonym>
       <type>
         <types>CatalogRef.Пользователи</types>
