@@ -49,6 +49,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.УчетЗадач</subsystems>
   <subsystems>Subsystem.НСИ_УчетЗадач</subsystems>
+  <subsystems>Subsystem.СтандартныеПодсистемыДокументооборота</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -139,6 +140,36 @@
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <styleItems>StyleItem.ШрифтМеток</styleItems>
   <styleItems>StyleItem.ШрифтОченьКрупныйШрифтТекста</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряЖелтая</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряЗеленая</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряКрасная</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряОранжевая</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряОтработана</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряПоУмолчанию</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряСиняя</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряТекущаяЗапись</styleItems>
+  <styleItems>StyleItem.ФонВыбранногоВремени</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряДоступноеВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряЖелтый</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряЗанятоеВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряЗеленый</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряКрасный</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряОранжевый</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряОтработано</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряОтсутствует</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПодВопросомВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПодпись</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПодписьТекущийДень</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПоУмолчанию</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряРамка</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряСиний</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряТекущаяЗапись</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонПустойЯчейкиВсегоДня</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонТекущегоДня</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонШапки</styleItems>
+  <styleItems>StyleItem.ЦветТекстаНеактуальнойДатыКалендаря</styleItems>
+  <styleItems>StyleItem.ШрифтКалендаряПодпись</styleItems>
+  <styleItems>StyleItem.ШрифтКалендаряПометкаУдаления</styleItems>
   <commonPictures>CommonPicture.BotFather</commonPictures>
   <commonPictures>CommonPicture.BotFatherВконтакте</commonPictures>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
@@ -675,6 +706,25 @@
   <commonPictures>CommonPicture.ЭтапыПодтверждения</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация24</commonPictures>
+  <commonPictures>CommonPicture.ДоступенЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ЗанятЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ЗаписьКалендаряОтклонена</commonPictures>
+  <commonPictures>CommonPicture.ЗаписьКалендаряПодВопросом</commonPictures>
+  <commonPictures>CommonPicture.ЗаписьКалендаряУдалена</commonPictures>
+  <commonPictures>CommonPicture.ЗеленаяГалка</commonPictures>
+  <commonPictures>CommonPicture.Календарь16</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЦвет</commonPictures>
+  <commonPictures>CommonPicture.КрасныйКрест</commonPictures>
+  <commonPictures>CommonPicture.Напоминание1</commonPictures>
+  <commonPictures>CommonPicture.ОтсутствуетЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ПодВопросомЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ЦветЖелтый</commonPictures>
+  <commonPictures>CommonPicture.ЦветЗеленый</commonPictures>
+  <commonPictures>CommonPicture.ЦветКрасный</commonPictures>
+  <commonPictures>CommonPicture.ЦветОранжевый</commonPictures>
+  <commonPictures>CommonPicture.ЦветПоУмолчанию</commonPictures>
+  <commonPictures>CommonPicture.ЦветСиний</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -792,6 +842,7 @@
   <roles>Role.ИзменениеУчастниковГруппДоступа</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ИспользованиеОбработкиТекущиеДела</roles>
+  <roles>Role.ИспользованиеСинхронизацииКалендарей</roles>
   <roles>Role.ИспользованиеУниверсальногоОтчета</roles>
   <roles>Role.НастройкаИОценкаПроизводительности</roles>
   <roles>Role.НастройкаСинхронизацииФайлов</roles>
@@ -1165,6 +1216,7 @@
   <commonModules>CommonModule.РаботаВБезопасномРежимеПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаВБезопасномРежимеСлужебный</commonModules>
   <commonModules>CommonModule.РаботаВМоделиСервисаБСП</commonModules>
+  <commonModules>CommonModule.РаботаСICalendar</commonModules>
   <commonModules>CommonModule.РаботаСАдресами</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиКлиентСервер</commonModules>
@@ -1190,6 +1242,9 @@
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебный</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебныйЛокализация</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремСервер</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonModules>CommonModule.РаботаСФайламиВТомахСлужебный</commonModules>
   <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
@@ -1237,6 +1292,8 @@
   <commonModules>CommonModule.СервисКриптографииDSSСлужебный</commonModules>
   <commonModules>CommonModule.СервисКриптографииDSSСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.СервисКриптографииDSSСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.СинхронизацияКалендарей</commonModules>
+  <commonModules>CommonModule.СинхронизацияКалендарейСобытия</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектов</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектовВызовСервера</commonModules>
   <commonModules>CommonModule.СклонениеПредставленийОбъектовКлиент</commonModules>
@@ -1384,6 +1441,11 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
   <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
+  <commonModules>CommonModule.РаботаСЧасовымиПоясами</commonModules>
+  <commonModules>CommonModule.ПользователиДокументооборот</commonModules>
+  <commonModules>CommonModule.Сотрудники</commonModules>
+  <commonModules>CommonModule.РаботаСЧасовымиПоясамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСЧасовымиПоясамиПовтИсп</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1392,6 +1454,7 @@
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
+  <exchangePlans>ExchangePlan.СинхронизацияКалендарей</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
@@ -1532,6 +1595,7 @@
   <eventSubscriptions>EventSubscription.ПроверитьУстранениеПроблемыОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СвойстваПередУдалениемСсылочногоОбъекта</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.СинхронизацияКалендарейПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СоздатьПредопределенныеПапкиЭлектронныхПисем</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СубъектПерсональныхДанныхПередЗаписью</eventSubscriptions>
@@ -1580,6 +1644,7 @@
   <scheduledJobs>ScheduledJob.СинхронизацияДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.СинхронизацияДанныхСПриложениемВИнтернете</scheduledJobs>
   <scheduledJobs>ScheduledJob.СинхронизацияФайлов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СинхронизацияКалендарей</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.СтартОтложенныхПроцессов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УведомлениеИсполнителейОНовыхЗадачах</scheduledJobs>
@@ -1628,6 +1693,7 @@
   <functionalOptions>FunctionalOption.ИспользоватьПочтовыйКлиент</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьПризнакРассмотрено</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьПрочиеВзаимодействия</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьРабочийКалендарь</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСервисDSS</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСервисПереводаТекста</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюДанных</functionalOptions>
@@ -1635,6 +1701,7 @@
   <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюДанныхВМоделиСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюДанныхВМоделиСервисаСЛокальнойПрограммой</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюДанныхВМоделиСервисаСПриложениемВИнтернете</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюКалендарей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюФайлов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСценарииВМоделиСервиса</functionalOptions>
@@ -1759,6 +1826,7 @@
   <commonCommands>CommonCommand.Напомнить</commonCommands>
   <commonCommands>CommonCommand.НастроитьПрава</commonCommands>
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
+  <commonCommands>CommonCommand.НастройкаСинхронизацииКалендарей</commonCommands>
   <commonCommands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commonCommands>
   <commonCommands>CommonCommand.НастройкиПодключения</commonCommands>
   <commonCommands>CommonCommand.НастройкиСинхронизацииДанных</commonCommands>
@@ -1864,6 +1932,7 @@
   <constants>Constant.ИспользоватьПризнакРассмотрено</constants>
   <constants>Constant.ИспользоватьПрофилиБезопасностиДляДОО</constants>
   <constants>Constant.ИспользоватьПрочиеВзаимодействия</constants>
+  <constants>Constant.ИспользоватьРабочийКалендарь</constants>
   <constants>Constant.ИспользоватьРазделениеПоОбластямДанных</constants>
   <constants>Constant.ИспользоватьСервисDSS</constants>
   <constants>Constant.ИспользоватьСервисПереводаТекста</constants>
@@ -1873,6 +1942,7 @@
   <constants>Constant.ИспользоватьСинхронизациюДанныхВМоделиСервиса</constants>
   <constants>Constant.ИспользоватьСинхронизациюДанныхВМоделиСервисаСЛокальнойПрограммой</constants>
   <constants>Constant.ИспользоватьСинхронизациюДанныхВМоделиСервисаСПриложениемВИнтернете</constants>
+  <constants>Constant.ИспользоватьСинхронизациюКалендарей</constants>
   <constants>Constant.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</constants>
   <constants>Constant.ИспользоватьУдалениеПомеченныхОбъектов</constants>
   <constants>Constant.ИспользоватьУчетОригиналовПервичныхДокументов</constants>
@@ -2009,6 +2079,7 @@
   <commonForms>CommonForm.НастройкаМоихОтчетовИОбработок</commonForms>
   <commonForms>CommonForm.НастройкаОтправкиSMS</commonForms>
   <commonForms>CommonForm.НастройкаПереводаТекста</commonForms>
+  <commonForms>CommonForm.НастройкаСинхронизацииКалендарей</commonForms>
   <commonForms>CommonForm.НастройкаРабочегоКаталога</commonForms>
   <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
   <commonForms>CommonForm.НастройкиПравОбъектов</commonForms>
@@ -2090,6 +2161,7 @@
   <catalogs>Catalog.ЗакладкиВзаимодействий</catalogs>
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ЗаписиРабочегоКалендаря</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -2267,6 +2339,19 @@
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.Центр_ПодпискаДляТригера</enums>
+  <enums>Enum.ДоступностьФизическихЛиц</enums>
+  <enums>Enum.НастройкиЗаписейРабочегоКалендаря</enums>
+  <enums>Enum.НастройкиРабочегоКалендаря</enums>
+  <enums>Enum.ОтображениеВремениЭлементов</enums>
+  <enums>Enum.ПериодОтображенияРабочегоКалендаря</enums>
+  <enums>Enum.ПравилаОкончанияПовторения</enums>
+  <enums>Enum.СостоянияЗанятости</enums>
+  <enums>Enum.СостоянияЗаписейРабочегоКалендаря</enums>
+  <enums>Enum.ТипЗаписиКалендаря</enums>
+  <enums>Enum.ТипыСинхронизацииКалендарей</enums>
+  <enums>Enum.ЦветаРабочегоКалендаря</enums>
+  <enums>Enum.ЧастотаПовторения</enums>
+  <enums>Enum.ЭлементыРабочегоКалендаря</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2573,6 +2658,15 @@
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.ДоступноеВремяСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ДоступноеВремяФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.ЗанятостьСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ЗанятостьФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.ЗаписиСинхронизацииКалендарей</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаряПользователя</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиРабочегоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиРабочегоКалендаряСотрудника</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

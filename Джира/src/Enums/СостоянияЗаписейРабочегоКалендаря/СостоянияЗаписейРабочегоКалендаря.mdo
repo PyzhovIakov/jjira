@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91272496-9402-4212-ac50-3822d94cc2c2">
+  <producedTypes>
+    <refType typeId="aea151ce-9cc8-4226-a047-439fb08d33f8" valueTypeId="444548c9-45e2-4963-839e-30e32a7ea7c6"/>
+    <listType typeId="56ca1b34-eac1-48fc-bdfd-121db7760ec6" valueTypeId="52f11fee-2d1b-4fea-a5e1-907dfb81b4b1"/>
+    <managerType typeId="953df36f-1eea-4e93-b432-64610fc65628" valueTypeId="af6fe18a-3a32-4caf-923a-bc0c698c984e"/>
+  </producedTypes>
+  <name>СостоянияЗаписейРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния записей рабочего календаря</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6fa0698e-10ba-442d-95a7-d87ecc95c84c">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be0abe14-3029-4e73-add4-17f6ca259bae">
+    <name>ПодВопросом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под вопросом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fddffb3-faee-44c8-8286-1d6bc7cee6a4">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="205c964d-9680-4031-a059-e277a39ade83">
+  <name>НастройкаСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроить синхронизацию календарей</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

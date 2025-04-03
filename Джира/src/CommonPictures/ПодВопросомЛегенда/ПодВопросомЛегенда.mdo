@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="327a05a9-6f84-443d-a1bc-ab547e36f999">
+  <name>ПодВопросомЛегенда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Под вопросом легенда</value>
+  </synonym>
+</mdclass:CommonPicture>

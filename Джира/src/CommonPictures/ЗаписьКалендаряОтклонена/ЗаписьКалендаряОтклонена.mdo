@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71995f01-75a3-4cb0-8f12-2d125ece529e">
+  <name>ЗаписьКалендаряОтклонена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись календаря отклонена</value>
+  </synonym>
+</mdclass:CommonPicture>

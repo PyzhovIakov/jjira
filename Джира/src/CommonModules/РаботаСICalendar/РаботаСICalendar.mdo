@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aeaa4f4e-b275-42b7-bdda-0092bd7758c5">
+  <name>РаботаСICalendar</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с iCalendar</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

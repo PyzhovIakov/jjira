@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cad1af90-fc6e-4cb5-b68f-ce39e203b039">
+  <name>ИспользованиеСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование синхронизации календарей</value>
+  </synonym>
+</mdclass:Role>

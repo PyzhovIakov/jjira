@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6b7c2be-60b9-4c70-9a4f-3575f3ff5e67">
+  <name>РамкаКалендаряЖелтая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рамка календаря желтая</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>205</red>
+      <green>185</green>
+      <blue>120</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

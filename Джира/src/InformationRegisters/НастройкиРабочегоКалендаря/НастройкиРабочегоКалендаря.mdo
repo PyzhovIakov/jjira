@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47dc19d-ffb9-46aa-87fa-74ac47bb7c73">
+  <producedTypes>
+    <selectionType typeId="91db9ddb-d975-4829-8cc1-56f449962dae" valueTypeId="9d5f25c1-39b7-4472-923b-14fab0e59c9b"/>
+    <listType typeId="26bbf76d-8e77-4407-a752-9a95b1295076" valueTypeId="8c531a13-0307-4117-a1a6-810b2e2199aa"/>
+    <managerType typeId="70e6920c-e438-4503-b640-1423887de279" valueTypeId="ffacda2a-8821-411e-9bfe-6335a5fdd68f"/>
+    <recordSetType typeId="f47392cd-8df6-4184-af2b-7454cbac140d" valueTypeId="988b4227-11e2-4ef1-bc4e-9e5a6ef7c994"/>
+    <recordKeyType typeId="8008c618-35c0-4b3e-8d15-21b9b8efcc1c" valueTypeId="819791f9-98a6-4c24-bec8-2f185ccb785f"/>
+    <recordType typeId="3ce87623-a7c5-4b7c-bee9-569e4a1fcbd9" valueTypeId="43cb934d-3c80-4f63-9f73-933980d7afe5"/>
+    <recordManagerType typeId="51bb720f-e059-4e00-aee9-9d8bc9635410" valueTypeId="f86c763a-6d88-4f98-bd95-403e6cd45e91"/>
+  </producedTypes>
+  <name>НастройкиРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рабочего календаря</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e23af1a-c570-406d-949b-dae5800726f7">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДоступностьФизическихЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b91b46c0-db98-44e3-a6cd-b3f30173e4ef">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a71ca3f4-31ce-4ae4-a85b-8fb26c0bc7dc">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НастройкиРабочегоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

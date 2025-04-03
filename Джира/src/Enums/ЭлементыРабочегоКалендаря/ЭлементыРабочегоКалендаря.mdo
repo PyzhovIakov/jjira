@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96e262fe-d96c-4954-8b93-f5242839ef80">
+  <producedTypes>
+    <refType typeId="b87fa324-2cfb-4c1b-83d9-fd9d6d62bcb3" valueTypeId="7f0976dc-18a8-4930-9168-d1ed021d123c"/>
+    <listType typeId="a10da304-c031-4fa3-9db4-3dd46783a47b" valueTypeId="99e4e64c-35c6-4387-a729-ca2c847c8aae"/>
+    <managerType typeId="e21d1d73-6922-487e-86ef-386c677a6117" valueTypeId="32b95e37-fdfa-424e-9de6-dd2e035611b2"/>
+  </producedTypes>
+  <name>ЭлементыРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы рабочего календаря</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9c3a450f-cc98-445c-aba1-09479122c9d7">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93e3c70d-bd0d-43c4-b318-b6e20f80be61">
+    <name>ВремяПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время подбора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b06c1fb-9496-4a39-bf5f-9846f270cb51">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="721e9ff8-3794-42f1-bb9d-963c978590fc">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4adc89c9-1437-421a-b004-52b22899c1b5">
+    <name>НадписьСобытияВесьДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надпись события весь день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a61130ba-db1f-43c4-b155-83fdeeb31c38">
+    <name>ПустаяЯчейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустая ячейка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e6525a3-4725-4ed3-b323-aaa5a9383462">
+    <name>ПустаяЯчейкаВесьДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустая ячейка весь день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="241102f5-a253-498a-ae83-0bac5de4878d">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65bae433-53b5-483d-82fa-0ddd2dbea55b">
+    <name>СобытиеВесьДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие весь день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="391037a4-2184-4d28-b04e-c630fbd4402d">
+    <name>СобытиеВесьДеньПовторяющееся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие весь день повторяющееся</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="412ef76b-ce44-440c-99a7-67d8aab292ae">
+    <name>СобытиеПовторяющееся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие повторяющееся</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

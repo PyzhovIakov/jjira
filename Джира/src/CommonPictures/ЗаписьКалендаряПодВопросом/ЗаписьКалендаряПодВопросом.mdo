@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fd5d5c1-3f17-4c6d-b567-2b40810db77d">
+  <name>ЗаписьКалендаряПодВопросом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись календаря под вопросом</value>
+  </synonym>
+</mdclass:CommonPicture>

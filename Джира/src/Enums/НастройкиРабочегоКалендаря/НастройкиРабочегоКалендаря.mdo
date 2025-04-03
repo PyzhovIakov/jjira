@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c9ecd77-e398-4353-92a0-1384c6b50fd8">
+  <producedTypes>
+    <refType typeId="30efd9b6-bd09-4e32-839e-a473fbbc45d0" valueTypeId="2834c504-7283-4b3e-b097-347af40955e8"/>
+    <listType typeId="47cc0130-e4e8-457c-9e92-edaa05695dbf" valueTypeId="65a87b0a-b01f-4ec9-9f7b-f8974ca9c3cd"/>
+    <managerType typeId="2fa768ee-7457-4f34-8880-ea6c597e8570" valueTypeId="8895f3ef-86cd-411b-a145-2548e4138da1"/>
+  </producedTypes>
+  <name>НастройкиРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рабочего календаря</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f424f448-7ae7-4b7b-9014-c4f9236fe0f9">
+    <name>Доступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
