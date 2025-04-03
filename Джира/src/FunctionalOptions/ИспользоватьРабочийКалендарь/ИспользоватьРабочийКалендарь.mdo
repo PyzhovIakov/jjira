@@ -8,7 +8,6 @@
   <location>Constant.ИспользоватьРабочийКалендарь</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.ЗаписиРабочегоКалендаря</content>
-  <content>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаряПользователя</content>
   <content>Enum.ЦветаРабочегоКалендаря</content>
   <content>Enum.НастройкиЗаписейРабочегоКалендаря</content>
   <content>Enum.ПериодОтображенияРабочегоКалендаря</content>
@@ -17,15 +16,8 @@
   <content>Enum.ЧастотаПовторения</content>
   <content>Enum.ПравилаОкончанияПовторения</content>
   <content>Enum.СостоянияЗаписейРабочегоКалендаря</content>
-  <content>InformationRegister.ДоступноеВремяСотрудников</content>
   <content>Enum.НастройкиРабочегоКалендаря</content>
-  <content>InformationRegister.НастройкиРабочегоКалендаряСотрудника</content>
-  <content>InformationRegister.ЗанятостьСотрудников</content>
   <content>Enum.ДоступностьФизическихЛиц</content>
   <content>Enum.СостоянияЗанятости</content>
-  <content>InformationRegister.НастройкиРабочегоКалендаря</content>
-  <content>InformationRegister.ДоступноеВремяФизическихЛиц</content>
-  <content>InformationRegister.ЗанятостьФизическихЛиц</content>
-  <content>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаря</content>
   <content>Catalog.УчетныеЗаписиЭлектроннойПочты.TabularSection.ОтветственныеЗаОбработкуПисем.Attribute.ДобавлятьПриглашенияВКалендарь</content>
 </mdclass:FunctionalOption>

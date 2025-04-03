@@ -2660,15 +2660,6 @@
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
-  <informationRegisters>InformationRegister.ДоступноеВремяСотрудников</informationRegisters>
-  <informationRegisters>InformationRegister.ДоступноеВремяФизическихЛиц</informationRegisters>
-  <informationRegisters>InformationRegister.ЗанятостьСотрудников</informationRegisters>
-  <informationRegisters>InformationRegister.ЗанятостьФизическихЛиц</informationRegisters>
-  <informationRegisters>InformationRegister.ЗаписиСинхронизацииКалендарей</informationRegisters>
-  <informationRegisters>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаря</informationRegisters>
-  <informationRegisters>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаряПользователя</informationRegisters>
-  <informationRegisters>InformationRegister.НастройкиРабочегоКалендаря</informationRegisters>
-  <informationRegisters>InformationRegister.НастройкиРабочегоКалендаряСотрудника</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

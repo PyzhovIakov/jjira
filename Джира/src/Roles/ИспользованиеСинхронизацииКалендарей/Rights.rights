@@ -139,17 +139,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЗаписиСинхронизацииКалендарей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НастройкиСинхронизацииDAV.Dimension.Узел</name>
 		<right>
 			<name>View</name>

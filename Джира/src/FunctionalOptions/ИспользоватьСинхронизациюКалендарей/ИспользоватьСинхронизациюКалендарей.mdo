@@ -8,7 +8,6 @@
   <location>Constant.ИспользоватьСинхронизациюКалендарей</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>CommonCommand.НастройкаСинхронизацииКалендарей</content>
-  <content>InformationRegister.ЗаписиСинхронизацииКалендарей</content>
   <content>InformationRegister.НастройкиСинхронизацииDAV</content>
   <content>InformationRegister.НастройкиСинхронизацииGoogle</content>
 </mdclass:FunctionalOption>
