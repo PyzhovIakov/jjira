@@ -33,5 +33,5 @@
   <content>Catalog.Центр_КонтрольНадЭтапамиЗадач</content>
   <content>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</content>
   <content>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</content>
-  <content>Enum.Центр_ПодпискаДляТригера</content>
+  <content>Enum.Центр_ПодпискаДляТриггера</content>
 </mdclass:Subsystem>
