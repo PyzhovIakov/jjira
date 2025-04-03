@@ -50,6 +50,7 @@
   <subsystems>Subsystem.УчетЗадач</subsystems>
   <subsystems>Subsystem.НСИ_УчетЗадач</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемыДокументооборота</subsystems>
+  <subsystems>Subsystem.Календарик</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -1446,6 +1447,7 @@
   <commonModules>CommonModule.Сотрудники</commonModules>
   <commonModules>CommonModule.РаботаСЧасовымиПоясамиКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСЧасовымиПоясамиПовтИсп</commonModules>
+  <commonModules>CommonModule.ДелопроизводствоКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>

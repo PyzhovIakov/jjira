@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7845c26a-f7d9-471d-a03b-609cfe2bc154">
+  <name>Календарик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарик</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЗаписиРабочегоКалендаря</content>
+</mdclass:Subsystem>

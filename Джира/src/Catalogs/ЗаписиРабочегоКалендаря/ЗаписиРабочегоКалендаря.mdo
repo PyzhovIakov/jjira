@@ -121,8 +121,7 @@
       <value>Автор</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
-      <types>CatalogRef.Пользователи</types>
+      <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -403,23 +402,7 @@
       <value>Предмет</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контроль</types>
-      <types>CatalogRef.Контрагенты</types>
-      <types>CatalogRef.Проекты</types>
-      <types>DocumentRef.ВходящееПисьмо</types>
-      <types>TaskRef.ЗадачаИсполнителя</types>
-      <types>DocumentRef.ИсходящееПисьмо</types>
-      <types>CatalogRef.Файлы</types>
-      <types>DocumentRef.Бронь</types>
-      <types>DocumentRef.Задача</types>
-      <types>DocumentRef.Отсутствие</types>
-      <types>CatalogRef.ДокументыПредприятия</types>
-      <types>DocumentRef.ДействиеЗадачи</types>
-      <types>CatalogRef.ЗаметкиДокументооборота</types>
-      <types>CatalogRef.КонтрольныеТочки</types>
-      <types>CatalogRef.Мероприятия</types>
-      <types>CatalogRef.КонтактныеЛица</types>
-      <types>CatalogRef.ПроектныеЗадачи</types>
+      <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -454,8 +437,7 @@
       <value>Связанный предмет</value>
     </synonym>
     <type>
-      <types>DocumentRef.Отсутствие</types>
-      <types>CatalogRef.Мероприятия</types>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -492,9 +474,7 @@
       <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
-      <types>CatalogRef.ПолныеРоли</types>
-      <types>CatalogRef.Пользователи</types>
+      <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
