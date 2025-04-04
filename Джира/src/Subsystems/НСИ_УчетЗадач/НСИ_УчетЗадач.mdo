@@ -33,5 +33,8 @@
   <content>Catalog.Центр_КонтрольНадЭтапамиЗадач</content>
   <content>InformationRegister.Центр_ПросроченныеДействияПоЗадачам</content>
   <content>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</content>
-  <content>Enum.Центр_ПодпискаДляТригера</content>
+  <content>Enum.Центр_ПодпискаДляТриггера</content>
+  <content>Enum.Центр_ТипОценкиЧасов</content>
+  <content>InformationRegister.Центр_ДедлайнЗадач</content>
+  <content>Catalog.Центр_ПричинаПереносаДедлайна</content>
 </mdclass:Subsystem>
