@@ -30,96 +30,140 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="62034312-44c3-4547-bf3b-3a64546b7aa6">
-      <name>СозданиеЗадачи</name>
-      <description>Создание задачи</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-    <items id="3f20f31c-e6f4-44f1-8af6-54211a987d1b">
-      <name>ВзятиеЗадачи</name>
-      <description>Взятие задачи</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-    </items>
-    <items id="6deb499b-d7cc-4f4e-991d-2573fa3ebc9b">
-      <name>ОзнакомлениеИсполнителя</name>
-      <description>Ознакомление исполнителя</description>
-      <code xsi:type="core:StringValue">
-        <value>000000003</value>
-      </code>
-    </items>
-    <items id="0b493b56-760d-4d28-a1cd-e2b8bdc5b47d">
-      <name>ЗакрытиеЗадачи</name>
-      <description>Закрытие задачи</description>
-      <code xsi:type="core:StringValue">
-        <value>000000006</value>
-      </code>
-    </items>
-    <items id="6ba2c20d-1d75-41e2-9f91-818272a93158">
-      <name>ВопросПоЗадаче</name>
-      <description>Вопрос по задаче</description>
-      <code xsi:type="core:StringValue">
-        <value>000000004</value>
-      </code>
-    </items>
-    <items id="af950890-c32e-45b8-abb8-73b2889e4132">
-      <name>ОтветНаВопросПоЗадаче</name>
-      <description>Ответ на вопрос по задаче</description>
-      <code xsi:type="core:StringValue">
-        <value>000000005</value>
-      </code>
-    </items>
-  </predefined>
+  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <tabularSections uuid="1986f443-7721-4736-a7bd-9f1d8cda9e36">
-    <producedTypes>
-      <objectType typeId="af6e7652-cadc-48d7-9059-da4b8542c497" valueTypeId="676236fb-b2a9-426d-84c4-7f75968c16fa"/>
-      <rowType typeId="37e600e1-b778-4b12-a5ac-3ebc0bd1b227" valueTypeId="c49410aa-5b81-4f3b-a7dc-e954f3b251fd"/>
-    </producedTypes>
-    <name>ПереходыСтатусов</name>
+  <defaultObjectForm>Catalog.Центр_Триггеры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="25250a2a-39e9-465b-8604-ac9dba6fce65">
+    <name>Запрос</name>
     <synonym>
       <key>ru</key>
-      <value>Переходы статусов</value>
+      <value>Запрос</value>
     </synonym>
-    <attributes uuid="3edb48fc-4bcb-4e0d-b27a-be9093afaeae">
-      <name>СтатусСрабатывания</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0325267-5f99-483b-9223-8a28cc32c587">
+    <name>Подписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Центр_ПодпискаДляТриггера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="878f4ebf-ff34-40b6-97af-aeccd0f1626c">
+    <name>Уведомлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50305821-cb0a-4720-b3c0-bf9d0244852e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_СтатусыЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f7c84b28-99aa-4604-82ed-d005cc793c07">
+    <producedTypes>
+      <objectType typeId="b0082946-400a-4e98-9c2c-15b7c120a301" valueTypeId="dc531319-b29b-4aae-8af9-a7e0d4eaddd9"/>
+      <rowType typeId="788e3367-6e16-43f0-b801-3fbe5ea8ed06" valueTypeId="685df91d-9904-4513-9b6c-dc631e7e0d0a"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="4021294a-6e18-4e3b-aeff-d81603f0ee52">
+      <name>Параметр</name>
       <synonym>
         <key>ru</key>
-        <value>Статус срабатывания</value>
+        <value>Параметр</value>
       </synonym>
       <type>
-        <types>CatalogRef.Центр_СтатусыЗадач</types>
+        <types>String</types>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9872f19e-1a95-4460-958f-f490731a3faf">
-      <name>СтатусЗавершения</name>
+    <attributes uuid="ce706077-4d35-4a7e-aae2-3ea73db0276c">
+      <name>Значение</name>
       <synonym>
         <key>ru</key>
-        <value>Статус завершения</value>
+        <value>Значение</value>
       </synonym>
       <type>
-        <types>CatalogRef.Центр_СтатусыЗадач</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="f0834b81-4962-454c-807b-3bc1ff310cc2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -26,4 +26,11 @@
       <value>Час</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="426327b4-448c-42b0-9ddd-6bdd15b355a7">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

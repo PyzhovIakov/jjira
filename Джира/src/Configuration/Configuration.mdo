@@ -1383,6 +1383,7 @@
   <commonModules>CommonModule.Центр_УведомленияПользователей</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
+  <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1590,6 +1591,7 @@
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЭкспортОценкиПроизводительности</scheduledJobs>
   <scheduledJobs>ScheduledJob.Центр_ПроверкаВыполненияЭтаповКонтроля</scheduledJobs>
+  <scheduledJobs>ScheduledJob.Центр_ВызовТриггера</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</functionalOptions>
   <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
@@ -2070,6 +2072,7 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2152,6 +2155,7 @@
   <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
   <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
   <catalogs>Catalog.Центр_КонтрольНадЭтапамиЗадач</catalogs>
+  <catalogs>Catalog.Центр_ПричинаПереносаДедлайна</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2265,6 +2269,8 @@
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.Центр_ПодпискаДляТриггера</enums>
+  <enums>Enum.Центр_ТипОценкиЧасов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2375,8 +2381,8 @@
   <dataProcessors>DataProcessor.УничтожениеПерсональныхДанных</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
-  <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
   <dataProcessors>DataProcessor.Центр_ТестУведомлений</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
@@ -2571,6 +2577,7 @@
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.Центр_ДедлайнЗадач</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
