@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e1d8599-c8c4-4b98-87b8-9fc038fbf5c9">
+  <producedTypes>
+    <selectionType typeId="2066db9e-a639-462a-af97-ff3b1a8b68f7" valueTypeId="0a7bc36a-2b5a-4dfb-8e58-92bd76984872"/>
+    <listType typeId="22afb757-6fd7-4290-af27-96f759aa7cdf" valueTypeId="141340f0-e936-4692-9656-3a0beb29cd29"/>
+    <managerType typeId="588c061a-c248-4493-89c8-15e55d2defe5" valueTypeId="ae652935-fcb7-44c0-b9af-2707132626f6"/>
+    <recordSetType typeId="4db1aef8-6c67-40a6-b83b-543a19cc4491" valueTypeId="3e2a9d27-92c5-4b41-bbc9-25605ea6d4e2"/>
+    <recordKeyType typeId="57405eed-d1d3-45b1-a045-7b2d910247f8" valueTypeId="6c8735da-b400-4420-bc9c-43bf7fbc320d"/>
+    <recordType typeId="55cfa21c-b258-4b6f-ad09-97c1b2615029" valueTypeId="dd606634-71da-4ca4-994b-501ed629a07e"/>
+    <recordManagerType typeId="6358d203-73a5-4191-a424-ebc1ee669408" valueTypeId="ce00c0f6-4efc-4315-a9cf-d71cfc4caaff"/>
+  </producedTypes>
+  <name>Центр_ДедлайнЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дедлайн задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Дедлан задачи</value>
+  </recordPresentation>
+  <resources uuid="ffcfb851-aedc-4ee0-b92e-9b11c8260f24">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="050b5071-d887-4d12-b3d0-fddab5fb7d09">
+    <name>Согласовант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="73c264ef-7be2-428e-8f46-2f3ebda9859c">
+    <name>Дедлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дедлайн</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3656e6ed-bb99-43b6-b797-e8492c0053b6">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fbf5cd46-2418-4af3-97f6-f86e771a18e6">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="57cc9b2d-bdfe-4822-b1f9-e5664962d5ac">
+    <name>КомментарийОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий отказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="40f1ce6c-55ea-49e9-a5e3-0e6c1077fcdd">
+    <name>КомментарийОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий оценки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f72109e2-0eb7-431c-aa9f-8ba08c58bb2f">
+    <name>ПричинаПереноса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина переноса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Центр_ПричинаПереносаДедлайна</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8275e1ad-7272-4179-9c99-d25a0afd1a98">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Центр_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

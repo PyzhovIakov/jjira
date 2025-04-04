@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdcb2473-b2b9-4078-9a5f-8fa1555be81c">
+  <producedTypes>
+    <refType typeId="86072f00-6b9a-4f83-9ca2-d2c27ca2f843" valueTypeId="523d0b06-1fd9-4452-9bfe-b742d303ba62"/>
+    <listType typeId="c86e6cd7-5e4e-4b30-b09e-f493b6b3573a" valueTypeId="510d7abf-06e5-439d-9f49-310c279bf123"/>
+    <managerType typeId="8776067f-1fac-4444-ad75-aa32d08cde56" valueTypeId="cf50fd2b-043c-45bb-9b2f-2f3d82f05ccb"/>
+  </producedTypes>
+  <name>Центр_ТипОценкиЧасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр тип оценки часов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="36f5fefa-b5ff-4c65-ac02-4341d43c220d">
+    <name>Рамочная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рамочная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="938c1c95-bedd-4252-9783-e9c35312c9a9">
+    <name>Точная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b2c9f87-faaf-4acd-88ef-2c995a3a2f87">
+    <name>ПоФакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>По факту</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
