@@ -184,8 +184,9 @@
     <name>ГлавныйМенеджер</name>
     <synonym>
       <key>ru</key>
-      <value>Главный менеджер</value>
+      <value>Основной менеджер</value>
     </synonym>
+    <comment> </comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>

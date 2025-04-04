@@ -2072,6 +2072,7 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2380,8 +2381,8 @@
   <dataProcessors>DataProcessor.УничтожениеПерсональныхДанных</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
-  <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.Центр_РедактированиеПользовательскихНастроек</dataProcessors>
   <dataProcessors>DataProcessor.Центр_ТестУведомлений</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
