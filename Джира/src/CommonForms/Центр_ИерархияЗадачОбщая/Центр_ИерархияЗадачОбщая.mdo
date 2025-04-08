@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8aac3f0-e32a-408c-a1e6-ab9365ecdb9f">
+  <name>Центр_ИерархияЗадачОбщая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иерархия задач (Джира)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
