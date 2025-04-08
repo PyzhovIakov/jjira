@@ -1065,6 +1065,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВМоделиСервиса</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурации</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурацииВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурацииГлобальный</commonModules>
@@ -1278,9 +1279,6 @@
   <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыСерверЛокализация</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
-  <commonModules>CommonModule.Центр_ЭлементыФормы</commonModules>
-  <commonModules>CommonModule.Центр_ВыборЦветаHTMLПовтИсп</commonModules>
-  <commonModules>CommonModule.Центр_ОбработкаТриггеров</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиент</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</commonModules>
@@ -1350,6 +1348,12 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.Центр_ВыборЦветаHTMLПовтИсп</commonModules>
+  <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
+  <commonModules>CommonModule.Центр_ОбработкаТриггеров</commonModules>
+  <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
+  <commonModules>CommonModule.Центр_УведомленияПользователей</commonModules>
+  <commonModules>CommonModule.Центр_ЭлементыФормы</commonModules>
   <commonModules>CommonModule.ЦентрМониторинга</commonModules>
   <commonModules>CommonModule.ЦентрМониторингаГлобальный</commonModules>
   <commonModules>CommonModule.ЦентрМониторингаКлиент</commonModules>
@@ -1380,10 +1384,6 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
-  <commonModules>CommonModule.Центр_УведомленияПользователей</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
-  <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
-  <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -2073,6 +2073,7 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
+  <commonForms>CommonForm.Центр_ИерархияЗадачОбщая</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2136,6 +2137,19 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
+  <catalogs>Catalog.Центр_ВидыЗадач</catalogs>
+  <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
+  <catalogs>Catalog.Центр_Доски</catalogs>
+  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Центр_КонтрольНадЭтапамиЗадач</catalogs>
+  <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
+  <catalogs>Catalog.Центр_Партнеры</catalogs>
+  <catalogs>Catalog.Центр_Приоритеты</catalogs>
+  <catalogs>Catalog.Центр_ПричинаПереносаДедлайна</catalogs>
+  <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
+  <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
+  <catalogs>Catalog.Центр_Сценарии</catalogs>
+  <catalogs>Catalog.Центр_Триггеры</catalogs>
   <catalogs>Catalog.ШаблоныАнкет</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
@@ -2143,19 +2157,6 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
-  <catalogs>Catalog.Центр_Партнеры</catalogs>
-  <catalogs>Catalog.Центр_ВидыЗадач</catalogs>
-  <catalogs>Catalog.Центр_Сценарии</catalogs>
-  <catalogs>Catalog.Центр_Приоритеты</catalogs>
-  <catalogs>Catalog.Центр_Доски</catalogs>
-  <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
-  <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
-  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Центр_Триггеры</catalogs>
-  <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
-  <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
-  <catalogs>Catalog.Центр_КонтрольНадЭтапамиЗадач</catalogs>
-  <catalogs>Catalog.Центр_ПричинаПереносаДедлайна</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
