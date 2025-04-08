@@ -1099,6 +1099,47 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
+        <items xsi:type="form:FormField">
+          <name>ТребуетКонтроляПоЗавершению</name>
+          <id>437</id>
+          <title>
+            <key>ru</key>
+            <value>Требует контроля</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ТребуетКонтроляПоЗавершению</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТребуетКонтроляПоЗавершениюПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ТребуетКонтроляПоЗавершениюРасширеннаяПодсказка</name>
+            <id>439</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТребуетКонтроляПоЗавершениюКонтекстноеМеню</name>
+            <id>438</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
