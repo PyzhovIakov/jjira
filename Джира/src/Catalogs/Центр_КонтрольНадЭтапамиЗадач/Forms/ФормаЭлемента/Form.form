@@ -234,11 +234,11 @@
       <segments>Объект.Параметры</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Add</excludedCommands>
     <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>Delete</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ПараметрыПараметр</name>
       <id>38</id>

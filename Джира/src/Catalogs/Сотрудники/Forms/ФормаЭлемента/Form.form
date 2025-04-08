@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
+  <excludedCommands>WriteAndClose</excludedCommands>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>СписокЗамещающиеИПомощники</name>
+    <title>
+      <key>ru</key>
+      <value>Список замещающие и помощники</value>
+    </title>
+    <id>16</id>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ЗамещающиеИПомощники.Ссылка,
+	ЗамещающиеИПомощники.ВидЗамещения,
+	ЗамещающиеИПомощники.ДатаНачала,
+	ЗамещающиеИПомощники.ДатаОкончания,
+	ЗамещающиеИПомощники.Замещающий,
+	ВЫРАЗИТЬ(&quot;&quot; КАК Строка(50)) КАК ВидЗамещенияСтрокой,
+	ВЫРАЗИТЬ(&quot;&quot; КАК Строка(50)) КАК ПериодСтрокой,
+	ЗамещающиеИПомощники.Действует,
+	ВЫБОР
+		КОГДА ИСТИНА В
+			(ВЫБРАТЬ
+				ИСТИНА
+			ИЗ
+				Справочник.ЗамещающиеИПомощники.ВопросыЗамещения КАК ВопросыЗамещения
+			ГДЕ
+				ВопросыЗамещения.Ссылка = ЗамещающиеИПомощники.Ссылка
+				И ВопросыЗамещения.Область = ЗНАЧЕНИЕ(Справочник.ОбластиЗамещения.ВсеОбласти))
+			ТОГДА &amp;СтрокаПоВсем
+		ИНАЧЕ &amp;СтрокаВыборочно
+	КОНЕЦ КАК ПоКакимВопросам
+ИЗ
+	Справочник.ЗамещающиеИПомощники КАК ЗамещающиеИПомощники</queryText>
+      <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Действует</dataPath>
+        <field>Действует</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидЗамещения</dataPath>
+        <field>ВидЗамещения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаНачала</dataPath>
+        <field>ДатаНачала</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаОкончания</dataPath>
+        <field>ДатаОкончания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Замещающий</dataPath>
+        <field>Замещающий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидЗамещенияСтрокой</dataPath>
+        <field>ВидЗамещенияСтрокой</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Вид замещения строкой</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПериодСтрокой</dataPath>
+        <field>ПериодСтрокой</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Период строкой</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПоКакимВопросам</dataPath>
+        <field>ПоКакимВопросам</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>По каким вопросам</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Комментарий</dataPath>
+        <field>Комментарий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Основание</dataPath>
+        <field>Основание</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Создал</dataPath>
+        <field>Создал</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Сотрудник</dataPath>
+        <field>Сотрудник</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВопросыЗамещения</dataPath>
+        <field>ВопросыЗамещения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <parameters>
+        <name>СтрокаВыборочно</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Строка выборочно</value>
+            </content>
+          </localValue>
+        </title>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>СтрокаПоВсем</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Строка по всем</value>
+            </content>
+          </localValue>
+        </title>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>Роли</name>
+    <title>
+      <key>ru</key>
+      <value>Роли</value>
+    </title>
+    <id>17</id>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <mainTable>InformationRegister.ИсполнителиЗадач</mainTable>
+      <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+</form:Form>

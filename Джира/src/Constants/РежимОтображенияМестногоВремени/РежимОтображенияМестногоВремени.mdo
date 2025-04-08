@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4457f31e-2c43-443f-8a16-f87680cc601b">
+  <producedTypes>
+    <managerType typeId="3420aa2a-2379-445d-88b3-0d19ac0ecbb1" valueTypeId="d720abf4-2980-432e-a521-804a1447d677"/>
+    <valueManagerType typeId="7530460b-3193-48d6-8b50-6fbfec52ad45" valueTypeId="3b6c701c-d4bc-4d27-aa5b-1eece252b7f3"/>
+    <valueKeyType typeId="e62d200f-dced-4696-922e-2a7da200c2fc" valueTypeId="5b3c2aa7-d538-4d90-bd51-1a43c607dc69"/>
+  </producedTypes>
+  <name>РежимОтображенияМестногоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим отображения местного времени</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

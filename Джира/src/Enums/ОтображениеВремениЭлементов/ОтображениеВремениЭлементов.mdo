@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d72106c-ae11-4370-97c5-e7f24fdba3fc">
+  <producedTypes>
+    <refType typeId="e62b072b-d795-46c9-8699-d13e854ec601" valueTypeId="d5073be0-52be-45a3-9bd8-4eef13db83f6"/>
+    <listType typeId="aea313d7-ac54-4a55-bf6d-4915cdc3cbe6" valueTypeId="55315cc4-27ed-472f-a06a-2b2598fba2ee"/>
+    <managerType typeId="11199bc1-e7fc-4e1d-b91c-bd64523c1f31" valueTypeId="2d812ee2-4b79-4594-abf1-95840550ee77"/>
+  </producedTypes>
+  <name>ОтображениеВремениЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображение времени элементов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6abacd66-4907-492f-bb92-f19d0c9ee0d7">
+    <name>НеОтображать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отображать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b10919e-fca7-4d3f-b871-96cd994d4555">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d045fcec-1560-4299-909d-ce011f4720c9">
+    <name>ВремяНачалаИКонца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала и конца</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
