@@ -2073,6 +2073,7 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
+  <commonForms>CommonForm.Центр_ИерархияЗадачОбщая</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2148,9 +2149,9 @@
   <catalogs>Catalog.Центр_Сценарии</catalogs>
   <catalogs>Catalog.Центр_Приоритеты</catalogs>
   <catalogs>Catalog.Центр_Доски</catalogs>
+  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Центр_СтатусыЗадач</catalogs>
   <catalogs>Catalog.Центр_ГруппыДоступаКЗадачам</catalogs>
-  <catalogs>Catalog.Центр_ЗадачаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Центр_Триггеры</catalogs>
   <catalogs>Catalog.Центр_МеткиЗадач</catalogs>
   <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
