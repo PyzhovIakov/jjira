@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="560ba5e2-7755-4ace-a3ab-bf75ebf6b108">
+  <producedTypes>
+    <objectType typeId="1c8a6315-1d29-403c-8e6a-3b693cd979d6" valueTypeId="670f1b4d-91e8-4b74-879f-300cc69e1037"/>
+    <refType typeId="5bdb23d4-0ccf-4da9-8b3e-8721f497a01a" valueTypeId="f830596e-986b-4e9b-9171-48cf41bc4448"/>
+    <selectionType typeId="c919a26e-0bd2-456c-8759-7e310296a2d4" valueTypeId="9b91963b-026c-4651-aaac-de4a4b21c2eb"/>
+    <listType typeId="baff4c94-8254-4831-9bac-8cf92b5fb335" valueTypeId="a9a8f7d1-6df2-4880-b686-a8d63298eda4"/>
+    <managerType typeId="a0c22e62-5104-4947-ad98-a2cb395eabfa" valueTypeId="28081e0e-6415-488e-a168-35bdf8dc7c44"/>
+  </producedTypes>
+  <name>Центр_ПричинаПереносаДедлайна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причина переноса дедлайна</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_ПричинаПереносаДедлайна.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Центр_ПричинаПереносаДедлайна.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

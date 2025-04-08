@@ -42,6 +42,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="7f6a6a83-8905-4f18-9739-16b1b2f9c823">
+    <name>ЗадачаВзята</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача взята</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="6e517ae1-bb5d-48c1-9099-dab03d3b6fff">
     <name>Задача</name>
     <synonym>

@@ -337,10 +337,10 @@
       <segments>Объект.Параметры</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
     <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>Add</excludedCommands>
     <excludedCommands>Delete</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ПараметрыПараметр</name>
       <id>37</id>

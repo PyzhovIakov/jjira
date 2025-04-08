@@ -7,7 +7,7 @@
   </synonym>
   <group>FormNavigationPanelGoTo</group>
   <commandParameterType>
-    <types>DefinedType.ВладелецПрисоединенныхФайлов</types>
+    <types>DocumentRef.Центр_Задача</types>
   </commandParameterType>
   <representation>Auto</representation>
 </mdclass:CommonCommand>

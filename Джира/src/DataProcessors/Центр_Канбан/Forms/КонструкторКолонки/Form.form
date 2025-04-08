@@ -934,7 +934,6 @@
 	Центр_Задача.ОписаниеЗадачи,
 	Центр_Задача.ВидЗадачи,
 	Центр_Задача.Постановщик,
-	Центр_Задача.Дедлайн,
 	Центр_Задача.Приоритет,
 	Центр_Задача.Автор,
 	Центр_Задача.ГлавнаяЗадача,
@@ -943,7 +942,7 @@
 	Центр_Задача.Наблюдатели.(
 		Ссылка,
 		НомерСтроки,
-		Пользовалель),
+		Пользователь),
 	Центр_Задача.Метки.(
 		Ссылка,
 		НомерСтроки,
@@ -951,7 +950,25 @@
 	Центр_Задача.МоментВремени,
 	Центр_Задача.Представление,
 	Центр_ПросроченныеДействияПоЗадачам.Этап КАК ПросроченоеДействие,
-	Центр_ПросроченныеДействияПоЗадачам.Пользователь КАК ПользовательПросроченныхДействий
+	Центр_ПросроченныеДействияПоЗадачам.Пользователь КАК ПользовательПросроченныхДействий,
+	Центр_ДедлайнЗадачСрезПоследних.Дедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.Согласовано КАК СогласованоДедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.Отказ КАК ОтказДедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.КомментарийОтказа КАК КомментарийОтказаДедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.КомментарийОценки КАК КомментарийДедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.ПричинаПереноса КАК ПричинаПереносаДедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.Согласующий КАК СогласующийДедлайн,
+	Центр_ДедлайнЗадачСрезПоследних.Согласовант КАК СогласовантДедлайн,
+	Центр_ОценкаЧасовСрезПоследних.От,
+	Центр_ОценкаЧасовСрезПоследних.До,
+	Центр_ОценкаЧасовСрезПоследних.Длительность,
+	Центр_ОценкаЧасовСрезПоследних.Согласовано,
+	Центр_ОценкаЧасовСрезПоследних.Отказ,
+	Центр_ОценкаЧасовСрезПоследних.Согласующий,
+	Центр_ОценкаЧасовСрезПоследних.Согласовант,
+	Центр_ОценкаЧасовСрезПоследних.ТипОценки,
+	Центр_ОценкаЧасовСрезПоследних.КомментарийОтказа,
+	Центр_ОценкаЧасовСрезПоследних.КомментарийОценки
 ИЗ
 	Документ.Центр_Задача КАК Центр_Задача
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ИсполнителиЗадач.СрезПоследних КАК Центр_ИсполнителиЗадачСрезПоследних
@@ -959,7 +976,11 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_СтатусыЗадач.СрезПоследних КАК Центр_СтатусыЗадачСрезПоследних
 		ПО Центр_Задача.Ссылка = Центр_СтатусыЗадачСрезПоследних.Задача
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ПросроченныеДействияПоЗадачам КАК Центр_ПросроченныеДействияПоЗадачам
-		ПО Центр_ПросроченныеДействияПоЗадачам.Задача = Центр_Задача.Ссылка</queryText>
+		ПО Центр_ПросроченныеДействияПоЗадачам.Задача = Центр_Задача.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ДедлайнЗадач.СрезПоследних КАК Центр_ДедлайнЗадачСрезПоследних
+		ПО Центр_ДедлайнЗадачСрезПоследних.Задача = Центр_Задача.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Центр_ОценкаЧасов.СрезПоследних КАК Центр_ОценкаЧасовСрезПоследних
+		ПО Центр_Задача.Ссылка = Центр_ОценкаЧасовСрезПоследних.Задача</queryText>
       <mainTable>Document.Центр_Задача</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -1013,10 +1034,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наблюдатели.НомерСтроки</dataPath>
         <field>Наблюдатели.НомерСтроки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наблюдатели.Пользовалель</dataPath>
-        <field>Наблюдатели.Пользовалель</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
         <dataPath>Наблюдатели</dataPath>
@@ -1089,6 +1106,150 @@
             </content>
           </localValue>
         </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наблюдатели.Пользователь</dataPath>
+        <field>Наблюдатели.Пользователь</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Согласовано</dataPath>
+        <field>Согласовано</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отказ</dataPath>
+        <field>Отказ</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КомментарийОтказа</dataPath>
+        <field>КомментарийОтказа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КомментарийОценки</dataPath>
+        <field>КомментарийОценки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Согласующий</dataPath>
+        <field>Согласующий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Согласовант</dataPath>
+        <field>Согласовант</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>От</dataPath>
+        <field>От</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>До</dataPath>
+        <field>До</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Длительность</dataPath>
+        <field>Длительность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипОценки</dataPath>
+        <field>ТипОценки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СогласованоДедлайн</dataPath>
+        <field>СогласованоДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Согласовано дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОтказДедлайн</dataPath>
+        <field>ОтказДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Отказ дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КомментарийОтказаДедлайн</dataPath>
+        <field>КомментарийОтказаДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Комментарий отказа дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КомментарийДедлайн</dataPath>
+        <field>КомментарийДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Комментарий дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПричинаПереносаДедлайн</dataPath>
+        <field>ПричинаПереносаДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Причина переноса дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СогласующийДедлайн</dataPath>
+        <field>СогласующийДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Согласующий дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СогласовантДедлайн</dataPath>
+        <field>СогласовантДедлайн</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Согласовант дедлайн</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ГлавныйМенеджер</dataPath>
+        <field>ГлавныйМенеджер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЧекЛист</dataPath>
+        <field>ЧекЛист</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
       </fields>
       <parameters>
         <name>Период</name>

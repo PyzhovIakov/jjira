@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9789bd49-5151-4825-b28d-2759c39ae350">
+  <name>Центр_ВызовТриггера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вызов триггера</value>
+  </synonym>
+  <comment>Вызов триггера</comment>
+  <methodName>CommonModule.Центр_ОбработкаТриггеров.Центр_ВызовТриггера</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

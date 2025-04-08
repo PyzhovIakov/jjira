@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae25ff05-a3d0-4288-bdf5-c7d164945f31">
+  <name>Центр_КомментарииЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарии задачи (Джира)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
