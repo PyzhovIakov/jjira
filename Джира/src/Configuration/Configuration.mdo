@@ -49,6 +49,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.УчетЗадач</subsystems>
   <subsystems>Subsystem.НСИ_УчетЗадач</subsystems>
+  <subsystems>Subsystem.Календарь</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -139,6 +140,36 @@
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <styleItems>StyleItem.ШрифтМеток</styleItems>
   <styleItems>StyleItem.ШрифтОченьКрупныйШрифтТекста</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряЖелтая</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряЗеленая</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряКрасная</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряОранжевая</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряОтработана</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряСиняя</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряТекущаяЗапись</styleItems>
+  <styleItems>StyleItem.ФонВыбранногоВремени</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряДоступноеВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряЖелтый</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряЗанятоеВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряЗеленый</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряКрасный</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряОранжевый</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряОтработано</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряОтсутствует</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПодВопросомВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПодпись</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПодписьТекущийДень</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПоУмолчанию</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряРамка</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряСиний</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряТекущаяЗапись</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонПустойЯчейкиВсегоДня</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонТекущегоДня</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонШапки</styleItems>
+  <styleItems>StyleItem.ЦветТекстаНеактуальнойДатыКалендаря</styleItems>
+  <styleItems>StyleItem.ШрифтКалендаряПодпись</styleItems>
+  <styleItems>StyleItem.ШрифтКалендаряПометкаУдаления</styleItems>
+  <styles>Style.Календарь</styles>
   <commonPictures>CommonPicture.BotFather</commonPictures>
   <commonPictures>CommonPicture.BotFatherВконтакте</commonPictures>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
@@ -675,6 +706,24 @@
   <commonPictures>CommonPicture.ЭтапыПодтверждения</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация24</commonPictures>
+  <commonPictures>CommonPicture.ДоступенЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ЗанятЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ЗаписьКалендаряОтклонена</commonPictures>
+  <commonPictures>CommonPicture.ЗаписьКалендаряПодВопросом</commonPictures>
+  <commonPictures>CommonPicture.ЗаписьКалендаряУдалена</commonPictures>
+  <commonPictures>CommonPicture.ЗеленаяГалка</commonPictures>
+  <commonPictures>CommonPicture.Календарь16</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЦвет</commonPictures>
+  <commonPictures>CommonPicture.КрасныйКрест</commonPictures>
+  <commonPictures>CommonPicture.ОтсутствуетЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ПодВопросомЛегенда</commonPictures>
+  <commonPictures>CommonPicture.ЦветЖелтый</commonPictures>
+  <commonPictures>CommonPicture.ЦветЗеленый</commonPictures>
+  <commonPictures>CommonPicture.ЦветКрасный</commonPictures>
+  <commonPictures>CommonPicture.ЦветОранжевый</commonPictures>
+  <commonPictures>CommonPicture.ЦветПоУмолчанию</commonPictures>
+  <commonPictures>CommonPicture.ЦветСиний</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -1384,6 +1433,34 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
   <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
+  <commonModules>CommonModule.Сервис_Календарь</commonModules>
+  <commonModules>CommonModule.СервисКалендаря_Даты</commonModules>
+  <commonModules>CommonModule.СервисКалендаря_Напоминания</commonModules>
+  <commonModules>CommonModule.РаботаСЧасовымиПоясамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСЧасовымиПоясамиПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремКлиентСервер</commonModules>
+  <commonModules>CommonModule.СинхронизацияКалендарей</commonModules>
+  <commonModules>CommonModule.СинхронизацияКалендарейСобытия</commonModules>
+  <commonModules>CommonModule.ОтсутствияКлиент</commonModules>
+  <commonModules>CommonModule.СотрудникиКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.СотрудникиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремСервер</commonModules>
+  <commonModules>CommonModule.ПользователиДокументооборот</commonModules>
+  <commonModules>CommonModule.РаботаСВиджетами</commonModules>
+  <commonModules>CommonModule.ВстроеннаяПочтаСервер</commonModules>
+  <commonModules>CommonModule.РаботаСУведомлениями</commonModules>
+  <commonModules>CommonModule.РаботаСЧасовымиПоясами</commonModules>
+  <commonModules>CommonModule.РаботаСРабочимКалендаремВызовСервера</commonModules>
+  <commonModules>CommonModule.АвтообновлениеКлиент</commonModules>
+  <commonModules>CommonModule.Автообновление</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияДокументооборот</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияДокументооборотКлиентСервер</commonModules>
+  <commonModules>CommonModule.УправлениеМероприятиями</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияДокументооборотКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияДокументооборотВызовСервера</commonModules>
+  <commonModules>CommonModule.СотрудникиВызовСервера</commonModules>
+  <commonModules>CommonModule.Сотрудники</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -1966,6 +2043,7 @@
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.УдалитьЛогинДоступаКСервисуMorpher</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.РежимОтображенияМестногоВремени</constants>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.АвтономнаяРаботаВМоделиСервиса</commonForms>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>
@@ -2051,9 +2129,6 @@
   <commonForms>CommonForm.РедактированиеТабличногоДокумента</commonForms>
   <commonForms>CommonForm.РезультатПроверки</commonForms>
   <commonForms>CommonForm.СвязанныеДокументы</commonForms>
-  <commonForms>CommonForm.Центр_ФормаВыбораЦвета</commonForms>
-  <commonForms>CommonForm.ФормаСпискаВопросовПоЗадаче</commonForms>
-  <commonForms>CommonForm.ФормаОтветаНаВопросПоЗадаче</commonForms>
   <commonForms>CommonForm.Сертификат</commonForms>
   <commonForms>CommonForm.Склонения</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
@@ -2069,11 +2144,14 @@
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
+  <commonForms>CommonForm.ФормаОтветаНаВопросПоЗадаче</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
-  <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
-  <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
+  <commonForms>CommonForm.ФормаСпискаВопросовПоЗадаче</commonForms>
   <commonForms>CommonForm.Центр_ИерархияЗадачОбщая</commonForms>
+  <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
+  <commonForms>CommonForm.Центр_ФормаВыбораЦвета</commonForms>
+  <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2157,6 +2235,7 @@
   <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
   <catalogs>Catalog.Центр_КонтрольНадЭтапамиЗадач</catalogs>
   <catalogs>Catalog.Центр_ПричинаПереносаДедлайна</catalogs>
+  <catalogs>Catalog.ЗаписиРабочегоКалендаря</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2272,6 +2351,10 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.Центр_ПодпискаДляТриггера</enums>
   <enums>Enum.Центр_ТипОценкиЧасов</enums>
+  <enums>Enum.ТипЗаписиКалендаря</enums>
+  <enums>Enum.ЦветаРабочегоКалендаря</enums>
+  <enums>Enum.ПериодОтображенияРабочегоКалендаря</enums>
+  <enums>Enum.ОтображениеВремениЭлементов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2579,6 +2662,7 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ДедлайнЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.НапоминанияПользователя1</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

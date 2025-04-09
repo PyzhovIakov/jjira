@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="690c5289-cc9a-4e8d-882e-8b1e2f43f50c">
+  <name>РамкаКалендаряТекущаяЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рамка календаря текущая запись</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.SteelBlue</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

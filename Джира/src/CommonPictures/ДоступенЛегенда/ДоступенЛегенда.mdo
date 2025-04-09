@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2d5b5e0-109a-43c4-8809-9e6c4b2ffcce">
+  <name>ДоступенЛегенда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступен легенда</value>
+  </synonym>
+</mdclass:CommonPicture>
