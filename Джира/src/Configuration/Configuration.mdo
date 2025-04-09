@@ -2129,9 +2129,6 @@
   <commonForms>CommonForm.РедактированиеТабличногоДокумента</commonForms>
   <commonForms>CommonForm.РезультатПроверки</commonForms>
   <commonForms>CommonForm.СвязанныеДокументы</commonForms>
-  <commonForms>CommonForm.Центр_ФормаВыбораЦвета</commonForms>
-  <commonForms>CommonForm.ФормаСпискаВопросовПоЗадаче</commonForms>
-  <commonForms>CommonForm.ФормаОтветаНаВопросПоЗадаче</commonForms>
   <commonForms>CommonForm.Сертификат</commonForms>
   <commonForms>CommonForm.Склонения</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
@@ -2147,11 +2144,14 @@
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
+  <commonForms>CommonForm.ФормаОтветаНаВопросПоЗадаче</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
-  <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
-  <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
+  <commonForms>CommonForm.ФормаСпискаВопросовПоЗадаче</commonForms>
   <commonForms>CommonForm.Центр_ИерархияЗадачОбщая</commonForms>
+  <commonForms>CommonForm.Центр_КомментарииЗадач</commonForms>
+  <commonForms>CommonForm.Центр_ФормаВыбораЦвета</commonForms>
+  <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
