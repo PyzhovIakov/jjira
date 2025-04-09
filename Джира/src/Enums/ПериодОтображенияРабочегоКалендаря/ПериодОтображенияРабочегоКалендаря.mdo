@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="813f6d1c-1929-4aa9-baa1-6143892ab45a">
+  <producedTypes>
+    <refType typeId="73c6c833-32d8-45c7-b7be-3acbd1d0808b" valueTypeId="7ac77db0-5f71-4f8a-b9c5-fc2e00fb9a55"/>
+    <listType typeId="6d386d18-b6ca-4b75-b786-841a3409413e" valueTypeId="8b7afc33-4152-49ce-b186-dd55515f8353"/>
+    <managerType typeId="4b17f340-5fb9-4fbb-850b-25067b94fdf3" valueTypeId="16899876-fe85-4915-bd6d-2e43aafd924b"/>
+  </producedTypes>
+  <name>ПериодОтображенияРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период отображения рабочего календаря</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="07310ce9-cad3-48be-91cb-4ec4bb3f7e93">
+    <name>ДвеНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Две недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86227242-7ae2-480a-827e-a82258793a86">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8270887e-ff1a-4437-91de-97238f256477">
+    <name>ТриДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Три дня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81fc1823-6a83-43db-95aa-db18c230f95c">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0654db6-7f6a-4b27-af74-4f595248eaa5">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfb4eeca-dce0-4f82-90a2-b9ac39382e69">
+    <name>НеделяСТекущейДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя с текущей даты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58fbec4c-4b0c-4aa0-99f0-1bd24f44a886">
+    <name>ПланДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>План дня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1509ec92-56e0-409e-b913-dba86b45456a">
+    <name>ПланДняДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>План дня день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fa4694a-895a-4f43-be16-4e6c3e6d8d20">
+    <name>ПланДняРабочийСтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>План дня рабочий стол</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6806a4fc-3aec-4005-a683-fe6d862e593a">
+  <name>ЦветКалендаряОранжевый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет календаря оранжевый</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>190</green>
+      <blue>140</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -197,6 +197,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d8e3b6af-acef-4157-bc3c-d06d3d26d0b6">
+    <name>ТребуетКонтроляПоЗавершению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует контроля по завершению</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="126aca9b-c29d-4d80-b645-d89829732b67">
     <name>ФормаДокумента</name>
     <synonym>
