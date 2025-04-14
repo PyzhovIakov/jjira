@@ -103,6 +103,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
     <name>Постановщик</name>
