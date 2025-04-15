@@ -7,6 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ЗаписиРабочегоКалендаря</content>
+  <content>Catalog.Центр_Календарь</content>
   <content>Constant.РежимОтображенияМестногоВремени</content>
+  <content>Catalog.Центр_КалендарьЦвета</content>
 </mdclass:Subsystem>

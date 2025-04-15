@@ -169,6 +169,7 @@
   <styleItems>StyleItem.ЦветТекстаНеактуальнойДатыКалендаря</styleItems>
   <styleItems>StyleItem.ШрифтКалендаряПодпись</styleItems>
   <styleItems>StyleItem.ШрифтКалендаряПометкаУдаления</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряПоУмолчанию</styleItems>
   <styles>Style.Календарь</styles>
   <commonPictures>CommonPicture.BotFather</commonPictures>
   <commonPictures>CommonPicture.BotFatherВконтакте</commonPictures>
@@ -1433,33 +1434,9 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУЗ</commonModules>
   <commonModules>CommonModule.Центр_ОбработкаПроверкиВыполненияЭтаповКонтроля</commonModules>
   <commonModules>CommonModule.Центр_ОбработчикиФормыЗадачиСервер</commonModules>
-  <commonModules>CommonModule.Сервис_Календарь</commonModules>
-  <commonModules>CommonModule.СервисКалендаря_Даты</commonModules>
-  <commonModules>CommonModule.СервисКалендаря_Напоминания</commonModules>
-  <commonModules>CommonModule.РаботаСЧасовымиПоясамиКлиентСервер</commonModules>
-  <commonModules>CommonModule.РаботаСЧасовымиПоясамиПовтИсп</commonModules>
-  <commonModules>CommonModule.РаботаСРабочимКалендаремКлиент</commonModules>
-  <commonModules>CommonModule.РаботаСРабочимКалендаремКлиентСервер</commonModules>
-  <commonModules>CommonModule.СинхронизацияКалендарей</commonModules>
-  <commonModules>CommonModule.СинхронизацияКалендарейСобытия</commonModules>
-  <commonModules>CommonModule.ОтсутствияКлиент</commonModules>
-  <commonModules>CommonModule.СотрудникиКлиентПовтИсп</commonModules>
-  <commonModules>CommonModule.СотрудникиКлиент</commonModules>
-  <commonModules>CommonModule.РаботаСРабочимКалендаремСервер</commonModules>
-  <commonModules>CommonModule.ПользователиДокументооборот</commonModules>
-  <commonModules>CommonModule.РаботаСВиджетами</commonModules>
-  <commonModules>CommonModule.ВстроеннаяПочтаСервер</commonModules>
-  <commonModules>CommonModule.РаботаСУведомлениями</commonModules>
-  <commonModules>CommonModule.РаботаСЧасовымиПоясами</commonModules>
-  <commonModules>CommonModule.РаботаСРабочимКалендаремВызовСервера</commonModules>
-  <commonModules>CommonModule.АвтообновлениеКлиент</commonModules>
-  <commonModules>CommonModule.Автообновление</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияДокументооборот</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияДокументооборотКлиентСервер</commonModules>
-  <commonModules>CommonModule.УправлениеМероприятиями</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияДокументооборотКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияДокументооборотВызовСервера</commonModules>
-  <commonModules>CommonModule.СотрудникиВызовСервера</commonModules>
+  <commonModules>CommonModule.Центр_КалендарьКлиент</commonModules>
+  <commonModules>CommonModule.Центр_КаленарьКлиентСервер</commonModules>
+  <commonModules>CommonModule.Центр_КалендарьСервер</commonModules>
   <commonModules>CommonModule.Сотрудники</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
@@ -2235,7 +2212,8 @@
   <catalogs>Catalog.Центр_ПричиныОтказаОтЗадачи</catalogs>
   <catalogs>Catalog.Центр_КонтрольНадЭтапамиЗадач</catalogs>
   <catalogs>Catalog.Центр_ПричинаПереносаДедлайна</catalogs>
-  <catalogs>Catalog.ЗаписиРабочегоКалендаря</catalogs>
+  <catalogs>Catalog.Центр_Календарь</catalogs>
+  <catalogs>Catalog.Центр_КалендарьЦвета</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
@@ -2355,6 +2333,8 @@
   <enums>Enum.ЦветаРабочегоКалендаря</enums>
   <enums>Enum.ПериодОтображенияРабочегоКалендаря</enums>
   <enums>Enum.ОтображениеВремениЭлементов</enums>
+  <enums>Enum.СостояниеЗаписиРабочегоКалендаря</enums>
+  <enums>Enum.НастройкиЗаписейРабочегоКалендаря</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2662,7 +2642,7 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ДедлайнЗадач</informationRegisters>
-  <informationRegisters>InformationRegister.НапоминанияПользователя1</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаря</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
