@@ -28,25 +28,39 @@
   </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="d73950d8-e522-499d-b269-23ec47da218f">
-    <name>ПовторяющеесяСобытие</name>
+  <enumValues uuid="1f6d58b1-d6ee-4e8d-81fd-c52bec12b20e">
+    <name>Задача</name>
     <synonym>
       <key>ru</key>
-      <value>Повторяющееся событие</value>
+      <value>Задача</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="20f79c52-f865-4879-8a88-c77ac287b4da">
-    <name>Событие</name>
+  <enumValues uuid="bdf2c01f-dd3f-4336-b13f-c20ef80dc047">
+    <name>Больничный</name>
     <synonym>
       <key>ru</key>
-      <value>Событие</value>
+      <value>Больничный</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="9ee55e0b-3734-46a4-8cca-b4abfcc2d914">
-    <name>ЭлементПовторяющегосяСобытия</name>
+  <enumValues uuid="3baa1503-7590-4464-bf00-6a94650c5450">
+    <name>Отпуск</name>
     <synonym>
       <key>ru</key>
-      <value>Элемент повторяющегося события</value>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f5eac99-fa11-459b-93fe-07f7550246d6">
+    <name>Уточнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57f56604-4034-4f72-bb82-ba7ec8033bf0">
+    <name>ПустоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустое значение</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

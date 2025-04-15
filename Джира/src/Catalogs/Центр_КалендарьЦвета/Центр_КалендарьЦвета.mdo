@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1515dfb2-b479-41c1-9690-f9813e999862">
+  <producedTypes>
+    <objectType typeId="71c8fe75-d827-408b-97ec-bef125ea0ff8" valueTypeId="00ae5768-80e1-4400-ab44-df018130c686"/>
+    <refType typeId="4716447d-7c60-465f-afc2-b3415e863712" valueTypeId="eec49aa4-6614-4ec3-bd80-aef160c4284b"/>
+    <selectionType typeId="fa5c1f37-1960-4825-bf41-25fee6ce147f" valueTypeId="010e373f-ef40-4899-ab9f-79a6eb153eb9"/>
+    <listType typeId="4bccf214-8361-4ee0-ae62-afaf16663efd" valueTypeId="21d31c5e-ee3d-44bd-91e1-08d20171a8cb"/>
+    <managerType typeId="fe9c2a0b-1d63-4b72-b8dd-dcac66ff47b3" valueTypeId="f8a0b111-4a54-45c9-a4a5-1f7e869ffe4f"/>
+  </producedTypes>
+  <name>Центр_КалендарьЦвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр календарь цвета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Центр_КалендарьЦвета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Центр_КалендарьЦвета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="96f39473-d788-4888-a193-c3f81006a1d7">
+    <name>ТипЗаписиКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип записи календаря</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипЗаписиКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d733a6f-576e-4a14-be9e-a7a7d8f78495">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦветаРабочегоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

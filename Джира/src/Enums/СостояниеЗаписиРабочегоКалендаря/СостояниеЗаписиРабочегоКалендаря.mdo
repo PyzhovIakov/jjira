@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97c18b93-3638-46d8-8afd-28a297b728f5">
+  <producedTypes>
+    <refType typeId="b1aedd4a-50ec-4ca7-9e73-906b76a74fa0" valueTypeId="7e6bdae2-b419-4010-b0dc-3a94750b3023"/>
+    <listType typeId="28b8a274-775b-4585-9919-2bc49ca2ec28" valueTypeId="5a5f79a2-6369-4a1b-bbac-fc39f40de4ec"/>
+    <managerType typeId="96e55828-c6fd-4f4a-a032-236d062d1846" valueTypeId="6af57786-f537-413f-9f23-aa3edacc9db8"/>
+  </producedTypes>
+  <name>СостояниеЗаписиРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние записи рабочего календаря</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7147ac9f-7f9e-47dd-903d-54a024eb0a9b">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42f46585-fb3c-49f8-944f-d0f3e5793446">
+    <name>НаПаузе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На паузе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dea4802a-9d83-422d-8f60-ae7b7cbe601a">
+    <name>ДругойОтедел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другой отедел</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
