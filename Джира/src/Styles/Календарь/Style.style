@@ -331,67 +331,7 @@
     </color>
   </items>
   <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряЖелтый</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряЗанятоеВремя</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряЗеленый</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряКрасный</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряОранжевый</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряПодпись</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряПодписьТекущийДень</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
     <name>StyleItem.ЦветКалендаряПоУмолчанию</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряРамка</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряСиний</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряФонПустойЯчейкиВсегоДня</name>
     <color xsi:type="core:ColorRef">
       <color>Style.FormBackColor</color>
     </color>
@@ -403,27 +343,9 @@
     </color>
   </items>
   <items xsi:type="style:ColorStyleItem">
-    <name>StyleItem.ЦветКалендаряФонШапки</name>
-    <color xsi:type="core:ColorRef">
-      <color>Style.FormBackColor</color>
-    </color>
-  </items>
-  <items xsi:type="style:ColorStyleItem">
     <name>StyleItem.ЦветТекстаНеактуальнойДатыКалендаря</name>
     <color xsi:type="core:ColorRef">
       <color>Style.FormBackColor</color>
     </color>
-  </items>
-  <items xsi:type="style:FontStyleItem">
-    <name>StyleItem.ШрифтКалендаряПодпись</name>
-    <font xsi:type="core:FontRef">
-      <font>Style.TextFont</font>
-    </font>
-  </items>
-  <items xsi:type="style:FontStyleItem">
-    <name>StyleItem.ШрифтКалендаряПометкаУдаления</name>
-    <font xsi:type="core:FontRef">
-      <font>Style.TextFont</font>
-    </font>
   </items>
 </style:Style>

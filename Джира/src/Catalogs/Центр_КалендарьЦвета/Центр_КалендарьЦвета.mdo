@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Центр_КалендарьЦвета.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="96f39473-d788-4888-a193-c3f81006a1d7">
     <name>ТипЗаписиКалендаря</name>
     <synonym>
@@ -45,14 +46,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3d733a6f-576e-4a14-be9e-a7a7d8f78495">
-    <name>Цвет</name>
+  <attributes uuid="17a77f64-1f43-4bb6-b4d3-7cfe08434531">
+    <name>ЦветHEX</name>
     <synonym>
       <key>ru</key>
-      <value>Цвет</value>
+      <value>Цвет HEX</value>
     </synonym>
     <type>
-      <types>EnumRef.ЦветаРабочегоКалендаря</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <mask>\#NNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f8377f7-1c9d-40a8-aed6-2225ee5a881c">
+    <name>ЦветRGB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет RGB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,4 +83,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="72161a02-beff-48ff-9b4c-8d867f33a0bd">
+    <name>ЦветТекстаRGB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста RGB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7c22d4ac-2a6a-4fb6-bb2c-3dbb2535b1cb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
