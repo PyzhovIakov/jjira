@@ -3400,9 +3400,7 @@
       <value>Цвет</value>
     </title>
     <id>2</id>
-    <valueType>
-      <types>EnumRef.ЦветаРабочегоКалендаря</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -4100,9 +4098,7 @@
         <value>Цвет</value>
       </title>
       <id>8</id>
-      <valueType>
-        <types>EnumRef.ЦветаРабочегоКалендаря</types>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>

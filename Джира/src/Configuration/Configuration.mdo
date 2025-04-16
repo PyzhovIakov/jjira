@@ -148,28 +148,16 @@
   <styleItems>StyleItem.РамкаКалендаряСиняя</styleItems>
   <styleItems>StyleItem.РамкаКалендаряТекущаяЗапись</styleItems>
   <styleItems>StyleItem.ФонВыбранногоВремени</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряДоступноеВремя</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряЖелтый</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряЗанятоеВремя</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряЗеленый</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряКрасный</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряОранжевый</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряОтработано</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряОтсутствует</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряПодВопросомВремя</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряПоУмолчанию</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряТекущаяЗапись</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряФонТекущегоДня</styleItems>
+  <styleItems>StyleItem.ЦветТекстаНеактуальнойДатыКалендаря</styleItems>
+  <styleItems>StyleItem.РамкаКалендаряПоУмолчанию</styleItems>
   <styleItems>StyleItem.ЦветКалендаряПодпись</styleItems>
   <styleItems>StyleItem.ЦветКалендаряПодписьТекущийДень</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряПоУмолчанию</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряРамка</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряСиний</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряТекущаяЗапись</styleItems>
   <styleItems>StyleItem.ЦветКалендаряФонПустойЯчейкиВсегоДня</styleItems>
-  <styleItems>StyleItem.ЦветКалендаряФонТекущегоДня</styleItems>
   <styleItems>StyleItem.ЦветКалендаряФонШапки</styleItems>
-  <styleItems>StyleItem.ЦветТекстаНеактуальнойДатыКалендаря</styleItems>
-  <styleItems>StyleItem.ШрифтКалендаряПодпись</styleItems>
-  <styleItems>StyleItem.ШрифтКалендаряПометкаУдаления</styleItems>
-  <styleItems>StyleItem.РамкаКалендаряПоУмолчанию</styleItems>
+  <styleItems>StyleItem.ЦветКалендаряДоступноеВремя</styleItems>
   <styles>Style.Календарь</styles>
   <commonPictures>CommonPicture.BotFather</commonPictures>
   <commonPictures>CommonPicture.BotFatherВконтакте</commonPictures>
@@ -2330,7 +2318,6 @@
   <enums>Enum.Центр_ПодпискаДляТриггера</enums>
   <enums>Enum.Центр_ТипОценкиЧасов</enums>
   <enums>Enum.ТипЗаписиКалендаря</enums>
-  <enums>Enum.ЦветаРабочегоКалендаря</enums>
   <enums>Enum.ПериодОтображенияРабочегоКалендаря</enums>
   <enums>Enum.ОтображениеВремениЭлементов</enums>
   <enums>Enum.СостояниеЗаписиРабочегоКалендаря</enums>
@@ -2642,7 +2629,6 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.Центр_ДедлайнЗадач</informationRegisters>
-  <informationRegisters>InformationRegister.НастройкиОтображенияЗаписейРабочегоКалендаря</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Центр_ЧасыТрудозатрат</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

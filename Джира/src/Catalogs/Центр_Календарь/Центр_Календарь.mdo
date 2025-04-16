@@ -551,21 +551,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="631f580c-60f7-4f72-bf67-9884e9b24273">
-    <name>Цвет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Цвет</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ЦветаРабочегоКалендаря</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="82327e8e-3ae0-4f4f-b27b-4ceb67f367d8">
     <producedTypes>
       <objectType typeId="82d663cb-7a0a-44ac-aff9-07c0dc069ac5" valueTypeId="baace6ca-620c-446e-a4f5-97367b65bb19"/>
