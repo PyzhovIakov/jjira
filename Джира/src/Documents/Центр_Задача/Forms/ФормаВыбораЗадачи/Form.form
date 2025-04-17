@@ -333,7 +333,6 @@
        Центр_Задача.ОписаниеЗадачи, 
        Центр_Задача.ВидЗадачи, 
        Центр_Задача.Постановщик, 
-       Центр_Задача.Дедлайн, 
        Центр_Задача.Приоритет, 
        Центр_Задача.Автор, 
        Центр_Задача.ГлавнаяЗадача, 
@@ -396,10 +395,6 @@
         <field>Постановщик</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дедлайн</dataPath>
-        <field>Дедлайн</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Приоритет</dataPath>
         <field>Приоритет</field>
       </fields>
@@ -426,10 +421,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наблюдатели.НомерСтроки</dataPath>
         <field>Наблюдатели.НомерСтроки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наблюдатели.Пользовалель</dataPath>
-        <field>Наблюдатели.Пользовалель</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
         <dataPath>Наблюдатели</dataPath>
@@ -470,6 +461,14 @@
       <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
         <dataPath>Метки</dataPath>
         <field>Метки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наблюдатели.Пользователь</dataPath>
+        <field>Наблюдатели.Пользователь</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ГлавныйМенеджер</dataPath>
+        <field>ГлавныйМенеджер</field>
       </fields>
       <parameters>
         <name>СписокЗапрещенных</name>
