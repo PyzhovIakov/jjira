@@ -407,6 +407,23 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Цвет</name>
+      <title>
+        <key>ru</key>
+        <value>Цвет</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>CatalogRef.Центр_Цвета</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>СоздатьКолонку</name>

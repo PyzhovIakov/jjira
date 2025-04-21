@@ -158,6 +158,7 @@
   <styleItems>StyleItem.ЦветКалендаряФонПустойЯчейкиВсегоДня</styleItems>
   <styleItems>StyleItem.ЦветКалендаряФонШапки</styleItems>
   <styleItems>StyleItem.ЦветКалендаряДоступноеВремя</styleItems>
+  <styleItems>StyleItem.ЦветСтрокиДоски</styleItems>
   <styles>Style.Календарь</styles>
   <commonPictures>CommonPicture.BotFather</commonPictures>
   <commonPictures>CommonPicture.BotFatherВконтакте</commonPictures>
@@ -2202,6 +2203,7 @@
   <catalogs>Catalog.Центр_ПричинаПереносаДедлайна</catalogs>
   <catalogs>Catalog.Центр_Календарь</catalogs>
   <catalogs>Catalog.Центр_КалендарьЦвета</catalogs>
+  <catalogs>Catalog.Центр_Цвета</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
